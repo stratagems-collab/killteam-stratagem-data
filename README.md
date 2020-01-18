@@ -1,0 +1,1 @@
+# killteam-stratagem-data
