@@ -1,0 +1,154 @@
+{
+	"faction": "Orks",
+	"versionName": "0.1-alpha",
+	"versionCode": 1,
+	"Stratagems": [
+		{
+			"title": "Dakka Dakka Dakka",
+			"sub": "Orks Tactic",
+			"desc": "Use this Tactic after a model from your kill team shoots in the Shooting phase. You can immediately shoot an additional time with that model.",
+			"cp": 1,
+			"phases": {
+				"shoot": true
+			}
+		},
+		{
+			"title": "Gnasher Squig",
+			"sub": "Orks Tactic",
+			"desc": "Use this Tactic at the start of the Fight phase. Pick an enemy model that is within 1\"\" of any of your models and roll a D6. On a 4+, that enemy model suffers 1 mortal wound.",
+			"cp": 2,
+			"phases": {
+				"fight": true
+			}
+		},
+		{
+			"title": "Grot Shield",
+			"sub": "Orks Tactic",
+			"desc": "Use this Tactic at the start of the Shooting phase. Pick a model from your kill team that is within 2\"\" of a Gretchin model. Until the end of the phase, while that Gretchin model is on the battlefield, any attacks which target the chosen model are resolved against that Gretchin model instead.",
+			"cp": 2,
+			"phases": {
+				"shoot": true
+			}
+		},
+		{
+			"title": "Just a Flesh Wound",
+			"sub": "Orks Tactic",
+			"desc": "Use this Tactic when a model from your kill team is taken out of action. Roll a D6. On a 4+ that model suffers a flesh wound instead.",
+			"cp": 2,
+			"phases": {
+				"event": true
+			}
+		},
+		{
+			"title": "Krump 'Em!",
+			"sub": "Orks Tactic",
+			"desc": "Use this Tactic when you choose a model in your kill team to fight in the Fight phase. Increase the Strength characteristic of that model by 1 until the end of the phase.",
+			"cp": 1,
+			"phases": {
+				"fight": true
+			}
+		},
+		{
+			"title": "Mek's Special Stikkbomb",
+			"sub": "Orks Tactic",
+			"desc": "Use this Tactic when you choose a model from your kill team to attack with a stikkbomb. Until the end of the phase, change the weapon's type to Grenade D3 and add 1 to its Strength and Damage characteristics.",
+			"cp": 2,
+			"phases": {
+				"event": true
+			},
+			"equipment": [
+				"stikkbomb"
+			]
+		},
+		{
+			"title": "Dead 'Ard",
+			"sub": "Orks Tactic",
+			"desc": "Use this Tactic when a model from your kill team suffers a mortal wound. Roll a D6 for that mortal wound, and each other mortal wound suffered by that model for the rest of the phase: on a 5+ the mortal wound is ignored and has no effect.",
+			"cp": 1,
+			"phases": {
+				"event": true
+			}
+		},
+		{
+			"title": "Ere We Go, 'Ere We Go",
+			"sub": "Orks Tactic",
+			"desc": "Use this Tactic after making a charge roll for one of your models. RR one of the dice.",
+			"cp": 1,
+			"phases": {
+				"move": true
+			}
+		},
+		{
+			"title": "Indiscriminate Dakka",
+			"sub": "Orks Tactic",
+			"desc": "Use this Tactic after firing Overwatch with one of your models. You can immediately fire Overwatch again.",
+			"cp": 1,
+			"phases": {
+				"move": true
+			}
+		},
+		{
+			"title": "Itchin' for a Fight",
+			"sub": "Orks Tactic",
+			"desc": "Use this Tactic when you choose a model in your kill team to fight in the Fight phase. You can make one additional attack with that model for each enemy model within 1\"\" of it.",
+			"cp": 2,
+			"phases": {
+				"fight": true
+			}
+		},
+		{
+			"title": "Pyromaniak",
+			"sub": "Orks Tactic",
+			"desc": "Use this Tactic when you choose for a model to shoot with a burna. The burna makes D6 attacks instead of D3 this phase.",
+			"cp": 1,
+			"phases": {
+				"shoot": true
+			},
+			"equipment": [
+				"burna"
+			]
+		},
+		{
+			"title": "Waaagh!",
+			"sub": "Orks Tactic",
+			"desc": "Use this Tactic when it is your turn to move in the Movement phase and your Leader is on the battlefield and not shaken. For the duration of that phase, add 1\"\" to the Move characteristic of all models in your kill team, and add 1 to their Advance and charge rolls.",
+			"cp": 2,
+			"phases": {
+				"move": true
+			}
+		},
+		{
+			"title": "Joyride",
+			"sub": "Orks Tactic",
+			"desc": "Use this Tactic when you choose a model from your kill team to make a normal move in the Movement phase, and that model is within 1\"\" of a Galvanic Servohauler. When you move that model in this phase, simultaneously move the Galvanic Servohauler as if it were a friendly model. Both models are considered to have a Move characteristic of 2D6\"\" in this phase, cannot Advance, cannot move vertically and must end their moves within 1\"\" of each other.",
+			"cp": 1,
+			"phases": {
+				"move": true
+			}
+		},
+		{
+			"title": "Duff 'Em Up",
+			"sub": "Orks Tactic",
+			"desc": "Use this Tactic at the start of the battle round if your kill team includes a Commander. As long as this model is not shaken, add 1 to the Strength characteristic of friendly models that are within 3\"\" of this model.",
+			"cp": 1,
+			"phases": {
+				"round": true
+			},
+			"keywords": [
+				"Commander"
+			]
+		},
+		{
+			"title": "Kunnin' Infiltrators",
+			"sub": "Orks Tactic",
+			"desc": "Use this Tactic at the end of the Movement phase. Choose up to three Kommando models from your kill team that were set up in Reserve and set them up anywhere on the battlefield that is more than 5\"\" away from any enemy models.",
+			"cp": 1,
+			"phases": {
+				"move": true
+			},
+			"keywords": [
+				"Kommando"
+			]
+		}
+	]
+}

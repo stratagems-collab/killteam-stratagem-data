@@ -1,0 +1,203 @@
+{
+	"faction": "Adeptus Mechanicus",
+	"versionName": "0.1-alpha",
+	"versionCode": 1,
+	"Stratagems": [
+		{
+			"title": "Conqueror Doctrina Imperative",
+			"sub": "Adeptus Mechanicus Tactic",
+			"desc": "Use this Tactic when you choose a model in your kill team to fight in the Fight phase. Add 1 to hit rolls for the model until the end of the phase. If the model is within 6\"\" of a friendly model equipped with an enhanced data-tether, you can add 2 to the hit rolls instead.",
+			"cp": 2,
+			"phases": {
+				"fight": true
+			},
+			"equipment": [
+				"enhanced data-tether"
+			]
+		},
+		{
+			"title": "Dunestrider",
+			"sub": "Adeptus Mechanicus Tactic",
+			"desc": "Use this Tactic in the Movement phase when a model from your kill team Advances. Roll 2 dice and pick which result to use when making the Advance roll.",
+			"cp": 1,
+			"phases": {
+				"move": true
+			}
+		},
+		{
+			"title": "Gloria Mechanicus",
+			"sub": "Adeptus Mechanicus Tactic",
+			"desc": "Use this Tactic after determining which Canticle of the Omnissiah is in effect this battle round. Randomly determine a Canticle of the Omnissiah - that Canticle is in effect instead.",
+			"cp": 1,
+			"phases": {
+				"event": true
+			}
+		},
+		{
+			"title": "Protector Doctrina Imperative",
+			"sub": "Adeptus Mechanicus Tactic",
+			"desc": "Use this Tactic when you choose a model in your kill team to shoot in the Shooting phase. Add 1 to hit rolls for the model until the end of the phase. If the model is within 6\"\" of a friendly model equipped with an enhanced data-tether, you can add 2 to the hit rolls instead.",
+			"cp": 2,
+			"phases": {
+				"shoot": true
+			},
+			"equipment": [
+				"enhanced data-tether"
+			]
+		},
+		{
+			"title": "Infiltrators",
+			"sub": "Adeptus Mechanicus Tactic",
+			"desc": "Use this Tactic at the end of the Movement phase. Choose up to three Sicarian Infiltrator models from your kill team that were set up in Reserve and set them up anywhere on the battlefield that is more than 5\"\" away from any enemy models.",
+			"cp": 1,
+			"phases": {
+				"move": true
+			},
+			"keywords": [
+				"Infiltrator",
+				"Sicarian Infiltrator"
+			]
+		},
+		{
+			"title": "Auto-tracking Software",
+			"sub": "Adeptus Mechanicus Tactic",
+			"desc": "Use this Tactic in the Movement phase when an opponent declares a charge against a model from your kill team. When that model fires Overwatch this phase, they successfully hit on a roll of 5 or 6.",
+			"cp": 1,
+			"phases": {
+				"move": true
+			}
+		},
+		{
+			"title": "Hyper-penetrative Shot",
+			"sub": "Adeptus Mechanicus Tactic",
+			"desc": "Use this Tactic when you pick a model from your kill team armed with a transuranic arquebus to shoot. Until the end of the phase, attacks made by this model with this weapon do not suffer the penalties to hit rolls or Injury rolls for the target being obscured.",
+			"cp": 2,
+			"phases": {
+				"shoot": true
+			},
+			"equipment": [
+				"transuranic arquebus"
+			]
+		},
+		{
+			"title": "Optimal Conditions",
+			"sub": "Adeptus Mechanicus Tactic",
+			"desc": "Use this Tactic at the start of the Movement phase. Add 1 to charge rolls made for models in your kil team until the end of the phase.",
+			"cp": 1,
+			"phases": {
+				"move": true
+			}
+		},
+		{
+			"title": "Scryer Skull",
+			"sub": "Adeptus Mechanicus Tactic",
+			"desc": "Use this Tactic at the start of the Movement phase if an opponent picked the Plant Traps strategy in the Scouting phase. Pick a piece of terrain within 6\"\" of your Leader. Your opponents must revel to you whether or not they have booby-trapped that piece of terrain.",
+			"cp": 1,
+			"phases": {
+				"move": true
+			}
+		},
+		{
+			"title": "Stabilisation Actuators",
+			"sub": "Adeptus Mechanicus Tactic",
+			"desc": "Use this Tactic before you take a Falling test for a model from your kill team. You can RR the dice when taking this test, and when taking any further Falling tests for that model in this battle round.",
+			"cp": 1,
+			"phases": {
+				"event": true
+			}
+		},
+		{
+			"title": "Transonic Attunement",
+			"sub": "Adeptus Mechanicus Tactic",
+			"desc": "Use this Tactic in the Fight phase when a model from your kill team armed with transonic blades, a transonic razor or a chordclaw is chosen to attack. Until the end of the phase, add 1 to wound rolls for attacks made by that model with any of these weapons.",
+			"cp": 1,
+			"phases": {
+				"fight": true
+			},
+			"equipment": [
+				"chordclaw",
+				"transonic blades",
+				"transonic razor"
+			]
+		},
+		{
+			"title": "Auto-repair Protocols",
+			"sub": "Adeptus Mechanicus Tactic",
+			"desc": "Use this Tactic at the beginning of the battle round if your kill team includes a Commander that is not shaken. Tehy recover 1 wound lost earlier in the battle.",
+			"cp": 1,
+			"phases": {
+				"round": true
+			},
+			"keywords": [
+				"Commander"
+			]
+		},
+		{
+			"title": "Alpha Target Proximity",
+			"sub": "Adeptus Mechanicus Tactic",
+			"desc": "Use this Tactic at the start of the Fight phase. Pick a model from your kill team. Until the end of the phase, re-roll wound rolls of 1 for that model.",
+			"cp": 1,
+			"phases": {
+				"fight": true
+			}
+		},
+		{
+			"title": "The Machine God's Will",
+			"sub": "Adeptus Mechanicus Tactic",
+			"desc": "Use this Tactic at the start of the Morale phase. Ignore all modifiers to the first Nerve test you make this phase.",
+			"cp": 1,
+			"phases": {
+				"morale": true
+			}
+		},
+		{
+			"title": "Neurostatic Shock",
+			"sub": "Adeptus Mechanicus Tactic",
+			"desc": "Use this Tactic at the start of the Morale phase. Pick a Sicarian Infiltrator from your kill team that is not shaken. Until the end of the phase, subtract 1 from the Leadership characteristic of enemy models that are within 3\"\" of that model. This is cumulative with the Neurostatic Aura ability",
+			"cp": 1,
+			"phases": {
+				"morale": true
+			},
+			"keywords": [
+				"Infiltrator",
+				"Sicarian Infiltrator"
+			]
+		},
+		{
+			"title": "Reknit Circuitry",
+			"sub": "Adeptus Mechanicus Tactic",
+			"desc": "Use this Tactic at the beginning of the Morale phase. Choose a model from your kill team and remove D3 flesh wounds from that model.",
+			"cp": 1,
+			"phases": {
+				"morale": true
+			}
+		},
+		{
+			"title": "Trauma Override Protocol",
+			"sub": "Adeptus Mechanicus Tactic",
+			"desc": "Use this Tactic at the start of the Movement phase. Pick a model from your kill team which has an invulnerable save. Until the start of the next Movement phase, that model's invulnerable save is improved by 1 (to a maximum of 3+).",
+			"cp": 1,
+			"phases": {
+				"move": true
+			}
+		},
+		{
+			"title": "Zealous Disciples",
+			"sub": "Adeptus Mechanicus Tactic",
+			"desc": "Use this Tactic at the start of the battle round, before picking a Canticle of the Omnissiah. You may pick a Canticle to be in effect that has already been chosen in a previous battle round. This Tactic may only be used once per battle.",
+			"cp": 2,
+			"phases": {
+				"round": true
+			}
+		},
+		{
+			"title": "Defensive Interfacing",
+			"sub": "Adeptus Mechanicus Tactic",
+			"desc": "Use this Tactic at the start of the battle round. Until the end of the battle round, you can re-roll hit rolls of 1 for attacks made by models from your kill team that are within 3\"\" of a Ryza-pattern ruin when they fire Overwatch.",
+			"cp": 1,
+			"phases": {
+				"round": true
+			}
+		}
+	]
+}

@@ -1,0 +1,58 @@
+{
+	"faction": "Grey Knights",
+	"versionName": "0.1-alpha",
+	"versionCode": 1,
+	"Stratagems": [
+		{
+			"title": "Heed the Prognosticars",
+			"sub": "Grey Knights Tactic",
+			"desc": "Use this Tactic at the start of the battle round. Pick a model from your kill team and add 1 to its saving throws until the end of the battle round.",
+			"cp": 2,
+			"phases": {
+				"round": true
+			}
+		},
+		{
+			"title": "Honour the Chapter",
+			"sub": "Grey Knights Tactic",
+			"desc": "Use this Tactic at the end of the Fight phase. Pick a model from your kill team. That model can immediately fight an additional time.",
+			"cp": 2,
+			"phases": {
+				"fight": true
+			}
+		},
+		{
+			"title": "Psybolt Ammunition",
+			"sub": "Grey Knights Tactic",
+			"desc": "Use this Tactic when you choose a model in your kill team to shoot with a storm bolter. The weapon's Strength characteristic is 5 and its Armour Penetration characteristic is -1 until the end of the phase.",
+			"cp": 1,
+			"phases": {
+				"shoot": true
+			},
+			"equipment": [
+				"storm bolter"
+			]
+		},
+		{
+			"title": "Psychic Channelling",
+			"sub": "Grey Knights Tactic",
+			"desc": "Use this Tactic when taking a Psychic test for a model from your kill team. Roll three dice raher than two and use the two highest rolls.",
+			"cp": 2,
+			"phases": {
+				"psychic": true
+			}
+		},
+		{
+			"title": "Teleport Strike",
+			"sub": "Grey Knights Tactic",
+			"desc": "Use this Tactic at the end of the Movement phase. Choose up to three Terminator models from your kill team that were set up in Reserve and set them up anywhere on the battlefield that is more than 5\"\" away from any enemy models.",
+			"cp": 1,
+			"phases": {
+				"move": true
+			},
+			"keywords": [
+				"Terminator"
+			]
+		}
+	]
+}

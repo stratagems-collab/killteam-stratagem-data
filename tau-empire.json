@@ -1,0 +1,148 @@
+{
+	"faction": "T'au Empire",
+	"versionName": "0.1-alpha",
+	"versionCode": 1,
+	"Stratagems": [
+		{
+			"title": "Breach and Clear",
+			"sub": "T'au Empire Tactic",
+			"desc": "Use this Tactic in your turn in the Shooting phase, when a Fire Warrior Breacher from your kill team targets an enemy model that is obscured. RR failed wound rolls made for the Fire Warrior Breacher against that enemy model until the end of this phase.",
+			"cp": 1,
+			"phases": {
+				"shoot": true
+			}
+		},
+		{
+			"title": "Recon Sweep",
+			"sub": "T'au Empire Tactic",
+			"desc": "Use this Tactic in the Shooting phase when you pick a Pathfinder from your kill team to shoot. Instead of shooting, that model can immediately make a normal move as if it were the Movement phase, but instead of moving up to their Move characteristic they move up to 2D6\"\".",
+			"cp": 1,
+			"phases": {
+				"shoot": true
+			}
+		},
+		{
+			"title": "Stimulant Injection",
+			"sub": "T'au Empire Tactic",
+			"desc": "Use this Tactic when a model from your kill team (other than a Drone) loses a wound. Roll a D6 for that wound, and each other wound lost by that model for the rest of the phase; on a 5+ that wound is not lost.",
+			"cp": 1,
+			"phases": {
+				"event": true
+			}
+		},
+		{
+			"title": "Uplinked Markerlight",
+			"sub": "T'au Empire Tactic",
+			"desc": "Use this Tactic after an enemy model has been hit by a markerlight fired by a model from your kill team. Place D3+1 markerlight counters next to that model instead of only 1.",
+			"cp": 2,
+			"phases": {
+				"event": true
+			}
+		},
+		{
+			"title": "The Baited Trap",
+			"sub": "T'au Empire Tactic",
+			"desc": "Use this Tactic before a model from your kill team fires Overwatch. Until the end of the phase, that model's Overwatch shots are successful on rolls of 4+ instead of rolls of only 6.",
+			"cp": 2,
+			"phases": {
+				"move": true
+			}
+		},
+		{
+			"title": "Focused Fire",
+			"sub": "T'au Empire Tactic",
+			"desc": "Use this Tactic after a model from your kill team inflicts an unsaved wound on an enemy model in the Shooting phase. For the rest of the phase, you can add 1 to wound rolls for attacks made by other models from your kill team that target the same enemy model, so long as the attacking model is within 2\"\" of the model that inflicted the wound.",
+			"cp": 1,
+			"phases": {
+				"shoot": true
+			}
+		},
+		{
+			"title": "Mult-spectrum Sensor Suite",
+			"sub": "T'au Empire Tactic",
+			"desc": "Use this Tactic when you choose a model from your kill team to shoot in the Shooting phase. Enemy models gain no benefit for being obscured against shots made by that model this phase.",
+			"cp": 1,
+			"phases": {
+				"shoot": true
+			}
+		},
+		{
+			"title": "Neuroweb System Jammer",
+			"sub": "T'au Empire Tactic",
+			"desc": "Use this Tactic at the start of the Shooting phase. Pick an enemy model within 12\"\" of a model from your kill team. Until the end of the phase, that model's controlling player must subtract 1 from hit rolls made for that model.",
+			"cp": 1,
+			"phases": {
+				"shoot": true
+			}
+		},
+		{
+			"title": "Support Turret Replacement",
+			"sub": "T'au Empire Tactic",
+			"desc": "Use this Tactic at the end of the Movement phase. Pick a friendly Fire Warrior or Fire Warrior Breacher model whose DS8 Tactical Support Turret has been removed from the battlefield. You may immediately set up a new DS8 Tactical Support Turret within 2\"\" of that model.",
+			"cp": 2,
+			"phases": {
+				"move": true
+			}
+		},
+		{
+			"title": "Tandem Hunting Pattern",
+			"sub": "T'au Empire Tactic",
+			"desc": "Use this Tactic at the start of the Ready, Fire! step of the Shooting phase. The first time it is your turn to select a Readied model to shoot with, you may instead select two Readied models from your kill team that are within 4\"\" of each other. You may resolve both models' shooting attacks before any other player chooses a model.",
+			"cp": 2,
+			"phases": {
+				"shoot": true
+			}
+		},
+		{
+			"title": "Inheritors of the Galaxy",
+			"sub": "T'au Empire Tactic",
+			"desc": "Use this Tactic at the beginning of the Morale phase, if models from your kill team are the only models on an Imperial Defence Line model. You can subract 1 from any Nerve tests you take for those models in this phase.",
+			"cp": 1,
+			"phases": {
+				"morale": true
+			}
+		},
+		{
+			"title": "Inspiring Sacrifice",
+			"sub": "T'au Empire Tactic",
+			"desc": "Use this Tactic when a Commander from your kill team is taken out of action. You immediately gain D3 Command Points. This Tactic costs no Command Points, and does not trigger any abilities that allow you to gain Command Points.",
+			"cp": 0,
+			"phases": {
+				"event": true
+			},
+			"keywords": [
+				"Commander"
+			]
+		},
+		{
+			"title": "Manta Strike",
+			"sub": "T'au Empire Tactic",
+			"desc": "Use this Tactic at the end of the Movement phase. Choose up to three models that are any combination of Battlesuits that are not Infantry but can Fly, MV1 Gun Drones, MV4 Shield Drones or MV7 Marker Drones from your kill team that were set up in Reserve and set them up anywhere on the battlefield that is more than 5\"\" away from any enemy models.",
+			"cp": 1,
+			"phases": {
+				"move": true
+			}
+		},
+		{
+			"title": "Stealth Fields",
+			"sub": "T'au Empire Tactic",
+			"desc": "Use this Tactic at the end of the Movement phase. Choose up to three XV25 Stealth Battlesuit models from your kill team that were set up in Reserve and set them up anywhere on the battlefield that is more than 9\"\" away from any enemy deployment zone.",
+			"cp": 1,
+			"phases": {
+				"move": true
+			}
+		},
+		{
+			"title": "Stealthy Hunters",
+			"sub": "T'au Empire Tactic",
+			"desc": "Use this Tactic at the end of the Movement phase. Choose up to three Kroot Carnivore models from your kill team that were set up in Reserve and set them up anywhere on the battlefield that is more than 9\"\" away from any enemy deployment zone.",
+			"cp": 1,
+			"phases": {
+				"move": true
+			},
+			"keywords": [
+				"Kroot Carnivore"
+			]
+		}
+	]
+}

@@ -1,0 +1,70 @@
+{
+	"faction": "Adeptus Custodes",
+	"versionName": "0.1-alpha",
+	"versionCode": 1,
+	"Stratagems": [
+		{
+			"title": "Concussion Grenades",
+			"sub": "Adeptus Custodes Tactic",
+			"desc": "Use this Tactic when you choose an Allarus Custodian from your kill team to shoot with a balistus grenade launcher in the Shooting phase. Until the end of the battle round, that weapon has an AP characteristic of 0, but models that suffer any hits from that weapon cannot attack in the Shooting phase and your opponent must subtract 1 from hit rolls made for those models in the Fight phase.",
+			"cp": 1,
+			"phases": {
+				"shoot": true
+			},
+			"keywords": [
+				"Allarus Custodian"
+			],
+			"equipment": [
+				"balistus grenade launcher"
+			]
+		},
+		{
+			"title": "From Golden Light",
+			"sub": "Adeptus Custodes Tactic",
+			"desc": "Use this Tactic at the end of the Movement phase. Choose up to three Terminator models from your kill team that were set up in Reserve and set them up anywhere on the battlefield that is more than 5\"\" away from any enemy models.",
+			"cp": 1,
+			"phases": {
+				"move": true
+			},
+			"keywords": [
+				"Terminator"
+			]
+		},
+		{
+			"title": "Ever Vigilant",
+			"sub": "Adeptus Custodes Tactic",
+			"desc": "Use this Tactic at the end of the Movement phase when an opponent sets up a model within 12\"\" of a model from your kill team that is not shaken. Your model can immediately shoot at the enemy model as if it were the Shooting phase, but you must subtract 1 from the resulting hit rolls.",
+			"cp": 2,
+			"phases": {
+				"move": true
+			}
+		},
+		{
+			"title": "Inspire Fear",
+			"sub": "Adeptus Custodes Tactic",
+			"desc": "Use this Tactic at the beginning of the Morale phase. Choose a model from your kill team that is not shaken. Opponents must add 1 to Nerve tests taken for enemy models within 3\"\" of that model in this phase.",
+			"cp": 1,
+			"phases": {
+				"morale": true
+			}
+		},
+		{
+			"title": "Spark of Divinity",
+			"sub": "Adeptus Custodes Tactic",
+			"desc": "Use this Tactic when an enemy Psyker manifests a psychic power within 12\"\" of a model from your kill team that is not shaken. You can take a Deny the Witch test for that model as if it were a Psyker.",
+			"cp": 1,
+			"phases": {
+				"psychic": true
+			}
+		},
+		{
+			"title": "Unflinching",
+			"sub": "Adeptus Custodes Tactic",
+			"desc": "Use this Tactic when an opponent chooses a model from your kill team that is not shaken as a target of a charge. When that model fires Overwatch in this phase, they successfully hit on a roll of 5 or 6.",
+			"cp": 1,
+			"phases": {
+				"event": true
+			}
+		}
+	]
+}
