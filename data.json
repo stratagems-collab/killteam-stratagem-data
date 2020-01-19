@@ -1852,15 +1852,6 @@
 					}
 				},
 				{
-					"title": "Death Denied",
-					"sub": "Adeptus Astartes Tactic",
-					"desc": "Use this Tactic when one of your models is taken out of action. That model suffers a flesh wound instead.",
-					"cp": 2,
-					"phases": {
-						"event": true
-					}
-				},
-				{
 					"title": "Grav-chute Descent",
 					"sub": "Adeptus Astartes Tactic",
 					"desc": "Use this Tactic at the end of the Movement phase. Choose up to three models that are any combination of Grav-chute and/or Reiver models from your kill team that were set up in Reserve and set them up anywhere on the battlefield that is more than 5\"\" away from any enemy models.",
