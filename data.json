@@ -1672,7 +1672,8 @@
 					"desc": "Use this Tactic when you choose a model with one or more flesh wounds to shoot in the Shooting phase or fight in the Fight phase. Until the end of the phase, this model's attacks do not suffer any penalty to their hit rolls from this model's flesh wound(s).",
 					"cp": 1,
 					"phases": {
-						"event": true
+						"fight": true,
+						"shoot": true
 					}
 				},
 				{
