@@ -15,6 +15,12 @@ type Source struct {
     URL string `json:"url"`
 }
 
+type SourceReference struct {
+	Id string `json:"id"`
+    Page string `json:"page"`
+    Data string `json:"data,omitempty"`
+}
+
 type Catalog struct {
 	Factions []string `json:"factions"`
 	Package StratagemPackage `json:"package"`
@@ -44,6 +50,7 @@ type Stratagem struct {
 	Equipment         []string       `json:"equipment,omitempty"`
 	SpecialistKeyword string         `json:"specialist,omitempty"`
 	SpecialistLevel   int            `json:"level,omitempty"`
+	SourceReference	  *SourceReference `json:"source,omitempty"`
 }
 
 type StratagemPhase struct {
