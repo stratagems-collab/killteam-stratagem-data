@@ -1,0 +1,156 @@
+{
+    "code": "asuryani",
+    "faction": "Asuryani",
+    "tactics": [
+        {
+            "title": "Asurmen's Blessing",
+            "sub": "Craftworlds Tactic",
+            "desc": "Use this Tactic when you choose a Dire Avenger from your kill team to shoot in the Shooting phase. You can RR failed hit rolls for that model until the end of the phase.",
+            "cp": 1,
+            "phases": {
+                "shoot": true
+            },
+            "keywords": [
+                "Dire Avenger"
+            ]
+        },
+        {
+            "title": "Feigned Retreat",
+            "sub": "Craftworlds Tactic",
+            "desc": "Use this Tactic after a model from your kill team Falls Back. That model can still shoot this battle round.",
+            "cp": 1,
+            "phases": {
+                "event": true
+            }
+        },
+        {
+            "title": "Fire and Fade",
+            "sub": "Craftworlds Tactic",
+            "desc": "Use this Tactic after a model from your kill team shoots in the Shooting phase. The model can immediately make a normal move of up to 7\" as if it were the Movement phase.",
+            "cp": 1,
+            "phases": {
+                "shoot": true
+            }
+        },
+        {
+            "title": "Matchless Ability",
+            "sub": "Craftworlds Tactic",
+            "desc": "Use this Tactic in the Movement phase when a model from your kill team Advances. Add 6\" to the model's Move characteristic for that Movement phase instead of rolling a dice.",
+            "cp": 1,
+            "phases": {
+                "move": true
+            }
+        },
+        {
+            "title": "Phantasm",
+            "sub": "Craftworlds Tactic",
+            "desc": "Use this Tactic at the beginning of the first battle round. Pick a model from your kill team and set it up again, anywhere in your deployment zone.",
+            "cp": 2,
+            "phases": {
+                "round_one": true
+            }
+        },
+        {
+            "title": "Rune of Ynnead",
+            "sub": "Craftworlds Tactic",
+            "desc": "Use this Tactic when a model from your kill team is taken out of action. Roll a D6. On a 4+ that model suffers a flesh wound instead.",
+            "cp": 2,
+            "phases": {
+                "event": true
+            }
+        },
+        {
+            "title": "Masters of Stealth",
+            "sub": "Asuryani Tactic",
+            "desc": "Use this Tactic at the end of the Movement phase. Choose up to three Striking Scorpion models from your kill team that were set up in Reserve, and set them up anywhere on the battlefield that is more than 5\" away from any enemy models.",
+            "cp": 1,
+            "phases": {
+            	"move": true
+            },
+            "keywords": [
+            	"Striking Scorpion"
+            ]
+        },
+        {
+            "title": "Bring Forth the Torch",
+            "sub": "Asuryani Tactic",
+            "desc": "Use this Tactic at the start of the Shooting phase. Until the end of that phase, when rolling to determine the number of attacks made by a flamer carried by a model in your kil team, treat rolls of a 1 or 2 as 3 instead.",
+            "cp": 1,
+            "phases": {
+            	"shoot": true
+            }
+        },
+        {
+            "title": "Celestial Shield",
+            "sub": "Asuryani Tactic",
+            "desc": "Use this Tactic at in the Shooting phase, when a Guardian Defender from your kill team is chose as the target for an attack. Until the end of the phase, that model has a 4+ invulnerable save.",
+            "cp": 2,
+            "phases": {
+            	"shoot": true
+            },
+            "keywords": [
+            	"Guardian Defender"
+            ]
+        },
+        {
+            "title": "Psychic Bond",
+            "sub": "Asuryani Tactic",
+            "desc": "Use this Tactic when a Commander from your kill team attempts to manifest a psychic power, before taking the Psychic test. Add 1 to the result of that Psychic test for each friendly model (other than shaken models) within 3\" of the model attempting to manifest the psychic power.",
+            "cp": 1,
+            "phases": {
+            	"psychic": true
+            },
+            "keywords": [
+            	"Commander"
+            ]
+        },
+        {
+            "title": "Warriors of the Webway",
+            "sub": "Asuryani Tactic",
+            "desc": "Use this Tactic at the end of the Movement phase. Choose up to three models from your kill team that were set up in Reserve. Set one of those models up anywhere on the battlefield that is more than 5\" away from any enemy models, then set up any remaining models within 2\" of that model, and more than 5\" away from any enemy models.",
+            "cp": 2,
+            "phases": {
+            	"move": true
+            }
+        },
+        {
+            "title": "Appear Unbidden",
+            "sub": "Asuryani Tactic",
+            "desc": "Use this Tactic at the beginning of the first battle round. Pick a model from your kill team and set it up again, anywhere in your deployment zone.",
+            "cp": 1,
+            "phases": {
+            	"round": true
+            }
+        },
+        {
+            "title": "The Great Enemy",
+            "sub": "Asuryani Tactic",
+            "desc": "You can use this Tactic when you choose a model from your kill team to fight in the Fight phase. Until the end of that phase, you can RR wound rolls for attacks made by that model that target an enemy model with the Slaanesh keyword.",
+            "cp": 1,
+            "phases": {
+            	"fight": true
+            }
+        },
+        {
+            "title": "Supreme Disdain",
+            "sub": "Asuryani Tactic",
+            "desc": "Use this Tactic when you choose a model from your kill team to fight in the Fight phase. Until the end of the phase, each time you roll an unmodified hit roll of 6 for that model's attack, that model can immediately make another attack using the same weapon that targets the same target. These extra attacks cannot generate any additional attacks.",
+            "cp": 1,
+            "phases": {
+            	"fight": true
+            }
+        },
+        {
+            "title": "Our Time of Need",
+            "sub": "Asuryani Tactic",
+            "desc": "Use this Tactic in the Shooting phase when you choose a Heavy Weapon Platform from your kill team to shoot. You can RR hit rolls for attacks made by that Heavy Weapon Platform until the end of the phase.",
+            "cp": 1,
+            "phases": {
+            	"shoot": true
+            },
+            "keywords": [
+            	"Heavy Weapon Platform"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "factions": [
+        "adepta-sororitas",
+        "deathwatch",
+        "kill-team",
+        "adeptus-astartes",
+        "drukhari",
+        "kroot",
+        "adeptus-custodes",
+        "elucidian-starstriders",
+        "necrons",
+        "adeptus-mechanicus",
+        "gellerpox-infected",
+        "orks",
+        "astra-militarum",
+        "genestealer-cults",
+        "servants-of-the-abyss",
+        "asuryani",
+        "grey-knights",
+        "tau-empire",
+        "chaos-daemons",
+        "harlequins",
+        "thousand-sons",
+        "death-guard",
+        "heretic-astartes",
+        "tyranids"
+    ],
+    "package": {
+		"packageName": "KillTeam Stratagems",
+		"versionName": "0.2-alpha",
+		"versionCode": 2,
+		"factions": {},
+		"sources": [
+	        {
+	            "id": "kta19",
+	            "title": "Kill Team Annual 2019",
+	            "url": "https://www.games-workshop.com/en-US/Kill-Team-Annual-EN-2019"
+	        }
+    	]
+	}
+}

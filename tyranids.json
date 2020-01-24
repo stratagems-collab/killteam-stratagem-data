@@ -1,0 +1,167 @@
+{
+	"code": "tyranids",
+	"faction": "Tyranids",
+	"tactics": [
+		{
+			"title": "Caustic Blood",
+			"sub": "Tyranids Tactic",
+			"desc": "Use this Tactic when a model from your kill team loses a wound in the Fight phase. Roll a D6 for each enemy model within 1\" of that model. On a 6 that enemy model suffers 1 mortal wound after all of its attacks have been resolved.",
+			"cp": 1,
+			"phases": {
+				"event": true
+			}
+		},
+		{
+			"title": "Feeder Tendrils",
+			"sub": "Tyranids Tactic",
+			"desc": "Use this Tactic when a Genestealer or Lictor from your kill team takes an enemy Leader out of action in the Fight phase. Gain D3 Command Points.",
+			"cp": 1,
+			"phases": {
+				"fight": true
+			}
+		},
+		{
+			"title": "Hunting Roar",
+			"sub": "Tyranids Tactic",
+			"desc": "Use this Tactic when a Tyranid Warrior from your kill team finishes a charge move within 1\" of any enemy models. You can RR failed hit rolls for models from your kill team within 6\" of that Tyranid Warrior in the Fight phase in this battle round.",
+			"cp": 2,
+			"phases": {
+				"event": true
+			}
+		},
+		{
+			"title": "Lurk",
+			"sub": "Tyranids Tactic",
+			"desc": "Use this Tactic in the Movement phase. Pick a model from your kill team that has not yet moved. That model may not move this phase, but for the rest of the battle round, if this model is obscured, shooting attacks that target this model suffer an addition -1 to their hit rolls.",
+			"cp": 1,
+			"phases": {
+				"move": true
+			}
+		},
+		{
+			"title": "Metabolic Overdrive",
+			"sub": "Tyranids Tactic",
+			"desc": "Use this Tactic in the Movement phase, after making a normal move with a model from your kill team. You can make a second normal move with that model, but if you do, the model cannot shoot this battle round. In addition, roll a D6; on a 1 the model suffers 1 mortal wound.",
+			"cp": 2,
+			"phases": {
+				"move": true
+			}
+		},
+		{
+			"title": "Scorch Bugs",
+			"sub": "Tyranids Tactic",
+			"desc": "Use this Tactic when a Termagant with a fleshborer from your kill team is chosen to shoot in the Shooting phase. Add 1 to wound rolls for that model until the end of the phase.",
+			"cp": 1,
+			"phases": {
+				"shoot": true
+			},
+			"equipment": [
+				"fleshborer"
+			]
+		},
+		{
+			"title": "Adrenaline Surge",
+			"sub": "Tyranids Tactic",
+			"desc": "Use this Tactic at the end of the Fight phase. Pick a model from your kill team. That model can immediately fight an additional time.",
+			"cp": 2,
+			"phases": {
+				"fight": true
+			}
+		},
+		{
+			"title": "Implant Attack",
+			"sub": "Tyranids Tactic",
+			"desc": "Use this Tactic before an Injury roll is made for an enemy model that was reduced to 0 wounds by a model from your kill team in the Fight phase. Apply a +2 modifier to the Injury roll.",
+			"cp": 2,
+			"phases": {
+				"event": true
+			}
+		},
+		{
+			"title": "Legacy of Ymgarl",
+			"sub": "Tyranids Tactic",
+			"desc": "Use this Tactic when you choose a Genestealer in your kill team to fight in the Fight phase. RR failed wound rolls for that model until the end of the phase.",
+			"cp": 1,
+			"phases": {
+				"fight": true
+			}
+		},
+		{
+			"title": "Predatory Leap",
+			"sub": "Tyranids Tactic",
+			"desc": "Use this Tactic before making a charge roll for a model from your kill team. Treat that model as if it could Fly when making its charge move.",
+			"cp": 1,
+			"phases": {
+				"move": true
+			}
+		},
+		{
+			"title": "Rapid Regeneration",
+			"sub": "Tyranids Tactic",
+			"desc": "Use this Tactic when a model from your kill team is taken out of action. Roll a D6. On a 4+ that model is treated as if it had suffered a flesh wound instead.",
+			"cp": 2,
+			"phases": {
+				"event": true
+			}
+		},
+		{
+			"title": "Single-minded Annihilation",
+			"sub": "Tyranids Tactic",
+			"desc": "Use this Tactic after a model from your kill team shoots in the Shooting phase. You can immediately shoot an additional time with that model. This Tactic costs 1 Command Point to use, or 2 Command Points if used on a Tyranid Warrior or Ravener, or 3 Command Points if used on a Hive Guard",
+			"cp": 1,
+			"phases": {
+				"shoot": true
+			},
+			"keywords": [
+				"Ravener",
+				"Tyranid Warrior",
+				"Hive Guard"
+			]
+		},
+		{
+			"title": "Dragged Into the Darkness",
+			"sub": "Tyranids Tactic",
+			"desc": "Use this Tactic when you choose a model from your kill team to shoot with in the Shooting phase. If their target is within 1\" of any Munitorum Crates or Munitorum Barrels any wound rolls of 6\" cause a mortal wound in addition to any other damage.",
+			"cp": 2,
+			"phases": {
+				"shoot": true
+			}
+		},
+		{
+			"title": "Voracious Appetite",
+			"sub": "Tyranids Tactic",
+			"desc": "Use this Tactic when you choose a Commander to fight in the Fight phase. You can re-roll failed wound rolls for that model's attacks until the end of the phase.",
+			"cp": 2,
+			"phases": {
+				"fight": true
+			},
+			"keywords": [
+				"Commander"
+			]
+		},
+		{
+			"title": "Death from Below",
+			"sub": "Tyranids Tactic",
+			"desc": "Use this Tactic at the end of the Movement phase. Choose up to three Ravener models from your kill team that were set up in Reserve and set them up anywhere on the battlefield that is more than 5\" away from any enemy models.",
+			"cp": 1,
+			"phases": {
+				"move": true
+			},
+			"keywords": [
+				"Ravener"
+			]
+		},
+		{
+			"title": "Pheromone Trail",
+			"sub": "Tyranids Tactic",
+			"desc": "Use this Tactic at the end of the Movement phase. Choose up to three Ravener models from your kill team that were set up in Reserve and set them up anywhere on the battlefield that is more than 5\" away from any enemy models.",
+			"cp": 1,
+			"phases": {
+				"move": true
+			},
+			"keywords": [
+				"Ravener"
+			]
+		}
+	]
+}

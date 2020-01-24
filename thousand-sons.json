@@ -1,0 +1,175 @@
+{
+    "code": "thousand_sons",
+    "faction": "Thousand Sons",
+    "tactics": [
+        {
+            "title": "Cycle of Slaughter",
+            "sub": "Thousand Sons Tactic",
+            "desc": "Use this Tactic at the end of the Fight phase. Pick a Tzaangor from your kil team - that model can immediately fight an additional time.",
+            "cp": 2,
+            "phases": {
+                "fight": true
+            }
+        },
+        {
+            "title": "Hungering Warpflame",
+            "sub": "Thousand Sons Tactic",
+            "desc": "Use this Tactic in the Shooting phase when you choose a model in your kill team to shoot with a warpflamer or warpflame pistol. Until the end of the phase, you can roll two dice when determining the number of attacks made by that weapon and pick the highest result.",
+            "cp": 1,
+            "phases": {
+                "shoot": true
+            },
+            "equipment": [
+                "warpflame pistol",
+                "warpflamer"
+            ]
+        },
+        {
+            "title": "Immovable Automaton",
+            "sub": "Thousand Sons Tactic",
+            "desc": "Use this Tactic when a Rubric Marine or Rubric Marine Gunner, Scarab Occult Terminator or Scarab Occult Gunner from your kill team is taken out of action. Roll a D6. On a 4+ that model suffers a flesh wound instead.",
+            "cp": 2,
+            "phases": {
+                "event": true
+            },
+            "keywords": [
+                "Terminator"
+            ]
+        },
+        {
+            "title": "Malicious Familiar",
+            "sub": "Thousand Sons Tactic",
+            "desc": "Use this Tactic at the end of the Movement phase. Pick an enemy model within 1\" of your Leader and roll a D6. On a 4+ that enemy model suffers 1 mortal wound.",
+            "cp": 1,
+            "phases": {
+                "move": true
+            }
+        },
+        {
+            "title": "Sorcerous Focus",
+            "sub": "Thousand Sons Tactic",
+            "desc": "Use this Tactic at the start of your turn in the Psychic phase. Pick a Psyker model from your kill team that is within 2\" of at least two other models from your kill team. Add 6\" to the range of this model's Psybolt psychic power until the end of the phase.",
+            "cp": 2,
+            "phases": {
+                "psychic": true
+            }
+        },
+        {
+            "title": "Veterans of the Long War",
+            "sub": "Thousand Sons Tactic",
+            "desc": "Use this Tactic when a Chaos Space Marine or Terminator model from your kill team is chosen to attack in the Shooting or Fight phase. You can add 1 to wound rolls for the model's attacks that target Imperium models until the end of the phase.",
+            "cp": 2,
+            "phases": {
+                "event": true
+            },
+            "keywords": [
+                "Terminator"
+            ]
+        },
+        {
+            "title": "Teleport Strike",
+            "sub": "Thousand Sons Tactic",
+            "desc": "Use this Tactic at the end of the Movement phase. Choose up to three Terminator models from your kill team that were set up in Reserve and set them up anywhere on the battlefield that is more than 5\" away from any enemy models.",
+            "cp": 1,
+            "phases": {
+                "move": true
+            },
+            "keywords": [
+                "Terminator"
+            ]
+        },
+        {
+            "title": "Shield of Desecration",
+            "sub": "Thousand Sons Tactic",
+            "desc": "Use this Tactic at the begining of the Shooting phase if a Psyker from your kill team other than a shaken model is within 1\" of a Fallen Statue. Until the end of the phase, add 1 to any saving throws you make for models from your kill team that are within 3\" of that Fallen Statue.",
+            "cp": 2,
+            "phases": {
+                "shoot": true
+            }
+        },
+        {
+            "title": "Vengeance for Prospero",
+            "sub": "Thousand Sons Tactic",
+            "desc": "Use this Tactic at the start of the Fight phase. Until the end of the phase, the Death to the False Emporer ability generates additional attacks on hit rolls of 4+ intead of 6+ for attacks made by models fromyour kil team that target a Space Wolves model.",
+            "cp": 1,
+            "phases": {
+                "fight": true
+            }
+        },
+        {
+            "title": "Guided by the Past",
+            "sub": "Thousand Sons Tactic",
+            "desc": "Use this Tactic when you choose a model from your kill team to shoot in the Shooting phase, or fight in the Fight phase. Until the end of that phase, you can RR hit rolls for attacks made by this model that target enemy models that have already been chosen to shoot or fight this phase.",
+            "cp": 1,
+            "phases": {
+                "shoot": true,
+                "fight": true
+            }
+        },
+        {
+            "title": "Webway Infiltration",
+            "sub": "Thousand Sons Tactic",
+            "desc": "Use this Tactic at the end of the Movement phase. Choose up to three Terminator models from your kill team that were set up in Reserve and set them up anywhere on the battlefield that is more than 5\" away from any enemy models.",
+            "cp": 2,
+            "phases": {
+                "move": true
+            },
+            "keywords": [
+                "Terminator"
+            ]
+        },
+        {
+            "title": "Power of the Cabal",
+            "sub": "Thousand Sons Tactic",
+            "desc": "Use this Tactic when a model from your kill team attempts to manifest a psychic power, before taking the Psychic test. Add 1 to the result of that Psychic test for each friendly model (other than shaken models) wihin 3\" of the model attempting to manifest the psychic power.",
+            "cp": 2,
+            "phases": {
+                "psychic": true
+            }
+        },
+        {
+            "title": "Boon of Tzeentch",
+            "sub": "Thousand Sons Tactic",
+            "desc": "Use this Tactic in the Psychic phase, if the roll for a Psychic test made for a friendly Commander was exactly 9. That model can attempt to manifest 1 additional psychic power this phase.",
+            "cp": 1,
+            "phases": {
+                "psychic": true
+            },
+            "keywords": [
+                "Commander"
+            ]
+        },
+        {
+            "title": "Ritual Slaughter",
+            "sub": "Thousand Sons Tactic",
+            "desc": "Use this Tactic at the start of a Shooting phase or Fight phase, if exactly 9 enemy models have been taken out of action during the course of the battle. Until the end of that phase, RR failed wound rolls for attacks made by models from your kill team.",
+            "cp": 1,
+            "phases": {
+                "shoot": true,
+                "fight": true
+            }
+        },
+        {
+            "title": "Guided by the Future",
+            "sub": "Thousand Sons Tactic",
+            "desc": "Use this Tactic when you choose a model from your kill team to shoot in the Shooting phase, or fight in the Fight phase. Until the end of that phase, you can RR hit rolls for attacks made by this model that target enemy models that have already been chose to shoot or fight this phase.",
+            "cp": 1,
+            "phases": {
+                "shoot": true,
+                "fight": true
+            }
+        },
+        {
+            "title": "Soul Flare",
+            "sub": "Thousand Sons Tactic",
+            "desc": "Use this Tactic when a Commander Psyker from your kill team is taken out of action. Before removing that model from the battlefield, roll a D6 for each enemy model within 9\" of that model. On a 6, the model being rolled for suffers a mortal wound.",
+            "cp": 2,
+            "phases": {
+                "event": true
+            },
+            "keywords": [
+                "Commander Psyker"
+            ]
+        }
+    ]
+}
