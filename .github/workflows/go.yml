@@ -25,7 +25,4 @@ jobs:
         fi
 
     - name: Build
-      run: go build -v .
-    
-    - name: Run
-      run: killteam-stratagem-data catalog.json
+      run: go build -v . && ./killteam-stratagem-data catalog.json
