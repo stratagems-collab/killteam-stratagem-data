@@ -1,0 +1,42 @@
+{
+	"code": "servants_of_the_abyss",
+	"faction": "Servants of the Abyss",
+	"tactics": [
+		{
+			"title": "Veterans of the Long War",
+			"sub": "Servants of the Abyss Tactic",
+			"desc": "Use this Tactic when a Rubrik Marine model from your kill team is chosen to attack in the Shooting or Fight phase. You can add 1 to wound rolls for the model's attacks that target Imperium models until the end of the phase.",
+			"cp": 2,
+			"phases": {
+				"event": true
+			}
+		},
+		{
+			"title": "Expendable Minions",
+			"sub": "Servants of the Abyss Tactic",
+			"desc": "Use this Tactic when a Heretic Astartes model from your kill team is picked as the target of a shooting attack. Pick a Servants of the Abyss model (excluding Heretic Astartes models) from your kill team that is within 1\" of that model - these attacks are resolved against that model instead.",
+			"cp": 1,
+			"phases": {
+				"event": true
+			}
+		},
+		{
+			"title": "Blackstone Trinket",
+			"sub": "Servants of the Abyss Tactic",
+			"desc": "Use this Tactic when an enemy Psyker successfully manifests a psychic power within 6\" of a Servants of the Abyss model from your kill team. Roll a D6. On a 4+ that psychic power has no effect.",
+			"cp": 2,
+			"phases": {
+				"psychic": true
+			}
+		},
+		{
+			"title": "Fully Charged",
+			"sub": "Servants of the Abyss Tactic",
+			"desc": "Use this Tactic at the start of the Shooting phase. Pick two Negavolt Cultist models from your kill team that are within 1\" of each other. Add 1 to invulnerable saves made for these models until the end of this battle round.",
+			"cp": 2,
+			"phases": {
+				"shoot": true
+			}
+		}
+	]
+}

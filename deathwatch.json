@@ -1,0 +1,142 @@
+{
+	"code": "deathwatch",
+	"faction": "Deathwatch",
+	"tactics": [
+		{
+			"title": "Decapitation Doctrine",
+			"sub": "Deathwatch Tactic",
+			"desc": "Use this Tactic when a model from your kill team is chosen to attack in the Shooting or Fight phase. Until the end of the phase, RR failed wound rolls for that model that targets an enemy Leader.",
+			"cp": 1,
+			"phases": {
+				"event": true
+			}
+		},
+		{
+			"title": "Hellfire Shell",
+			"sub": "Deathwatch Tactic",
+			"desc": "Use this Tactic when you choose a model in your kill team to shoot with a heavy bolter or the heavy bolter profile of an infernus heavy bolter. You can only make a single hit roll with the weapon this phase (subtracting 1 as normal if also firing an infernus heavy bolter's flamer), however if it hits, the target suffers D3 mortal wounds instead of the normal damage.",
+			"cp": 1,
+			"phases": {
+				"shoot": true
+			},
+			"equipment": [
+				"heavy bolter",
+				"infernus heavy bolter"
+			]
+		},
+		{
+			"title": "Only In Death Does Duty End",
+			"sub": "Deathwatch Tactic",
+			"desc": "Use this Tactic when a model from your kill team is taken out of action; that model summons the strength for one final attack, and can immediately either shoot as if it were your turn in the Shooting phase, or fight as if it were your turn in the Fight phase.",
+			"cp": 2,
+			"phases": {
+				"event": true
+			}
+		},
+		{
+			"title": "Rival Chapters",
+			"sub": "Deathwatch Tactic",
+			"desc": "Use this Tactic when a model from your kill team is chosen to attack in the Shooting or Fight phase whilst there is another model from your kill team within 2\" of it. Until the end of the phase, RR hit rolls of 1 for both models.",
+			"cp": 1,
+			"phases": {
+				"event": true
+			}
+		},
+		{
+			"title": "Tactical Priority",
+			"sub": "Deathwatch Tactic",
+			"desc": "Use this Tactic at the start of any battle round after the first. When you do, choose a datasheet. That datasheet is now your kill team's priority target as described in Mission Tactics, rather than the datasheet you chose previously.",
+			"cp": 1,
+			"phases": {
+				"round": true
+			}
+		},
+		{
+			"title": "Teleport Strike",
+			"sub": "Deathwatch Tactic",
+			"desc": "Use this Tactic at the end of the Movement phase. Choose up to three Terminator models from your kill team that were set up in Reserve and set them up anywhere on the battlefield that is more than 5\" away from any enemy models.",
+			"cp": 1,
+			"phases": {
+				"move": true
+			},
+			"keywords": [
+				"Terminator"
+			]
+		},
+		{
+			"title": "Death to the Alien",
+			"sub": "Deathwatch Tactic",
+			"desc": "Use this Tactic when you choose a model in your kill team to fight in the Fight phase. Each time you make a hit roll of 5+ for that model during this phase, that model can, if it was targeting a model that does not have the Imperium, Chaos, or Unaligned keyword, immediately make an additional attack against the same model using the same weapon. These extra attacks cannot themselves generate any further attacks.",
+			"cp": 1,
+			"phases": {
+				"fight": true
+			}
+		},
+		{
+			"title": "My Armour Is Contempt",
+			"sub": "Deathwatch Tactic",
+			"desc": "Use this Tactic when a model from your kill team suffers a mortal wound. Roll a D6 for that mortal wound, and each other mortal wound inflicted on this model for the rest of the phase; on a 5+ that mortal wound is ignored and has no effect.",
+			"cp": 1,
+			"phases": {
+				"event": true
+			}
+		},
+		{
+			"title": "Priority Execution",
+			"sub": "Deathwatch Tactic",
+			"desc": "Use this Tactic when you choose a model in your kill team to fight in the Fight phase. Add 1 to all wound rolls for that model until the end of the phase.",
+			"cp": 1,
+			"phases": {
+				"fight": true
+			}
+		},
+		{
+			"title": "Tactical Disengagement",
+			"sub": "Deathwatch Tactic",
+			"desc": "Use this Tactic in the Movement phase when a model in your kill team Retreats. That model may Retreat up to 6\" rather than up to 3\", and may fire its weapons in the Shooting phase of this battle round even though it Retreated.",
+			"cp": 1,
+			"phases": {
+				"move": true
+			}
+		},
+		{
+			"title": "The Beheading",
+			"sub": "Deathwatch Tactic",
+			"desc": "Use this Tactic at the start of the Fight phase. Until the end of the phase, you may RR hit rolls for any attacks that target an enemy Leader.",
+			"cp": 2,
+			"phases": {
+				"fight": true
+			}
+		},
+		{
+			"title": "Unrelenting",
+			"sub": "Deathwatch Tactic",
+			"desc": "Use this Tactic in the Shooting phase when you choose a model from your kill team to shoot. When rolling to hit for this model's shooting atacks, it is considered not to have moved in the previous Movement phase.",
+			"cp": 1,
+			"phases": {
+				"shoot": true
+			}
+		},
+		{
+			"title": "Trust In Your Armour",
+			"sub": "Deathwatch Tactic",
+			"desc": "Use this Tactic at the beginning of the Movement phase. Until the end of the phase, models from your kill team treat Barbed Venomgorse as open ground and can move though it as if it were not there (though each model must end its move on a surface it can stand on).",
+			"cp": 1,
+			"phases": {
+				"move": true
+			}
+		},
+		{
+			"title": "Vigiliance Incarnate",
+			"sub": "Deathwatch Tactic",
+			"desc": "Use this Tactic at the start of the battle round if your kill team includes a Commander. As long as this model is not shaken, roll a D6 whenever a model from your kill team within 3\" of this model loses a wound. On a 6 that wound is not lost. If a model already has an ability with a similar effect, you can choose which effect applies, and re-roll 1s when making these rolls.",
+			"cp": 1,
+			"phases": {
+				"round": true
+			},
+			"keywords": [
+				"Commander"
+			]
+		}
+	]
+}

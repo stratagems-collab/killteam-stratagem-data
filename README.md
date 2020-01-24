@@ -9,10 +9,11 @@ Format documentation
 	"factions": [
 		{
 			"faction": "Name of faction, used for matching",
-			"Stratagems": [
+			"tactics": [
 				{
-					"title": "Title of Tactic, required",
-					"sub": "Faction Name Tactic, required",
+					//required
+					"title": "Title",
+					"sub": "Faction Name Tactic",
 					"desc": "The description on how this tactic works. required",
 					"cp": 2,
 					"phases": {
@@ -26,15 +27,30 @@ Format documentation
 							"event": false
 					},
 					"keywords": [
-						"array of Keywords, providing keywords is optional"
+						"Keyword",
+						"optional"
 					],
 					"equipment": [
-						"array of weapons or equipment, optional"
+						"weapons",
+						"equipment",
+						"optional"
 					],
 					"specialist": "Sniper, or other specialism this is specific for",
-					"level": 1
+					"level": 1,
+					"source": {
+						"id": "id_of_source",
+						"page": "page",
+						"data": "data for url"
+					}
 				}
 			]
+		}
+	],
+	"sources": [
+		{
+			"id": "id of source, for referencing from tactics",
+			"title": "Title",
+			"url": "http://example.com?ref=%s"
 		}
 	]
 }

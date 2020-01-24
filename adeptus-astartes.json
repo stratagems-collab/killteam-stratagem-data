@@ -1,0 +1,217 @@
+{
+	"code": "adeptus_astartes",
+	"faction": "Adeptus Astartes",
+	"tactics": [
+		{
+			"title": "Armour of Contempt",
+			"sub": "Adeptus Astartes Tactic",
+			"desc": "Use this Tactic when a model from your kill team suffers a mortal wound. Roll a d6 for that mortal wound, and each other mortal wound suffered by that model for the rest of the phase; on a 5+ the mortal wound is ignored and has no effect.",
+			"cp": 1,
+			"phases": {
+				"event": true
+			}
+		},
+		{
+			"title": "Death to the Traitors!",
+			"sub": "Adeptus Astartes Tactic",
+			"desc": "Use this Tactic when you choose a model from your kill team to fight in the Fight phase. Until the end of that phase, each time you make a hit roll of 6+ for that model and the target is a Heretic Astartes model, you can immediately make an extra attack against the same model using the same weapon. These attacks cannot themselves generate any furthur attacks.",
+			"cp": 1,
+			"phases": {
+				"fight": true
+			}
+		},
+		{
+			"title": "Hellfire Shells",
+			"sub": "Adeptus Astartes Tactic",
+			"desc": "Use this Tactic when you choose a model in your kill team to shoot with a heavy bolter. You can only make a single hit roll for the weapon this phase, however, if it hits, the target suffers D3 mortal wounds instead of the normal damage.",
+			"cp": 2,
+			"phases": {
+				"shoot": true
+			},
+			"equipment": [
+				"heavy bolter"
+			]
+		},
+		{
+			"title": "Honour the Chapter",
+			"sub": "Adeptus Astartes Tactic",
+			"desc": "Use this Tactic at the end of the Fight phase. Pick a model from your kill team. That model can immediately fight an additional time.",
+			"cp": 2,
+			"phases": {
+				"fight": true
+			}
+		},
+		{
+			"title": "Masterful Marksmanship",
+			"sub": "Adeptus Astartes Tactic",
+			"desc": "Use this Tactic in the Shooting phase when you choose an Intercessor from your kil team to shoot with a stalker bolt rifle. Until the end of that phase, you can add 1 to hit and wound rolls for that model.",
+			"cp": 1,
+			"phases": {
+				"shoot": true
+			},
+			"keywords": [
+				"Intercessor"
+			],
+			"equipment": [
+				"stalker bolt rifle"
+			]
+		},
+		{
+			"title": "Shock and Awe",
+			"sub": "Adeptus Astartes Tactic",
+			"desc": "Use this Tactic when you declare a Reiver from your kill team will attempt to charge. Before any Overwatch attacks are made, you can make a single shooting attack using this model's shock grenades against a target of the charge. If the attack is successful, that target may not fire Overwatch this phase in addition to the normal effects of the grenade.",
+			"cp": 2,
+			"phases": {
+				"move": true
+			},
+			"keywords": [
+				"Reiver"
+			]
+		},
+		{
+			"title": "Adaptive Strategy",
+			"sub": "Adeptus Astartes Tactic",
+			"desc": "Use this Tactic as soon as your kill team is broken. You immediately generate D3 Command Points.",
+			"cp": 1,
+			"phases": {
+				"morale": true
+			}
+		},
+		{
+			"title": "Angel of Death",
+			"sub": "Adeptus Astartes Tactic",
+			"desc": "Use this Tactic after choosing a model that charged in this battle round to fight with. Add 1 to that model's Attacks characteristics for this phase.",
+			"cp": 1,
+			"phases": {
+				"fight": true
+			}
+		},
+		{
+			"title": "Auspex Scan",
+			"sub": "Adeptus Astartes Tactic",
+			"desc": "Use this Tactic when you choose a Readied model to shoot with. Ignore all negative hit modifiers for that model this phase.",
+			"cp": 2,
+			"phases": {
+				"shoot": true
+			}
+		},
+		{
+			"title": "Battle-Brothers",
+			"sub": "Adeptus Astartes Tactic",
+			"desc": "Use this Tactic after failing a saving throw for a model that is within 3\" of another friendly model that is not shaken. No damage is inflicted upon the target model, but one friendly model of your choice that is within 3\" of the target model and not shaken suffers a number of mortal wounds equal to the Damage characteristic of the weapon used in the attack.",
+			"cp": 1,
+			"phases": {
+				"event": true
+			}
+		},
+		{
+			"title": "Death Denied",
+			"sub": "Adeptus Astartes Tactic",
+			"desc": "Use this Tactic when one of your models is taken out of action. That model suffers a flesh wound instead.",
+			"cp": 3,
+			"phases": {
+				"event": true
+			}
+		},
+		{
+			"title": "Psychological Warfare",
+			"sub": "Adeptus Astartes Tactic",
+			"desc": "Use this Tactic at the start of the Morale phase. Choose a Reiver from your kill team that took an enemy model out of action in the preceding Fight phase and is not shaken. Add 1 to any Nerve tests made this phase for enemy models within 6\" of the model you chose.",
+			"cp": 1,
+			"phases": {
+				"morale": true
+			},
+			"keywords": [
+				"Reiver"
+			]
+		},
+		{
+			"title": "Alchomite Detonation",
+			"sub": "Adeptus Astartes Tactic",
+			"desc": "Use this Tactic at the end of the Movement phase. Choose an Alchomite Stack that is within 1\" of at least one model from your kill team that is not shaken. At the end of the following Movement phase, roll a dice for each model within 3\" of that Alchomite Stack. On a 4+ that model suffers 1 mortal wound. Then remove the Alchomite Stack . Any models that were standing on that terrain are placed on the battlefield directly below where they were standing.",
+			"cp": 2,
+			"phases": {
+				"move": true
+			}
+		},
+		{
+			"title": "Champion of Humanity",
+			"sub": "Adeptus Astartes Tactic",
+			"desc": "Use this Tactic when you choose a Commander to fight in the Fight phase. Choose hit or wound rolls. You cacn re-roll all failed rolls of the type you chose for that model's attacks that target enemy Commanders until the end of the phase.",
+			"cp": 2,
+			"phases": {
+				"fight": true
+			},
+			"keywords": [
+				"Commander"
+			]
+		},
+		{
+			"title": "Angel of Death",
+			"sub": "Adeptus Astartes Tactic",
+			"desc": "Use this Tactic after choosing a model that charged in this battle round to fight with. Add 1 to that model's Attacks characteristics for this phase.",
+			"cp": 1,
+			"phases": {
+				"fight": true
+			}
+		},
+		{
+			"title": "Death Denied",
+			"sub": "Adeptus Astartes Tactic",
+			"desc": "Use this Tactic when one of your models is taken out of action. That model suffers a flesh wound instead.",
+			"cp": 2,
+			"phases": {
+				"event": true
+			}
+		},
+		{
+			"title": "Grav-chute Descent",
+			"sub": "Adeptus Astartes Tactic",
+			"desc": "Use this Tactic at the end of the Movement phase. Choose up to three models that are any combination of Grav-chute and/or Reiver models from your kill team that were set up in Reserve and set them up anywhere on the battlefield that is more than 5\" away from any enemy models.",
+			"cp": 1,
+			"phases": {
+				"move": true
+			},
+			"keywords": [
+				"Reiver"
+			]
+		},
+		{
+			"title": "Jump Pack Assault",
+			"sub": "Adeptus Astartes Tactic",
+			"desc": "Use this Tactic at the end of the Movement phase. Choose up to three Jump Pack models from your kill team that were set up in Reserve and set them up anywhere on the battlefield that is more than 5\" away from any enemy models.",
+			"cp": 1,
+			"phases": {
+				"move": true
+			},
+			"keywords": [
+				"Jump Pack"
+			]
+		},
+		{
+			"title": "Smoke Grenades",
+			"sub": "Adeptus Astartes Tactic",
+			"desc": "Use this Tactic at the beginning of the Shooting phase. Choose an Infiltrator or a Suppressor Sergeant from your kill team that isn't shaken. That model cannot make shooting attacks in this phase, but until the end of the phase all models within 3\" of it are considered to be obscured to models that target them with shooting attacks.",
+			"cp": 1,
+			"phases": {
+				"shoot": true
+			},
+			"keywords": [
+				"Infiltrator",
+				"Suppressor Sergeant"
+			]
+		},
+		{
+			"title": "Teleport Strike",
+			"sub": "Adeptus Astartes Tactic",
+			"desc": "Use this Tactic at the end of the Movement phase. Choose up to three Terminator models from your kill team that were set up in Reserve and set them up anywhere on the battlefield that is more than 5\" away from any enemy models.",
+			"cp": 1,
+			"phases": {
+				"move": true
+			},
+			"keywords": [
+				"Terminator"
+			]
+		}
+	]
+}

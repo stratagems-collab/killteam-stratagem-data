@@ -1,0 +1,130 @@
+{
+    "code": "death_guard",
+    "faction": "Death Guard",
+    "tactics": [
+        {
+            "title": "Cloud of Flies",
+            "sub": "Death Guard Tactic",
+            "desc": "Use this Tactic at the end of the Movement phase. Pick a model from your kill team. Until the end of the battle round, enemy models can only shoot that model if it is the closes target visible to them.",
+            "cp": 2,
+            "phases": {
+                "move": true
+            }
+        },
+        {
+            "title": "Grandfather's Blessing",
+            "sub": "Death Guard Tactic",
+            "desc": "Use this Tactic at the start of the first battle round. Pick a model from your kill team and roll a D6. On a 1 that model is found unworthy and suffers D3 mortal wounds. On a 2+ add 1 to hit and wound rolls for the model until the end of the battle. You can only use this Tactic once per battle.",
+            "cp": 2,
+            "phases": {
+                "round_one": true
+            }
+        },
+        {
+            "title": "Nurgle's Gift",
+            "sub": "Death Guard Tactic",
+            "desc": "Use this Tactic after a Poxwalker from your kill team takes an enemy model out of action in the Fight phase. Roll a D6. On a 4+ you may set up a new Poxwalker within 1\" of the Poxwalker that made the attack. The new Poxwalker is treated as a member of your kill team, but is not part of a Fire team (pg 204) and is not added to your command roster.",
+            "cp": 1,
+            "phases": {
+                "fight": true
+            }
+        },
+        {
+            "title": "Nurgling Infestation",
+            "sub": "Death Guard Tactic",
+            "desc": "Use this Tactic at the end of the Movement phase. Pick an enemy model within 1\" of your Leader and roll a D6. On a 4+ that enemy model suffers 1 mortal wound.",
+            "cp": 2,
+            "phases": {
+                "move": true
+            }
+        },
+        {
+            "title": "Putrid Splatter",
+            "sub": "Death Guard Tactic",
+            "desc": "Use this Tactic when a model from your kill team loses a wound in the Fight phase. Roll a D6 for each enemy model within 1\" of that model. On a 6 that enemy model suffers 1 mortal wound after all of its attacks have been resolved.",
+            "cp": 2,
+            "phases": {
+                "event": true
+            }
+        },
+        {
+            "title": "Veterans of the Long War",
+            "sub": "Death Guard Tactic",
+            "desc": "Use this Tactic when a Chaos Space Marine or Terminator model from your kill team is chosen to attack in the Shooting or Fight phase. You can add 1 to wound rolls for the model's attacks that target Imperium models until the end of the phase.",
+            "cp": 2,
+            "phases": {
+                "event": true
+            },
+            "keywords": [
+                "Terminator"
+            ]
+        },
+        {
+            "title": "Teleport Strike",
+            "sub": "Death Guard Tactic",
+            "desc": "Use this Tactic at the end of the Movement phase. Choose up to three Terminator models from your kill team that were set up in Reserve and set them up anywhere on the battlefield that is more than 5\" away from any enemy models.",
+            "cp": 1,
+            "phases": {
+                "move": true
+            },
+            "keywords": [
+                "Terminator"
+            ]
+        },
+        {
+            "title": "Death March",
+            "sub": "Death Guard Tactic",
+            "desc": "Use this Tactic at the start of the Movement phase. Until the end of that phase, increase the Move characteristic of all models in your kill team by 2\". However, until the end of that phase, models from your kil team may not Fall Back, Advance or charge.",
+            "cp": 1,
+            "phases": {
+            	"move": true
+            }
+        },
+        {
+            "title": "Grandfather's Tally",
+            "sub": "Death Guard Tactic",
+            "desc": "Use this Tactic at the start of a Shooting phase or Fight phase, if exactly 7 enemy models have been taken out of action during the course of the battle. Until the end of that phase, RR failed wound rolls for attacks made by models from your kill team.",
+            "cp": 1,
+            "phases": {
+            	"shoot": true,
+            	"fight": true
+            }
+        },
+        {
+            "title": "Leaking Brain-fluid",
+            "sub": "Death Guard Tactic",
+            "desc": "Use this Tactic when a Poxwalker from your kill team suffers a flesh wound. For the rest of the battle, you do not have to take Nerve tests for that model.",
+            "cp": 1,
+            "phases": {
+            	"event": true
+            }
+        },
+        {
+            "title": "The Three-eyed Fly",
+            "sub": "Death Guard Tactic",
+            "desc": "Use this Tactic at the start of the battle round, when you control exactly three objectives. Until the end of the battle round, add 1 to rolls you make for the Disgustingly Resilient ability for models from your kill team that are within 3\" of any of those three objectives.",
+            "cp": 3,
+            "phases": {
+            	"round": true
+            }
+        },
+        {
+            "title": "Grasping Tentacles",
+            "sub": "Death Guard Tactic",
+            "desc": "Use this Tactic at the start of the Movement phase. Until the end of that phase, increase the Move characteristic of all models in your kill team by 2\". However, until the end of that phase, models from your kil team may not Fall Back, Advance or charge.",
+            "cp": 1,
+            "phases": {
+            	"move": true
+            }
+        },
+        {
+            "title": "Inured to Pain",
+            "sub": "Death Guard Tactic",
+            "desc": "Use this Tactic when a model from your kill team loses a wound in the Fight phase. Roll a D6 for each enemy model within 1\" of that model. On a 6 that enemy model suffers 1 mortal wound after all of its attacks have been resolved.",
+            "cp": 2,
+            "phases": {
+            	"fight": true
+            }
+        }
+    ]
+}
