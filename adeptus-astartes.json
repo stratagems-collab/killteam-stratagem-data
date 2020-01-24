@@ -9,7 +9,8 @@
 			"cp": 1,
 			"phases": {
 				"event": true
-			}
+			},
+			"source": { "id": "kta19", "page": "130" }
 		},
 		{
 			"title": "Death to the Traitors!",
@@ -18,7 +19,8 @@
 			"cp": 1,
 			"phases": {
 				"fight": true
-			}
+			},
+			"source": { "id": "kta19", "page": "128" }
 		},
 		{
 			"title": "Hellfire Shells",
@@ -30,7 +32,8 @@
 			},
 			"equipment": [
 				"heavy bolter"
-			]
+			],
+			"source": { "id": "kta19", "page": "128" }
 		},
 		{
 			"title": "Honour the Chapter",
@@ -39,7 +42,8 @@
 			"cp": 2,
 			"phases": {
 				"fight": true
-			}
+			},
+			"source": { "id": "kta19", "page": "129" }
 		},
 		{
 			"title": "Masterful Marksmanship",
@@ -54,7 +58,8 @@
 			],
 			"equipment": [
 				"stalker bolt rifle"
-			]
+			],
+			"source": { "id": "kta19", "page": "130" }
 		},
 		{
 			"title": "Shock and Awe",
@@ -66,7 +71,8 @@
 			},
 			"keywords": [
 				"Reiver"
-			]
+			],
+			"source": { "id": "kta19", "page": "130" }
 		},
 		{
 			"title": "Adaptive Strategy",
@@ -75,7 +81,8 @@
 			"cp": 1,
 			"phases": {
 				"morale": true
-			}
+			},
+			"source": { "id": "kta19", "page": "128" }
 		},
 		{
 			"title": "Angel of Death",
@@ -84,7 +91,8 @@
 			"cp": 1,
 			"phases": {
 				"fight": true
-			}
+			},
+			"source": { "id": "kta19", "page": "129" }
 		},
 		{
 			"title": "Auspex Scan",
@@ -93,7 +101,8 @@
 			"cp": 2,
 			"phases": {
 				"shoot": true
-			}
+			},
+			"source": { "id": "kta19", "page": "129" }
 		},
 		{
 			"title": "Battle-Brothers",
@@ -102,7 +111,8 @@
 			"cp": 1,
 			"phases": {
 				"event": true
-			}
+			},
+			"source": { "id": "kta19", "page": "130" }
 		},
 		{
 			"title": "Death Denied",
@@ -123,7 +133,8 @@
 			},
 			"keywords": [
 				"Reiver"
-			]
+			],
+			"source": { "id": "kta19", "page": "128" }
 		},
 		{
 			"title": "Alchomite Detonation",
@@ -132,7 +143,8 @@
 			"cp": 2,
 			"phases": {
 				"move": true
-			}
+			},
+			"source": { "id": "kta19", "page": "128" }
 		},
 		{
 			"title": "Champion of Humanity",
@@ -144,7 +156,8 @@
 			},
 			"keywords": [
 				"Commander"
-			]
+			],
+			"source": { "id": "kta19", "page": "130" }
 		},
 		{
 			"title": "Angel of Death",
@@ -153,7 +166,8 @@
 			"cp": 1,
 			"phases": {
 				"fight": true
-			}
+			},
+			"source": { "id": "kta19", "page": "129" }
 		},
 		{
 			"title": "Death Denied",
@@ -162,7 +176,8 @@
 			"cp": 2,
 			"phases": {
 				"event": true
-			}
+			},
+			"source": { "id": "kta19", "page": "129" }
 		},
 		{
 			"title": "Grav-chute Descent",
@@ -174,7 +189,8 @@
 			},
 			"keywords": [
 				"Reiver"
-			]
+			],
+			"source": { "id": "kta19", "page": "130" }
 		},
 		{
 			"title": "Jump Pack Assault",
@@ -186,7 +202,8 @@
 			},
 			"keywords": [
 				"Jump Pack"
-			]
+			],
+			"source": { "id": "kta19", "page": "128" }
 		},
 		{
 			"title": "Smoke Grenades",
@@ -199,7 +216,8 @@
 			"keywords": [
 				"Infiltrator",
 				"Suppressor Sergeant"
-			]
+			],
+			"source": { "id": "kta19", "page": "130" }
 		},
 		{
 			"title": "Teleport Strike",
@@ -211,7 +229,8 @@
 			},
 			"keywords": [
 				"Terminator"
-			]
+			],
+			"source": { "id": "kta19", "page": "130" }
 		}
 	]
 }
