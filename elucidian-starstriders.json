@@ -1,63 +1,87 @@
 {
-	"code": "elucidian_starstriders",
-	"faction": "Elucidian Starstriders",
-	"tactics": [
-		{
-			"title": "Combat Medicine",
-			"sub": "Elucidian Starstriders Tactic",
-			"desc": "Use this Tactic after using Sanistasia Minst's Healing Serum ability (whether or not the ability was successful). You can immediately use that ability for a second time this phase, either on a different model or the same model again.",
-			"cp": 1,
-			"phases": {
-				"event": true
-			}
-		},
-		{
-			"title": "Executioner Shell",
-			"sub": "Elucidian Starstriders Tactic",
-			"desc": "Use this Tactic before Voidmaster Nitsch is chosen to shoot with in the Shooting phase. Only make a single hit roll with his artificer shotgun this phase, but add 3 to the result; if the hit roll is successful, the enemy suffers 1 mortal wound and the attack sequence ends.",
-			"cp": 2,
-			"phases": {
-				"shoot": true
-			},
-			"equipment": [
-				"shotgun"
-			]
-		},
-		{
-			"title": "Killing Strikes",
-			"sub": "Elucidian Starstriders Tactic",
-			"desc": "Use this Tactic before Knosso Prond is chose to fight with in the Fight phase. Until the end of the phase, the Damage characteristic of her power blade is increased to D3.",
-			"cp": 2,
-			"phases": {
-				"fight": true
-			}
-		},
-		{
-			"title": "Priority Objective Identified",
-			"sub": "Elucidian Starstriders Tactic",
-			"desc": "Use this Tactic at the end of the Movement phase if Larsen van der Grauss is within 3\" of an objective marker and not shaken. Until the end of the battle round, add 1 to his saving throws and Attacks characteristic.",
-			"cp": 1,
-			"phases": {
-				"move": true
-			}
-		},
-		{
-			"title": "Voltagheist Field",
-			"sub": "Elucidian Starstriders Tactic",
-			"desc": "Use this Tactic before Larsen van der Grauss is chosen to shoot with in the Shooting phase. He can do one of the following instead of shooting normally: open or close a door as if he were within 1\" of it, scan a terrain feature for traps (your opponent(s) must tell you if that terrain feature has been trapped or not), or ignore penalties to his hit rolls for the target model being obscured when shooting with his voltaic pistol in this phase.",
-			"cp": 2,
-			"phases": {
-				"shoot": true
-			}
-		},
-		{
-			"title": "Voltagheist Transference",
-			"sub": "Elucidian Starstriders Tactic",
-			"desc": "Use this Tactic in the Movement phase before making a normal move with Larsen van der Grauss. Remove this model from the battlefield, then set it up anywhere that is more than 4\" from any enemy models. He cannot move further this phase.",
-			"cp": 2,
-			"phases": {
-				"move": true
-			}
-		}
-	]
+    "code": "elucidian_starstriders",
+    "faction": "Elucidian Starstriders",
+    "tactics": [
+        {
+            "title": "Combat Medicine",
+            "sub": "Elucidian Starstriders Tactic",
+            "desc": "Use this Tactic after using Sanistasia Minst's Healing Serum ability (whether or not the ability was successful). You can immediately use that ability for a second time this phase, either on a different model or the same model again.",
+            "cp": 1,
+            "phases": {
+                "event": true
+            }
+        },
+        {
+            "title": "Executioner Shell",
+            "sub": "Elucidian Starstriders Tactic",
+            "desc": "Use this Tactic before Voidmaster Nitsch is chosen to shoot with in the Shooting phase. Only make a single hit roll with his artificer shotgun this phase, but add 3 to the result; if the hit roll is successful, the enemy suffers 1 mortal wound and the attack sequence ends.",
+            "cp": 2,
+            "phases": {
+                "shoot": true
+            },
+            "equipment": [
+                "shotgun"
+            ]
+        },
+        {
+            "title": "Killing Strikes",
+            "sub": "Elucidian Starstriders Tactic",
+            "desc": "Use this Tactic before Knosso Prond is chose to fight with in the Fight phase. Until the end of the phase, the Damage characteristic of her power blade is increased to D3.",
+            "cp": 2,
+            "phases": {
+                "fight": true
+            }
+        },
+        {
+            "title": "Priority Objective Identified",
+            "sub": "Elucidian Starstriders Tactic",
+            "desc": "Use this Tactic at the end of the Movement phase if Larsen van der Grauss is within 3\" of an objective marker and not shaken. Until the end of the battle round, add 1 to his saving throws and Attacks characteristic.",
+            "cp": 1,
+            "phases": {
+                "move": true
+            }
+        },
+        {
+            "title": "Voltagheist Field",
+            "sub": "Elucidian Starstriders Tactic",
+            "desc": "Use this Tactic before Larsen van der Grauss is chosen to shoot with in the Shooting phase. He can do one of the following instead of shooting normally: open or close a door as if he were within 1\" of it, scan a terrain feature for traps (your opponent(s) must tell you if that terrain feature has been trapped or not), or ignore penalties to his hit rolls for the target model being obscured when shooting with his voltaic pistol in this phase.",
+            "cp": 2,
+            "phases": {
+                "shoot": true
+            }
+        },
+        {
+            "title": "Voltagheist Transference",
+            "sub": "Elucidian Starstriders Tactic",
+            "desc": "Use this Tactic in the Movement phase before making a normal move with Larsen van der Grauss. Remove this model from the battlefield, then set it up anywhere that is more than 4\" from any enemy models. He cannot move further this phase.",
+            "cp": 2,
+            "phases": {
+                "move": true
+            }
+        },
+        {
+            "title": "Multi-spectral Auspicator",
+            "sub": "Elucia Vhane Aura Tactic",
+            "desc": "Use this Tactic at the start of the Movement phase. Elucia Vhane gains the followin aura ability until the end of the battle round:As long as this model is not shaken, re-roll hit rolls of 1 for attacks made by friendly Elucidian Starstriders models within 6\" of it.",
+            "cp": 1,
+            "phases": {
+            	"move": true
+            },
+            "keywords": [
+                "Elucia Vhane"
+            ]
+        },
+        {
+            "title": "Digital Laser Regalia",
+            "sub": "Elucia Vhane Aura Tactic",
+            "desc": "Use this Tactic immediately after fighting with Elucia Vhane. Make an additional hit roll against an enemy model within 1\" of her; if the hit roll is successful, the enemy model suffers 1 mortal wound and the attack sequence ends.",
+            "cp": 2,
+            "phases": {
+            	"fight": true
+            },
+            "keywords": [
+                "Elucia Vhane"
+            ]
+        }
+    ]
 }

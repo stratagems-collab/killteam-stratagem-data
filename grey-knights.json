@@ -1,132 +1,181 @@
 {
-	"code": "grey_knights",
-	"faction": "Grey Knights",
-	"tactics": [
-		{
-			"title": "Heed the Prognosticars",
-			"sub": "Grey Knights Tactic",
-			"desc": "Use this Tactic at the start of the battle round. Pick a model from your kill team and add 1 to its saving throws until the end of the battle round.",
-			"cp": 2,
-			"phases": {
-				"round": true
-			}
-		},
-		{
-			"title": "Honour the Chapter",
-			"sub": "Grey Knights Tactic",
-			"desc": "Use this Tactic at the end of the Fight phase. Pick a model from your kill team. That model can immediately fight an additional time.",
-			"cp": 2,
-			"phases": {
-				"fight": true
-			}
-		},
-		{
-			"title": "Psybolt Ammunition",
-			"sub": "Grey Knights Tactic",
-			"desc": "Use this Tactic when you choose a model in your kill team to shoot with a storm bolter. The weapon's Strength characteristic is 5 and its Armour Penetration characteristic is -1 until the end of the phase.",
-			"cp": 1,
-			"phases": {
-				"shoot": true
-			},
-			"equipment": [
-				"storm bolter"
-			]
-		},
-		{
-			"title": "Psychic Channelling",
-			"sub": "Grey Knights Tactic",
-			"desc": "Use this Tactic when taking a Psychic test for a model from your kill team. Roll three dice raher than two and use the two highest rolls.",
-			"cp": 2,
-			"phases": {
-				"psychic": true
-			}
-		},
-		{
-			"title": "Teleport Strike",
-			"sub": "Grey Knights Tactic",
-			"desc": "Use this Tactic at the end of the Movement phase. Choose up to three Terminator models from your kill team that were set up in Reserve and set them up anywhere on the battlefield that is more than 5\" away from any enemy models.",
-			"cp": 1,
-			"phases": {
-				"move": true
-			},
-			"keywords": [
-				"Terminator"
-			]
-		},
-		{
-			"title": "Mental Fortitude",
-			"sub": "Grey Knights Tactic",
-			"desc": "Use this Tactic at the start of your turn in the Psychic phase. Pick a Psyker model from your kill team. Add 6\" to the range of this model's Psybolt psychic power until the end of the phase. This tactic can only be used once per battle.",
-			"cp": 3,
-			"phases": {
-				"psychic": true
-			}
-		},
-		{
-			"title": "Ceaseless Vigil",
-			"sub": "Grey Knights Tactic",
-			"desc": "Use this Tactic at the start of the Shooting phase. Add 1 to hit rolls for attacks made by models from your kill team that target an enemy model that was set up from Reserve this battle round.",
-			"cp": 2,
-			"phases": {
-				"shoot": true
-			}
-		},
-		{
-			"title": "Canticles of Warding",
-			"sub": "Grey Knights Tactic",
-			"desc": "Use this Tactic when a model from your kill team suffers a mortal wound. Roll a D6 for that mortal wound, and each other mortal wound inflicted on that model for the rest of the phase. On a 5+ that mortal ound is ignored.",
-			"cp": 1,
-			"phases": {
-				"event": true
-			}
-		},
-		{
-			"title": "Stillness of Spirit",
-			"sub": "Grey Knights Tactic",
-			"desc": "Use thie Tactic at the start of the battle round. Choose a Commander from your kill team. Add 1 to that Commander's invulnerable saving throws until the start of the next battle round.",
-			"cp": 2,
-			"phases": {
-				"round": true
-			}
-		},
-		{
-			"title": "Psychic Onslaught",
-			"sub": "Grey Knights Tactic",
-			"desc": "Use this Tactic when you choose a model in your kill team to shoot with a Psilencer or a Psycannon. Until the end of the phase, improve the Strength and Armour Penetration characteristics of that weapon by 1.",
-			"cp": 2,
-			"phases": {
-				"shoot": true
-			},
-			"equipment": [
-				"Psilencer", "Psycannon"
-			]
-		},
-		{
-			"title": "Psychic Communion",
-			"sub": "Grey Knights Tactic",
-			"desc": "Use this Tactic when a model from your kill team attempts to manifest a psychic power, before taking the Psychic test. Add 1 to the result of that Psychic test for each friendly model (other than shaken models) within 3\" of the model attempting to manifest the psychic power.",
-			"cp": 2,
-			"phases": {
-				"psychic": true
-			}
-		},
-		{
-			"title": "Rite of Exorcism",
-			"sub": "Grey Knights Tactic",
-			"desc": "Use this Tactic before a model from your kill team takes a Deny the Witch test. If that Deny the Witch test is successful, the psyker that attempted to manifest the negated power suffers 1 mortal wound.",
-			"cp": 2,
-			"phases": {
-				"psychic": true
-			}
-		},
-		{
-			"title": "Leave No Witnesses",
-			"sub": "Grey Knights Tactic",
-			"desc": "Use this Tactic when you choose a model from your kill team to fight in the Fight phase, if there is only one enemy model within 6\" of that model. Until the end of the phase, RR failed wound rolls for attacks made by the model you chose.",
-			"cp": 1,
-			"phases": {
-				"fight": true
-			}
-		}
-	]
+    "code": "grey_knights",
+    "faction": "Grey Knights",
+    "tactics": [
+        {
+            "title": "Heed the Prognosticars",
+            "sub": "Grey Knights Tactic",
+            "desc": "Use this Tactic at the start of the battle round. Pick a model from your kill team and add 1 to its saving throws until the end of the battle round.",
+            "cp": 2,
+            "phases": {
+                "round": true
+            }
+        },
+        {
+            "title": "Honour the Chapter",
+            "sub": "Grey Knights Tactic",
+            "desc": "Use this Tactic at the end of the Fight phase. Pick a model from your kill team. That model can immediately fight an additional time.",
+            "cp": 2,
+            "phases": {
+                "fight": true
+            }
+        },
+        {
+            "title": "Psybolt Ammunition",
+            "sub": "Grey Knights Tactic",
+            "desc": "Use this Tactic when you choose a model in your kill team to shoot with a storm bolter. The weapon's Strength characteristic is 5 and its Armour Penetration characteristic is -1 until the end of the phase.",
+            "cp": 1,
+            "phases": {
+                "shoot": true
+            },
+            "equipment": [
+                "storm bolter"
+            ]
+        },
+        {
+            "title": "Psychic Channelling",
+            "sub": "Grey Knights Tactic",
+            "desc": "Use this Tactic when taking a Psychic test for a model from your kill team. Roll three dice raher than two and use the two highest rolls.",
+            "cp": 2,
+            "phases": {
+                "psychic": true
+            }
+        },
+        {
+            "title": "Teleport Strike",
+            "sub": "Grey Knights Tactic",
+            "desc": "Use this Tactic at the end of the Movement phase. Choose up to three Terminator models from your kill team that were set up in Reserve and set them up anywhere on the battlefield that is more than 5\" away from any enemy models.",
+            "cp": 1,
+            "phases": {
+                "move": true
+            },
+            "keywords": [
+                "Terminator"
+            ]
+        },
+        {
+            "title": "Mental Fortitude",
+            "sub": "Grey Knights Tactic",
+            "desc": "Use this Tactic at the start of your turn in the Psychic phase. Pick a Psyker model from your kill team. Add 6\" to the range of this model's Psybolt psychic power until the end of the phase. This tactic can only be used once per battle.",
+            "cp": 3,
+            "phases": {
+                "psychic": true
+            }
+        },
+        {
+            "title": "Ceaseless Vigil",
+            "sub": "Grey Knights Tactic",
+            "desc": "Use this Tactic at the start of the Shooting phase. Add 1 to hit rolls for attacks made by models from your kill team that target an enemy model that was set up from Reserve this battle round.",
+            "cp": 2,
+            "phases": {
+                "shoot": true
+            }
+        },
+        {
+            "title": "Canticles of Warding",
+            "sub": "Grey Knights Tactic",
+            "desc": "Use this Tactic when a model from your kill team suffers a mortal wound. Roll a D6 for that mortal wound, and each other mortal wound inflicted on that model for the rest of the phase. On a 5+ that mortal ound is ignored.",
+            "cp": 1,
+            "phases": {
+                "event": true
+            }
+        },
+        {
+            "title": "Stillness of Spirit",
+            "sub": "Grey Knights Tactic",
+            "desc": "Use thie Tactic at the start of the battle round. Choose a Commander from your kill team. Add 1 to that Commander's invulnerable saving throws until the start of the next battle round.",
+            "cp": 2,
+            "phases": {
+                "round": true
+            }
+        },
+        {
+            "title": "Psychic Onslaught",
+            "sub": "Grey Knights Tactic",
+            "desc": "Use this Tactic when you choose a model in your kill team to shoot with a Psilencer or a Psycannon. Until the end of the phase, improve the Strength and Armour Penetration characteristics of that weapon by 1.",
+            "cp": 2,
+            "phases": {
+                "shoot": true
+            },
+            "equipment": [
+                "Psilencer",
+                "Psycannon"
+            ]
+        },
+        {
+            "title": "Psychic Communion",
+            "sub": "Grey Knights Tactic",
+            "desc": "Use this Tactic when a model from your kill team attempts to manifest a psychic power, before taking the Psychic test. Add 1 to the result of that Psychic test for each friendly model (other than shaken models) within 3\" of the model attempting to manifest the psychic power.",
+            "cp": 2,
+            "phases": {
+                "psychic": true
+            }
+        },
+        {
+            "title": "Rite of Exorcism",
+            "sub": "Grey Knights Tactic",
+            "desc": "Use this Tactic before a model from your kill team takes a Deny the Witch test. If that Deny the Witch test is successful, the psyker that attempted to manifest the negated power suffers 1 mortal wound.",
+            "cp": 2,
+            "phases": {
+                "psychic": true
+            }
+        },
+        {
+            "title": "Leave No Witnesses",
+            "sub": "Grey Knights Tactic",
+            "desc": "Use this Tactic when you choose a model from your kill team to fight in the Fight phase, if there is only one enemy model within 6\" of that model. Until the end of the phase, RR failed wound rolls for attacks made by the model you chose.",
+            "cp": 1,
+            "phases": {
+                "fight": true
+            }
+        },
+        {
+            "title": "Psychic Locus",
+            "sub": "Brother-Captain Aura",
+            "desc": "As long as this model is not shaken, the Psybolt psychic power affects the closest enemy model within 36\" (rather than 12\" or 18\") of and visible to the psyker when manifested by friendly models within 6\" of this model.",
+            "cp": 1,
+            "phases": {
+            	"psychic": true
+            },
+            "keywords": [
+                "Brother-Captain"
+            ]
+        },
+        {
+            "title": "Clarity of Vision",
+            "sub": "Brother-Captain Tactic",
+            "desc": "Use this Tactic when you choose a Brother-Captain from your kill team to make a shooting attack. Until the end of the phase, add 1 to hit rolls for shooting attacks made by that model.",
+            "cp": 1,
+            "phases": {
+            	"shoot": true
+            },
+            "keywords": [
+                "Brother-Captain"
+            ]
+        },
+        {
+            "title": "The Six Chants of Denial",
+            "sub": "Librarian Tactic",
+            "desc": "Use this Tactic when a Librarian from your kill team makes a Deny the Witch test against a manifested psychic power. Do not roll 2D6. Instead, that power is successfully resisted and its effects are negated. This Tactic can only be used once per battle.",
+            "cp": 3,
+            "phases": {
+            	"psychic": true
+            },
+            "keywords": [
+                "Librarian"
+            ]
+        },
+        {
+            "title": "Vengeful Strike",
+            "sub": "Brotherhood Champion Tactic",
+            "desc": "Ue this Tactic when a Brotherhood Champion from your kill team is taken out of action in the Fight phase. Do not remove that model from the battlefield. Your opponent should finish resolving any attacks that target other models. Then the Brotherhood Champion can immediately fight, even if it has already been picked to fight in that phase. Then remove the Brotherhood Champion from the battlefield.",
+            "cp": 2,
+            "phases": {
+            	"fight": true
+            },
+            "keywords": [
+                "Brotherhood Champion"
+            ]
+        }
+    ]
 }

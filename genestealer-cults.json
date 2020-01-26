@@ -1,216 +1,372 @@
 {
-	"code": "genestealer_cults",
-	"faction": "Genestealer Cults",
-	"tactics": [
-		{
-			"title": "Density Analysis Lenses",
-			"sub": "Genestealer Cults Tactic",
-			"desc": "Use this Tactic when you choose a model in your kill team to shoot in the Shooting phase. Add 1 to hit rolls for that model against targets which are obscured.",
-			"cp": 2,
-			"phases": {
-				"shoot": true
-			}
-		},
-		{
-			"title": "Frenzied Hammering",
-			"sub": "Genestealer Cults Tactic",
-			"desc": "Use this Tactic when an Aberrant from your kill team armed with a power hammer attacks in the Fight phase. Increase that model's Attacks characteristic by D3 until the end of the phase, but subtract 1 from hit rolls for that model's attacks until the end of the phase.",
-			"cp": 2,
-			"phases": {
-				"fight": true
-			},
-			"equipment": [
-				"power hammer"
-			]
-		},
-		{
-			"title": "Industrial Brutality",
-			"sub": "Genestealer Cults Tactic",
-			"desc": "Use this Tactic after making attacks with a model armed with a heavy rock drill, heavy rock saw or heavy rock cutter in the Fight phase. Roll a D6. On a 4+ that model may immediately fight again.",
-			"cp": 1,
-			"phases": {
-				"fight": true
-			},
-			"equipment": [
-				"heavy rock cutter",
-				"heavy rock drill",
-				"heavy rock saw"
-			]
-		},
-		{
-			"title": "Inhuman Reflexes",
-			"sub": "Genestealer Cults Tactic",
-			"desc": "Use this Tactic when a model from your kill team fails a Falling test. It deosn't suffer falling damage, and won't fall on another model. If it wound, instead place this model as close as possible to the point where it wound have landed. This can bring it within 1\" of an enemy model.",
-			"cp": 1,
-			"phases": {
-				"event": true
-			}
-		},
-		{
-			"title": "Strength of Faith",
-			"sub": "Genestealer Cults Tactic",
-			"desc": "Use this Tactic when a model from your kill team suffers a mortal wound in the Psychic phase. Roll a D6 for that mortal wound, and each other mortal wound suffered by that model until the end of the phase. On a 5+ that wound is ignored and has no effect.",
-			"cp": 1,
-			"phases": {
-				"psychic": true
-			}
-		},
-		{
-			"title": "Unnatural Senses",
-			"sub": "Genestealer Cults Tactic",
-			"desc": "Use this Tactic when a model from your kill team is declared as a target of a charge. That model may fire Overwatch at the charging model; even if the charging model is not visible to it. The target is treated as obscured.",
-			"cp": 1,
-			"phases": {
-				"event": true
-			}
-		},
-		{
-			"title": "Acidic Spit",
-			"sub": "Genestealer Cults Tactic",
-			"desc": "Use this Tactic at the beginning of the Shooting phase. Pick an enemy model within 1\" of a model from your kill team and roll a dice. On a 5+ that enemy model suffers 1 mortal wound.",
-			"cp": 1,
-			"phases": {
-				"shoot": true
-			}
-		},
-		{
-			"title": "I Like to Keep This Handy",
-			"sub": "Genestealer Cults Tactic",
-			"desc": "Use this Tactic at the start of the Shooting phase. Pick a model from your kill team armed with a shotgun. Change the shotugn's Type to Pistol 2 until the end of the phase.",
-			"cp": 1,
-			"phases": {
-				"shoot": true
-			},
-			"equipment": [
-				"shotgun"
-			]
-		},
-		{
-			"title": "Mesmerising Gaze",
-			"sub": "Genestealer Cults Tactic",
-			"desc": "Use this Tactic at the beginning of the Fight phase. Pick an enemy model within 1\" of a model from your kill team and roll a dice. On a 4+ subtract 1 from that model's Attacks characteristic (to a minimum of 1) until the end of the phase.",
-			"cp": 1,
-			"phases": {
-				"fight": true
-			}
-		},
-		{
-			"title": "Raise the Icon",
-			"sub": "Genestealer Cults Tactic",
-			"desc": "Use this Tactic at the start of the Fight phase. Pick a model from your kill team equipped with a cult icon. Increase the range of that model's Cult Icon ability to 12\" until the end of the phase.",
-			"cp": 1,
-			"phases": {
-				"fight": true
-			},
-			"equipment": [
-				"cult icon"
-			]
-		},
-		{
-			"title": "Seismic Blast",
-			"sub": "Genestealer Cults Tactic",
-			"desc": "Use this Tactic when you choose a model in your kill team to shoot with the short wave profile of a seismic cannon. If an attack for the weapon hits, roll a dice for each other model within 2\" of the target model. On a 5+ that model is shaken.",
-			"cp": 2,
-			"phases": {
-				"shoot": true
-			}
-		},
-		{
-			"title": "Toxin Gland",
-			"sub": "Genestealer Cults Tactic",
-			"desc": "Use this Tactic when you pick a Hybrid Metamorph from your kill team to fight in the Fight phase. Add 1 to wound rolls for that model's rending claw or metamorph talon until the end of the phase.",
-			"cp": 1,
-			"phases": {
-				"fight": true
-			}
-		},
-		{
-			"title": "Unsettling Presence",
-			"sub": "Genestealer Cults Tactic",
-			"desc": "Use this Tactic at the start of the battle round if your kill team includes a Commander. As long as this model is not shaken, enemy models within 6\" of this model have -1 Leadership.",
-			"cp": 1,
-			"phases": {
-				"round": true
-			},
-			"keywords": [
-				"Commander"
-			]
-		},
-		{
-			"title": "Blinding Acid Spit",
-			"sub": "Genestealer Cults Tactic",
-			"desc": "Use this Tactic when a model from your kill team is chosen as the target of an attack in the Fight phase. Roll a dice; on a 4+ subtract 1 from hit rolls made for the attacking model until the end of the phase.",
-			"cp": 1,
-			"phases": {
-				"event": true
-			}
-		},
-		{
-			"title": "Corrosive Fuel",
-			"sub": "Genestealer Cults Tactic",
-			"desc": "Use this Tactic when you choose a model from your kill team to shoot with a hand flamer. Improve the Armour Penetration characteristic of that weapon to -1 and its Damage characteristic to 2 until the end of the phase.",
-			"cp": 2,
-			"phases": {
-				"shoot": true
-			},
-			"equipment": [
-				"hand flamer"
-			]
-		},
-		{
-			"title": "The Cult Innumerable",
-			"sub": "Genestealer Cults Tactic",
-			"desc": "Use this Tactic when a model from your kill team (other than a specialist) is taken out of action. You can set up that model again, in your deployment zone and more than 9\" from any enemy models. The model is still treated as a casualty at the end of the battle.",
-			"cp": 3,
-			"phases": {
-				"event": true
-			}
-		},
-		{
-			"title": "Ensnaring Strike",
-			"sub": "Genestealer Cults Tactic",
-			"desc": "Use this Tactic when you pick a model in your kill team armed with a lash whip and bonesword to fight in the Fight phase. Until the end of the phase, if that model scores any hits, you can pick one melee weapon their target is armed with. The target model may not use that melee weapon in this phase.",
-			"cp": 1,
-			"phases": {
-				"fight": true
-			},
-			"equipment": [
-				"bonesword",
-				"lash whip"
-			]
-		},
-		{
-			"title": "Messy Demise",
-			"sub": "Genestealer Cults Tactic",
-			"desc": "Use this Tactic when a model from your kill team takes an enemy model out of action with an attack made with a heavy rock saw. Roll a dice for each enemy model within 3\" of the model that made the attack. On a roll of 5+ the model you are rolling for is shaken.",
-			"cp": 2,
-			"phases": {
-				"fight": true
-			},
-			"equipment": [
-				"heavy rock saw"
-			]
-		},
-		{
-			"title": "Plant the Flag",
-			"sub": "Genestealer Cults Tactic",
-			"desc": "Use this Tactic when a model from your kill team equipped with a cult icon takes an enemy model out of action in the Fight phase. Friendly models within 6\" of that model do not need to take Nerve tests until the end of the battle round.",
-			"cp": 1,
-			"phases": {
-				"fight": true
-			},
-			"equipment": [
-				"cult icon"
-			]
-		},
-		{
-			"title": "Secret Lair",
-			"sub": "Genestealer Cults Tactic",
-			"desc": "Use this Tactic at the start of the Movement phase of round 1, 2, or 3. Pick a model from your team within 3\" of a Ryza-pattern ruin hatchway and remove that model from the field. At the end of the next Movement phase, set up that model within 3\" of any Ryza-pattern ruin hatchway and more than 9\" from any enemy models. If you cannot set up that model, it remains in hiding; try again at the end of the next Movement phase. If this model has not been set up again before the end of the mission, it is out of action.",
-			"cp": 1,
-			"phases": {
-				"move": true
-			}
-		}
-	]
+    "code": "genestealer_cults",
+    "faction": "Genestealer Cults",
+    "tactics": [
+        {
+            "title": "Density Analysis Lenses",
+            "sub": "Genestealer Cults Tactic",
+            "desc": "Use this Tactic when you choose a model in your kill team to shoot in the Shooting phase. Add 1 to hit rolls for that model against targets which are obscured.",
+            "cp": 2,
+            "phases": {
+                "shoot": true
+            }
+        },
+        {
+            "title": "Frenzied Hammering",
+            "sub": "Genestealer Cults Tactic",
+            "desc": "Use this Tactic when an Aberrant from your kill team armed with a power hammer attacks in the Fight phase. Increase that model's Attacks characteristic by D3 until the end of the phase, but subtract 1 from hit rolls for that model's attacks until the end of the phase.",
+            "cp": 2,
+            "phases": {
+                "fight": true
+            },
+            "equipment": [
+                "power hammer"
+            ]
+        },
+        {
+            "title": "Industrial Brutality",
+            "sub": "Genestealer Cults Tactic",
+            "desc": "Use this Tactic after making attacks with a model armed with a heavy rock drill, heavy rock saw or heavy rock cutter in the Fight phase. Roll a D6. On a 4+ that model may immediately fight again.",
+            "cp": 1,
+            "phases": {
+                "fight": true
+            },
+            "equipment": [
+                "heavy rock cutter",
+                "heavy rock drill",
+                "heavy rock saw"
+            ]
+        },
+        {
+            "title": "Inhuman Reflexes",
+            "sub": "Genestealer Cults Tactic",
+            "desc": "Use this Tactic when a model from your kill team fails a Falling test. It deosn't suffer falling damage, and won't fall on another model. If it wound, instead place this model as close as possible to the point where it wound have landed. This can bring it within 1\" of an enemy model.",
+            "cp": 1,
+            "phases": {
+                "event": true
+            }
+        },
+        {
+            "title": "Strength of Faith",
+            "sub": "Genestealer Cults Tactic",
+            "desc": "Use this Tactic when a model from your kill team suffers a mortal wound in the Psychic phase. Roll a D6 for that mortal wound, and each other mortal wound suffered by that model until the end of the phase. On a 5+ that wound is ignored and has no effect.",
+            "cp": 1,
+            "phases": {
+                "psychic": true
+            }
+        },
+        {
+            "title": "Unnatural Senses",
+            "sub": "Genestealer Cults Tactic",
+            "desc": "Use this Tactic when a model from your kill team is declared as a target of a charge. That model may fire Overwatch at the charging model; even if the charging model is not visible to it. The target is treated as obscured.",
+            "cp": 1,
+            "phases": {
+                "event": true
+            }
+        },
+        {
+            "title": "Acidic Spit",
+            "sub": "Genestealer Cults Tactic",
+            "desc": "Use this Tactic at the beginning of the Shooting phase. Pick an enemy model within 1\" of a model from your kill team and roll a dice. On a 5+ that enemy model suffers 1 mortal wound.",
+            "cp": 1,
+            "phases": {
+                "shoot": true
+            }
+        },
+        {
+            "title": "I Like to Keep This Handy",
+            "sub": "Genestealer Cults Tactic",
+            "desc": "Use this Tactic at the start of the Shooting phase. Pick a model from your kill team armed with a shotgun. Change the shotugn's Type to Pistol 2 until the end of the phase.",
+            "cp": 1,
+            "phases": {
+                "shoot": true
+            },
+            "equipment": [
+                "shotgun"
+            ]
+        },
+        {
+            "title": "Mesmerising Gaze",
+            "sub": "Genestealer Cults Tactic",
+            "desc": "Use this Tactic at the beginning of the Fight phase. Pick an enemy model within 1\" of a model from your kill team and roll a dice. On a 4+ subtract 1 from that model's Attacks characteristic (to a minimum of 1) until the end of the phase.",
+            "cp": 1,
+            "phases": {
+                "fight": true
+            }
+        },
+        {
+            "title": "Raise the Icon",
+            "sub": "Genestealer Cults Tactic",
+            "desc": "Use this Tactic at the start of the Fight phase. Pick a model from your kill team equipped with a cult icon. Increase the range of that model's Cult Icon ability to 12\" until the end of the phase.",
+            "cp": 1,
+            "phases": {
+                "fight": true
+            },
+            "equipment": [
+                "cult icon"
+            ]
+        },
+        {
+            "title": "Seismic Blast",
+            "sub": "Genestealer Cults Tactic",
+            "desc": "Use this Tactic when you choose a model in your kill team to shoot with the short wave profile of a seismic cannon. If an attack for the weapon hits, roll a dice for each other model within 2\" of the target model. On a 5+ that model is shaken.",
+            "cp": 2,
+            "phases": {
+                "shoot": true
+            }
+        },
+        {
+            "title": "Toxin Gland",
+            "sub": "Genestealer Cults Tactic",
+            "desc": "Use this Tactic when you pick a Hybrid Metamorph from your kill team to fight in the Fight phase. Add 1 to wound rolls for that model's rending claw or metamorph talon until the end of the phase.",
+            "cp": 1,
+            "phases": {
+                "fight": true
+            }
+        },
+        {
+            "title": "Unsettling Presence",
+            "sub": "Genestealer Cults Tactic",
+            "desc": "Use this Tactic at the start of the battle round if your kill team includes a Commander. As long as this model is not shaken, enemy models within 6\" of this model have -1 Leadership.",
+            "cp": 1,
+            "phases": {
+                "round": true
+            },
+            "keywords": [
+                "Commander"
+            ]
+        },
+        {
+            "title": "Blinding Acid Spit",
+            "sub": "Genestealer Cults Tactic",
+            "desc": "Use this Tactic when a model from your kill team is chosen as the target of an attack in the Fight phase. Roll a dice; on a 4+ subtract 1 from hit rolls made for the attacking model until the end of the phase.",
+            "cp": 1,
+            "phases": {
+                "event": true
+            }
+        },
+        {
+            "title": "Corrosive Fuel",
+            "sub": "Genestealer Cults Tactic",
+            "desc": "Use this Tactic when you choose a model from your kill team to shoot with a hand flamer. Improve the Armour Penetration characteristic of that weapon to -1 and its Damage characteristic to 2 until the end of the phase.",
+            "cp": 2,
+            "phases": {
+                "shoot": true
+            },
+            "equipment": [
+                "hand flamer"
+            ]
+        },
+        {
+            "title": "The Cult Innumerable",
+            "sub": "Genestealer Cults Tactic",
+            "desc": "Use this Tactic when a model from your kill team (other than a specialist) is taken out of action. You can set up that model again, in your deployment zone and more than 9\" from any enemy models. The model is still treated as a casualty at the end of the battle.",
+            "cp": 3,
+            "phases": {
+                "event": true
+            }
+        },
+        {
+            "title": "Ensnaring Strike",
+            "sub": "Genestealer Cults Tactic",
+            "desc": "Use this Tactic when you pick a model in your kill team armed with a lash whip and bonesword to fight in the Fight phase. Until the end of the phase, if that model scores any hits, you can pick one melee weapon their target is armed with. The target model may not use that melee weapon in this phase.",
+            "cp": 1,
+            "phases": {
+                "fight": true
+            },
+            "equipment": [
+                "bonesword",
+                "lash whip"
+            ]
+        },
+        {
+            "title": "Messy Demise",
+            "sub": "Genestealer Cults Tactic",
+            "desc": "Use this Tactic when a model from your kill team takes an enemy model out of action with an attack made with a heavy rock saw. Roll a dice for each enemy model within 3\" of the model that made the attack. On a roll of 5+ the model you are rolling for is shaken.",
+            "cp": 2,
+            "phases": {
+                "fight": true
+            },
+            "equipment": [
+                "heavy rock saw"
+            ]
+        },
+        {
+            "title": "Plant the Flag",
+            "sub": "Genestealer Cults Tactic",
+            "desc": "Use this Tactic when a model from your kill team equipped with a cult icon takes an enemy model out of action in the Fight phase. Friendly models within 6\" of that model do not need to take Nerve tests until the end of the battle round.",
+            "cp": 1,
+            "phases": {
+                "fight": true
+            },
+            "equipment": [
+                "cult icon"
+            ]
+        },
+        {
+            "title": "Secret Lair",
+            "sub": "Genestealer Cults Tactic",
+            "desc": "Use this Tactic at the start of the Movement phase of round 1, 2, or 3. Pick a model from your team within 3\" of a Ryza-pattern ruin hatchway and remove that model from the field. At the end of the next Movement phase, set up that model within 3\" of any Ryza-pattern ruin hatchway and more than 9\" from any enemy models. If you cannot set up that model, it remains in hiding; try again at the end of the next Movement phase. If this model has not been set up again before the end of the mission, it is out of action.",
+            "cp": 1,
+            "phases": {
+                "move": true
+            }
+        },
+        {
+            "title": "Cult Demagogue",
+            "sub": "Primus Aura Tactic",
+            "desc": "Use this Tactic at the start of the Movement phase. As long as this model is not shaken, you can add 1 to hit rolls in the Fight phase for friendly models that are within 6\" of this model.",
+            "cp": 1,
+            "phases": {
+            	"move": true
+            },
+            "keywords": [
+                "Primus"
+            ]
+        },
+        {
+            "title": "Meticulous Planning",
+            "sub": "Primus Tactic",
+            "desc": "Use this Tactic at the start of the first battle round. Roll a D6 for each model from your kill team that did not move as a result of the Cult Ambush ability. On a roll of 5+, you can move that model as described in its Cult Ambush ability.",
+            "cp": 2,
+            "phases": {
+            	"round": true
+            },
+            "keywords": [
+                "Primus"
+            ]
+        },
+        {
+            "title": "Nexus of Devotion",
+            "sub": "Acolyte Iconward Aura Tactic",
+            "desc": "Use this Tactic at the start of the Movement phase. As long as this model is not shaken, you can roll a D6 each time a friendly model within 6\" of this model loses a wound; on a 6 the wound is not lost. If a model already has an ability with a similar effect, you can choose which effect applies, and RR 1s when making these rolls.",
+            "cp": 1,
+            "phases": {
+            	"move": true
+            },
+            "keywords": [
+                "Acolyte Iconward"
+            ]
+        },
+        {
+            "title": "Rabble Rouser",
+            "sub": "Acolyte Iconward Aura Tactic",
+            "desc": "Use this Tactic at the start of the Movement phase. As long as this model is not shaken, all friendly models within 6\" of this model can use the Acolyte Iconward's Leadership instead of their own.",
+            "cp": 1,
+            "phases": {
+            	"move": true
+            },
+            "keywords": [
+                "Acolyte Iconward"
+            ]
+        },
+        {
+            "title": "Blaze of Glory",
+            "sub": "Kelermorph Tactic",
+            "desc": "Use this Tactic when you pick a Kelermorph from your kill team to shoot in the Shooting phase. Instead of shooting normally, you can make a single attack with one of this model's ranged weapons against each enemy model within 8\" that is an eligible target.",
+            "cp": 1,
+            "phases": {
+            	"shoot": true
+            },
+            "keywords": [
+                "Kelermorph"
+            ]
+        },
+        {
+            "title": "Blaze of Glory",
+            "sub": "Kelermorph Tactic",
+            "desc": "Use this Tactic when you pick a Kelermorph from your kill team to shoot in the Shooting phase. Instead of shooting normally, you can make a single attack with one of this model's ranged weapons against each enemy model within 8\" that is an eligible target.",
+            "cp": 1,
+            "phases": {
+            	"shoot": true
+            },
+            "keywords": [
+                "Ghyrson Starn"
+            ]
+        },
+        {
+            "title": "Nexus of Devotion",
+            "sub": "Acolyte Iconward Aura Tactic",
+            "desc": "Use this Tactic at the start of the Movement phase. As long as this model is not shaken, you can roll a D6 each time a friendly model within 6\" of this model loses a wound; on a 6 the wound is not lost. If a model already has an ability with a similar effect, you can choose which effect applies, and RR 1s when making these rolls.",
+            "cp": 1,
+            "phases": {
+            	"move": true
+            },
+            "keywords": [
+                "Crasker Matterzhek"
+            ]
+        },
+        {
+            "title": "Rabble Rouser",
+            "sub": "Acolyte Iconward Aura Tactic",
+            "desc": "Use this Tactic at the start of the Movement phase. As long as this model is not shaken, all friendly models within 6\" of this model can use the Acolyte Iconward's Leadership instead of their own.",
+            "cp": 1,
+            "phases": {
+            	"move": true
+            },
+            "keywords": [
+                "Crasker Matterzhek"
+            ]
+        },
+        {
+            "title": "Cult Assassin",
+            "sub": "Genestealer Cults Tactic",
+            "desc": "Use this Tactic at the beginning of the first battle round if a Sanctus from your kill team is on the battlefield and not shaken. That model can immediately make a ranged attack as if it were the Shooting phase.",
+            "cp": 2,
+            "phases": {
+            	"round_one": true
+            },
+            "keywords": [
+                "Sanctus"
+            ]
+        },
+        {
+            "title": "Cult Nexos",
+            "sub": "Genestealer Cults Tactic",
+            "desc": "Use this Tactic at the end of the Movement phase if a Nexos from your kill team is on the battlefied and not shaken and you have any models in Reserve. Choose up to three models from your kill team that were set up in Reserve and set them up within 1\" of the edge of the battlefield and more than 5\" away from any enemy models.",
+            "cp": 1,
+            "phases": {
+            	"move": true
+            },
+            "keywords": [
+                "Nexos"
+            ]
+        },
+        {
+            "title": "Genomic Enhancement",
+            "sub": "Genestealer Cults Tactic",
+            "desc": "Use this Tactic at the end of the Movement phase if a Biophagus from your kill team is on the battlefied and not shaken. Choose a friendly Aberrant model within 2\" of the Biophagus and increase its Strength, Toughness, or Attacks characteristic by 1 until the end of the mission. You cannot choose the same Aberrant twice with this Tactic.",
+            "cp": 1,
+            "phases": {
+            	"move": true
+            },
+            "keywords": [
+                "Biophagus"
+            ]
+        },
+        {
+            "title": "Sudden Strike",
+            "sub": "Genestealer Cults Tactic",
+            "desc": "Use this Tactic at the end of the Movement phase if a Locus from your kill team is on the battlefield, is within 6\" of an enemy model, did not Advance, Fall Back, Retreat, make a charge attempt or arrive from Reserve in this turn, and is not shaken or within 1\" of an enemy model. The Locus can immediately make a pile-in move as described in the Fight phase except that it can move up to 6\" rather than 3\".",
+            "cp": 1,
+            "phases": {
+            	"move": true
+            },
+            "keywords": [
+                "Locus"
+            ]
+        },
+        {
+            "title": "Proclamator Hailer",
+            "sub": "Clamavus Aura Tactic",
+            "desc": "Use this Tactic at the start of the battle round. As long as this model is not shaken, add 1 to all Advance and charge rolls made for models from your kill team that are within 6\" of any friendly models with this ability, and subract 1 from all Nerve tests made for models from your kill team that are within 6\" of any friendly models with this ability.",
+            "cp": 1,
+            "phases": {
+            	"round": true
+            },
+            "keywords": [
+                "Clamavus"
+            ]
+        }
+    ]
 }

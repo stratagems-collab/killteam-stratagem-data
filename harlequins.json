@@ -62,7 +62,7 @@
             "desc": "Use this Tactic in the Movement phase, immediately after make a charge roll of 10+ for a model from your kill team. Until the end of the battle round, add 2 to the Attacks characteristc of that model.",
             "cp": 1,
             "phases": {
-            	"move": true
+                "move": true
             }
         },
         {
@@ -71,7 +71,7 @@
             "desc": "Use this Tactic in the Morale phase when an enemy model fails a Nerve test. Until the end of the phase, models from your kill team do not need to take Nerve tests whilst they are within 6\" of that model.",
             "cp": 1,
             "phases": {
-            	"morale": true
+                "morale": true
             }
         },
         {
@@ -80,10 +80,10 @@
             "desc": "Use this Tactic when a Commander from your kill team is reduced to 0 wounds by an attack. Only one dice is rolled for the subsequent Injury roll, regardless of the Damage characteristic of the weapon that made the attack.",
             "cp": 1,
             "phases": {
-            	"event": true
+                "event": true
             },
             "keywords": [
-            	"Commander"
+                "Commander"
             ]
         },
         {
@@ -92,7 +92,7 @@
             "desc": "Use this Tactic at the end of the Movement phase. Choose up to three models from your kill team that were set up in Reserve. Set one of those models up anywhere on the battlefield that is more than 5\" away from any enemy models, then set up any remaining models within 2\" of that model, and more than 5\" away from any enemy models.",
             "cp": 2,
             "phases": {
-            	"move": true
+                "move": true
             }
         },
         {
@@ -101,7 +101,7 @@
             "desc": "Use this Tactic in the Movement phase. Pick a model (other than a shaken model) from your kill team that has not moved this phase, and is within 1\" of an enemy model. Move that model up to 2\" so that it is more than 1\" from any enemy models. You can then declare a charge with that model, as if it was not within 1\" of an enemy model at the start of the phase. Subtract 2 from the charge roll.",
             "cp": 2,
             "phases": {
-            	"move": true
+                "move": true
             }
         },
         {
@@ -110,10 +110,10 @@
             "desc": "Use this Tactic in the Fire at Will section of the Shooting phase, when it is your turn to choose a model to shoot. Pick a model from your kill team that made a charge move this battle round. That model can shoot with a Pistol.",
             "cp": 2,
             "phases": {
-            	"shoot": true
+                "shoot": true
             },
             "equipment": [
-            	"Pistol"
+                "Pistol"
             ]
         },
         {
@@ -122,10 +122,10 @@
             "desc": "Use this Tactic in the Psychic phase when you choose a Shadowseer from your kill team to manifest psychic powers. Instead of attempting to manifest any psychic powers, remove that model from the battlefield and place it in Reserve.",
             "cp": 1,
             "phases": {
-            	"psychic": true
+                "psychic": true
             },
             "keywords": [
-            	"Shadowseer"
+                "Shadowseer"
             ]
         },
         {
@@ -134,8 +134,32 @@
             "desc": "Use this Tactic at the end of the Movement phase. Choose up to three models from your kill team that were set up in Reserve. Set one of those models up anywhere on the battlefield that is more than 5\" away from any enemy models, then set up any remaining models within 2\" of that model, and more than 5\" away from any enemy models.",
             "cp": 1,
             "phases": {
-            	"move": true
+                "move": true
             }
+        },
+        {
+            "title": "Choreographer of War",
+            "sub": "Troupe Master Aura Tactic",
+            "desc": "Use this Tactic at the start of the Fight phase. As long as this model is not shaken, you can RR failed wound rolls for friendly models that are within 6\" of this model.",
+            "cp": 1,
+            "phases": {
+            	"fight": true
+            },
+            "keywords": [
+                "Troupe Master"
+            ]
+        },
+        {
+            "title": "The Art of the Kill",
+            "sub": "Death Jester Aura Tactic",
+            "desc": "Use this Tactic at the start of the Shooting phase. As long as this model is not shaken, you can add 1 to wound rolls for friendly models that are within 6\" of this model.",
+            "cp": 1,
+            "phases": {
+            	"shoot": true
+            },
+            "keywords": [
+                "Death Jester"
+            ]
         }
     ]
 }

@@ -170,6 +170,42 @@
             "keywords": [
                 "Commander Psyker"
             ]
+        },
+        {
+            "title": "Empyric Translocation",
+            "sub": "Exalted Sorcerer Tactic",
+            "desc": "Use this Tactic at the start of the Movement phase, if an Exalted Sorcerer fromyour kill team (other than a shaken model) is on the battlefield. Pick one other model from your kill team, remove it from the battlefield, then set it up within 3\" of the Exalted Sorcerer and more than 5\" from enemy models. The model set up in this way is not considered to have been within 1\" of any enemy models at the start of the phase.",
+            "cp": 1,
+            "phases": {
+            	"move": true
+            },
+            "keywords": [
+                "Exalted Sorcerer"
+            ]
+        },
+        {
+            "title": "Architect of Fate",
+            "sub": "Exalted Sorcerer Tactic",
+            "desc": "Use this Tactic at the start of the Shooting phase. Pick an Exalted Sorcerer (other than a shaken model) from your kill team. All enemy models within 9\" of that model that are Readied are no longer Readied.",
+            "cp": 3,
+            "phases": {
+            	"shoot": true
+            },
+            "keywords": [
+                "Exalted Sorcerer"
+            ]
+        },
+        {
+            "title": "Bestial Prophet",
+            "sub": "Tzaangor Shaman Aura Tactic",
+            "desc": "Use this Tactic at the start of the Shooting phase. As long as this model is not shaken, add 1 to hit rolls for attacks made by friendly Tzaangors whilst they are within 6\" of this model.",
+            "cp": 1,
+            "phases": {
+            	"shoot": true
+            },
+            "keywords": [
+                "Tzaangor Shaman"
+            ]
         }
     ]
 }
