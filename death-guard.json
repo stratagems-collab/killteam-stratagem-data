@@ -77,7 +77,7 @@
             "desc": "Use this Tactic at the start of the Movement phase. Until the end of that phase, increase the Move characteristic of all models in your kill team by 2\". However, until the end of that phase, models from your kil team may not Fall Back, Advance or charge.",
             "cp": 1,
             "phases": {
-            	"move": true
+                "move": true
             }
         },
         {
@@ -86,8 +86,8 @@
             "desc": "Use this Tactic at the start of a Shooting phase or Fight phase, if exactly 7 enemy models have been taken out of action during the course of the battle. Until the end of that phase, RR failed wound rolls for attacks made by models from your kill team.",
             "cp": 1,
             "phases": {
-            	"shoot": true,
-            	"fight": true
+                "shoot": true,
+                "fight": true
             }
         },
         {
@@ -96,7 +96,7 @@
             "desc": "Use this Tactic when a Poxwalker from your kill team suffers a flesh wound. For the rest of the battle, you do not have to take Nerve tests for that model.",
             "cp": 1,
             "phases": {
-            	"event": true
+                "event": true
             }
         },
         {
@@ -105,7 +105,7 @@
             "desc": "Use this Tactic at the start of the battle round, when you control exactly three objectives. Until the end of the battle round, add 1 to rolls you make for the Disgustingly Resilient ability for models from your kill team that are within 3\" of any of those three objectives.",
             "cp": 3,
             "phases": {
-            	"round": true
+                "round": true
             }
         },
         {
@@ -114,7 +114,7 @@
             "desc": "Use this Tactic at the start of the Movement phase. Until the end of that phase, increase the Move characteristic of all models in your kill team by 2\". However, until the end of that phase, models from your kil team may not Fall Back, Advance or charge.",
             "cp": 1,
             "phases": {
-            	"move": true
+                "move": true
             }
         },
         {
@@ -123,8 +123,68 @@
             "desc": "Use this Tactic when a model from your kill team loses a wound in the Fight phase. Roll a D6 for each enemy model within 1\" of that model. On a 6 that enemy model suffers 1 mortal wound after all of its attacks have been resolved.",
             "cp": 2,
             "phases": {
-            	"fight": true
+                "fight": true
             }
+        },
+        {
+            "title": "Revolting Stench",
+            "sub": "Foul Blightspawn Aura Tactic",
+            "desc": "Use this Tactic at the start of the Fight phase. As long as this model is not shaken, enemy models that charged this turn and are within 3\" of this model at the start of the Fight phase cannot be chosen to fight in the Hammer of Wrath section of the Fight phase, but can be chosen to fight in the Fight For Your Lives section instead. This ability also affects models that have abilities that would enable them to fight in the Hammer of Wrath section as if they had charged.",
+            "cp": 1,
+            "phases": {
+            	"fight": true
+            },
+            "keywords": [
+                "Foul Blightspawn"
+            ]
+        },
+        {
+            "title": "Festering Zealot",
+            "sub": "Tallyman Aura Tactic",
+            "desc": "Use this Tactic at the start of the Fight phase. As long as this model is not shaken, you can RR failed hit rolls in the Fight phase for friendly models within 7\" of this model.",
+            "cp": 1,
+            "phases": {
+            	"fight": true
+            },
+            "keywords": [
+                "Tallyman"
+            ]
+        },
+        {
+            "title": "Blight Racks",
+            "sub": "Biologus Putrifier Aura Tactic",
+            "desc": "Use this Tactic at the start of the Shooting phase if your kill team includes a Biologus Putrifier. As long as this model is not shaken, increase the Strength and Damage characteristics of all blight grenades carried by friendly Death Guard models by 1 whilst they are within 3\" of this model. In addition, whilst a friendly model is within 3\" of this model, each wound roll of 6+ made for that model when it attacks with a blight grenade inflicts a mortal wound on the target in addition to any other damage.",
+            "cp": 1,
+            "phases": {
+            	"shoot": true
+            },
+            "keywords": [
+                "Biologus Putrifier"
+            ]
+        },
+        {
+            "title": "Tainted Narthecium",
+            "sub": "Plague Surgeon Aura Tactic",
+            "desc": "Use this Tactic at the start of the Fight phase. As long as this model is not shaken, you may RR any Disgustingly Resilient rolls of 1 made for friendly models within 3\" of this model.",
+            "cp": 1,
+            "phases": {
+            	"fight": true
+            },
+            "keywords": [
+                "Plague Surgeon"
+            ]
+        },
+        {
+            "title": "Vector of Contagion",
+            "sub": "Lord of Contagion Tactic",
+            "desc": "Use this Tactic at the start of the battle round if your kill team includes a Lord of Contagion that is not shaken. Roll a dice for each enemy model that is within 1\" of any model from your kill team that is within 3\" of that Lord of Contagion; on a 4+ that enemy model suffers a mortal wound.",
+            "cp": 2,
+            "phases": {
+            	"round": true
+            },
+            "keywords": [
+                "Lord of Contagion"
+            ]
         }
     ]
 }

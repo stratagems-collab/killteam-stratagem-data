@@ -65,10 +65,10 @@
             "desc": "Use this Tactic at the end of the Movement phase. Choose up to three Striking Scorpion models from your kill team that were set up in Reserve, and set them up anywhere on the battlefield that is more than 5\" away from any enemy models.",
             "cp": 1,
             "phases": {
-            	"move": true
+                "move": true
             },
             "keywords": [
-            	"Striking Scorpion"
+                "Striking Scorpion"
             ]
         },
         {
@@ -77,7 +77,7 @@
             "desc": "Use this Tactic at the start of the Shooting phase. Until the end of that phase, when rolling to determine the number of attacks made by a flamer carried by a model in your kil team, treat rolls of a 1 or 2 as 3 instead.",
             "cp": 1,
             "phases": {
-            	"shoot": true
+                "shoot": true
             }
         },
         {
@@ -86,10 +86,10 @@
             "desc": "Use this Tactic at in the Shooting phase, when a Guardian Defender from your kill team is chose as the target for an attack. Until the end of the phase, that model has a 4+ invulnerable save.",
             "cp": 2,
             "phases": {
-            	"shoot": true
+                "shoot": true
             },
             "keywords": [
-            	"Guardian Defender"
+                "Guardian Defender"
             ]
         },
         {
@@ -98,10 +98,10 @@
             "desc": "Use this Tactic when a Commander from your kill team attempts to manifest a psychic power, before taking the Psychic test. Add 1 to the result of that Psychic test for each friendly model (other than shaken models) within 3\" of the model attempting to manifest the psychic power.",
             "cp": 1,
             "phases": {
-            	"psychic": true
+                "psychic": true
             },
             "keywords": [
-            	"Commander"
+                "Commander"
             ]
         },
         {
@@ -110,7 +110,7 @@
             "desc": "Use this Tactic at the end of the Movement phase. Choose up to three models from your kill team that were set up in Reserve. Set one of those models up anywhere on the battlefield that is more than 5\" away from any enemy models, then set up any remaining models within 2\" of that model, and more than 5\" away from any enemy models.",
             "cp": 2,
             "phases": {
-            	"move": true
+                "move": true
             }
         },
         {
@@ -119,7 +119,7 @@
             "desc": "Use this Tactic at the beginning of the first battle round. Pick a model from your kill team and set it up again, anywhere in your deployment zone.",
             "cp": 1,
             "phases": {
-            	"round": true
+                "round": true
             }
         },
         {
@@ -128,7 +128,7 @@
             "desc": "You can use this Tactic when you choose a model from your kill team to fight in the Fight phase. Until the end of that phase, you can RR wound rolls for attacks made by that model that target an enemy model with the Slaanesh keyword.",
             "cp": 1,
             "phases": {
-            	"fight": true
+                "fight": true
             }
         },
         {
@@ -137,7 +137,7 @@
             "desc": "Use this Tactic when you choose a model from your kill team to fight in the Fight phase. Until the end of the phase, each time you roll an unmodified hit roll of 6 for that model's attack, that model can immediately make another attack using the same weapon that targets the same target. These extra attacks cannot generate any additional attacks.",
             "cp": 1,
             "phases": {
-            	"fight": true
+                "fight": true
             }
         },
         {
@@ -146,10 +146,70 @@
             "desc": "Use this Tactic in the Shooting phase when you choose a Heavy Weapon Platform from your kill team to shoot. You can RR hit rolls for attacks made by that Heavy Weapon Platform until the end of the phase.",
             "cp": 1,
             "phases": {
+                "shoot": true
+            },
+            "keywords": [
+                "Heavy Weapon Platform"
+            ]
+        },
+        {
+            "title": "The Path of Command",
+            "sub": "Autarch Aura Tactic",
+            "desc": "Use this Tactic at the start of the battle round. As long as this model is not shaken, you can RR hit rolls of 1 for friendly models within 6\" of this model.",
+            "cp": 1,
+            "phases": {
+            	"round": true
+            },
+            "keywords": [
+                "Autarch"
+            ]
+        },
+        {
+            "title": "Spirit Mask",
+            "sub": "Spiritseer Aura Tactic",
+            "desc": "Use this Tactic at the start of the battle round. As long as this model is not shaken, you can RR hit rolls of 1 for friendly Spirit Host models that target enemy models within 6\" of this model.",
+            "cp": 1,
+            "phases": {
+            	"round": true
+            },
+            "keywords": [
+                "Spiritseer"
+            ]
+        },
+        {
+            "title": "Wayforger",
+            "sub": "Illic Nightspear Tactic",
+            "desc": "Use this Tactic at the start of the Shooting phase if your kill team includes Illic Nightspear and that model is not shaken. That model becomes Readied, and for the purposes of making shooting attacks in this phase, that model is considered to have remained stationary in the preceding Move phase.",
+            "cp": 2,
+            "phases": {
             	"shoot": true
             },
             "keywords": [
-            	"Heavy Weapon Platform"
+                "Illic Nightspear"
+            ]
+        },
+        {
+            "title": "Divine the Future",
+            "sub": "Farseer Tactic",
+            "desc": "Use this Tactic at the start of the Fight phase. Pick a Farseer (other than a shaken model) from your kill team. Enemy models within 6\" of that Farseer cannot be chosen to fight in the Hammer of Wrath section of that phase (even if they have charged) - tehy can only be chosen to fight in the Fight for your LIves section of that phase.",
+            "cp": 3,
+            "phases": {
+            	"fight": true
+            },
+            "keywords": [
+                "Farseer"
+            ]
+        },
+        {
+            "title": "Forewarned",
+            "sub": "Farseer Tactic",
+            "desc": "Use this Tactic at the end of the Movement phase. Pick a Farseer (other than a shaken model) from your kill team. All friendly models within 6\" of that Farseer that are not Readied and did not Advance, Charge, or Fall Back this battle round are now Readied.",
+            "cp": 3,
+            "phases": {
+            	"move": true
+            },
+            "keywords": [
+                "Farseer"
             ]
         }
     ]

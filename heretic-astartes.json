@@ -59,7 +59,7 @@
             "desc": "Use this Tactic at the start of the battle round. Pick 1 of the following Chaos marks:  Khorne, Tzeentch, Nurlge, or Slaanesh. Until the end of the battle round, all models from your kill team with no mark of Chaos, instead have the chose Chaos mark.",
             "cp": 1,
             "phases": {
-            	"round": true
+                "round": true
             }
         },
         {
@@ -68,10 +68,10 @@
             "desc": "Use this Tactic at the start of the Movement phase. Pick a model from your kill team with the Nurlge keyword. Add 1 to the Toughness characteristic of that model until the end of the battle round.",
             "cp": 1,
             "phases": {
-            	"move": true
+                "move": true
             },
             "keywords": [
-            	"Nurgle"
+                "Nurgle"
             ]
         },
         {
@@ -80,10 +80,10 @@
             "desc": "Use this Tactic in the Fight phase, when an attack made by a Commander from your kill team takes an enemy model out of action. Until the end of that phase, you can RR wound rolls for attacks made by friendly models, whilst they are within 6\" of this model.",
             "cp": 1,
             "phases": {
-            	"fight": true
+                "fight": true
             },
             "keywords": [
-            	"Commander"
+                "Commander"
             ]
         },
         {
@@ -92,10 +92,10 @@
             "desc": "Use this Tactic at the start of your Movement phase. Pick a Commander from your kill team to suffer 1 mortal wound. If that Commander is not taken out of action, you can choose to increase its Strength, Toughness or Attacks characteristic by 1 for the rest of the battle. You can only use this Tactic once per battle.",
             "cp": 1,
             "phases": {
-            	"move": true
+                "move": true
             },
             "keywords": [
-            	"Commander"
+                "Commander"
             ]
         },
         {
@@ -104,11 +104,11 @@
             "desc": "Use this Tactic at the start of the Morale phase. Pick a Chaos Cultist from your kill team within 3\" of a Chaos Space Marine (other than a shaken model) from your kill team. That Chaos Cultist is immediately taken out of action. Until the end of the phase, any Chaos Cultists from your kill team that have line of sight to that Chaos Space Marine automatically pass any Nerve tests.",
             "cp": 3,
             "phases": {
-            	"morale": true
+                "morale": true
             },
             "keywords": [
-            	"Chaos Cultist",
-            	"Chaos Space Marine"
+                "Chaos Cultist",
+                "Chaos Space Marine"
             ]
         },
         {
@@ -117,7 +117,7 @@
             "desc": "Use this Tactic in the Fire at Will section of the Shooting phase, when it is your turn to choose a model to shoot. Choose one model with the Slaanesh keyword that has already been chose to shoot once in this phase. That model can shoot again.",
             "cp": 2,
             "phases": {
-            	"shoot": true
+                "shoot": true
             }
         },
         {
@@ -126,12 +126,12 @@
             "desc": "Use this Tactic when a level 1, 2 or 3 Commander from your kill team takes an enemy Commander or Leader out of action with an attack or psychic power. Immediately increase the level of that Commander by 1, and choose an ability for them from their ability tree as normal. This bonus lasts until the end of the battle.",
             "cp": 3,
             "phases": {
-            	"shoot": true,
-            	"fight": true,
-            	"psychic": true
+                "shoot": true,
+                "fight": true,
+                "psychic": true
             },
             "keywords": [
-            	"Commander"
+                "Commander"
             ]
         },
         {
@@ -140,7 +140,7 @@
             "desc": "Use this Tactic when an enemy model suffers Perils of the Warp. Instead of rolling a D3 to determine the number of mortal wounds they suffered, they instead suffer 3 mortal wounds.",
             "cp": 3,
             "phases": {
-            	"psychic": true
+                "psychic": true
             }
         },
         {
@@ -149,7 +149,7 @@
             "desc": "Use this Tactic at the start of the Shooting phase. Choose an objective on the battlefield. Until the end of that phase, RR wound rolls of 1 for attacks made by models from your kill team that target enemy models within 3\" of that objective.",
             "cp": 2,
             "phases": {
-            	"shoot": true
+                "shoot": true
             }
         },
         {
@@ -158,10 +158,70 @@
             "desc": "Use this Tactic at the start of the Movement phase. Pick a model from your kill team with the Tzeentch keyword. If that model has no invulnerable save, it instead has a 5+ invulnerale save until the end of the battle round.",
             "cp": 1,
             "phases": {
-            	"move": true
+                "move": true
             },
             "keywords": [
-            	"Tzeentch"
+                "Tzeentch"
+            ]
+        },
+        {
+            "title": "Aspire to Glory",
+            "sub": "Exalted Champion Aura Tactic",
+            "desc": "Use this Tactic at the start of the Shooting phase. As long as this model is not shaken, you can RR wound rolls of 1 for friendly models within 6\" of this model.",
+            "cp": 1,
+            "phases": {
+            	"shoot": true
+            },
+            "keywords": [
+                "Exalted Champion"
+            ]
+        },
+        {
+            "title": "Locus of Power",
+            "sub": "Greater Possessed Aura Tactic",
+            "desc": "Use this Tactic at the start of the Fight phase. As long as this model is not shaken, add 1 to the Strength characteristic of friendly Daemon models within 6\" of this model that share the Khorne, Tzeentch, Nurgle, or Slaanesh keyword with this model.",
+            "cp": 1,
+            "phases": {
+            	"fight": true
+            },
+            "keywords": [
+                "Greater Possessed"
+            ]
+        },
+        {
+            "title": "Ritual Sacrifice",
+            "sub": "Master of Executions Tactic",
+            "desc": "Use this Tactic when a Master of Executions in your kill team takes an enemy model out of action with an attack in the Fight phase. Roll a d6. On a 2+ add 1 to the Master of Executions' Strength, Toughness, Wounds, or Attacks (choose one). You can only choose each characteristic once per mission and the characteristic increase lasts until the end of the mission.",
+            "cp": 1,
+            "phases": {
+            	"fight": true
+            },
+            "keywords": [
+                "Master of Executions"
+            ]
+        },
+        {
+            "title": "Dark Zealotry",
+            "sub": "Dark Apostle Aura Tactic",
+            "desc": "Use this Tactic at the start of the Fight phase. As long as this model is not shaken, you can RR failed hit rolls in the Fight phase for friendly models within 6\" of this model.",
+            "cp": 1,
+            "phases": {
+            	"fight": true
+            },
+            "keywords": [
+                "Dark Apostle"
+            ]
+        },
+        {
+            "title": "Lord of Chaos",
+            "sub": "Chaos Lord in Terminator Armour Aura",
+            "desc": "Use this Tactic at the start of the Shooting phase. As long as this model is not shaken, you can RR hit rolls of 1 for friendly models within 6\" of this model.",
+            "cp": 1,
+            "phases": {
+            	"shoot": true
+            },
+            "keywords": [
+                "Chaos Lord in Terminator Armour"
             ]
         }
     ]

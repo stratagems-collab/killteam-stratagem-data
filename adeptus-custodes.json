@@ -71,7 +71,7 @@
             "desc": "Use this Tactic when you choose a model from your kill team to fight in the Fight phase. Until the end of the phase, add 1 to wound rolls for attacks made by that model using a guardian spear.",
             "cp": 1,
             "phases": {
-            	"fight": true
+                "fight": true
             }
         },
         {
@@ -80,7 +80,7 @@
             "desc": "Use this Tactic when you choose an Allarus Custodian from your kill team to shoot with a balistus grenade launcher in the Shooting phase. Until the end of the battle round, that weapon has an AP characteristic of 0, but models that suffer any hits from that weapon cannot attack in the Shooting phase and your opponent must subtract 1 from hit rolls made for those models in the Fight phase.",
             "cp": 1,
             "phases": {
-            	"shoot": true
+                "shoot": true
             },
             "keywords": [
                 "Allarus Custodian"
@@ -95,7 +95,7 @@
             "desc": "Use this Tactic after a Commander from your kill team make a normal move. That model is Readied.",
             "cp": 1,
             "phases": {
-            	"move": true
+                "move": true
             },
             "keywords": [
                 "Commander"
@@ -107,7 +107,7 @@
             "desc": "Use this Tactic at the end of a battle round if a Commander from your kill team (other than a shaken model) is on the battlefield, and a roll is to be made to determine if the battle continues or ends. Before the roll is made, choose one: add 1 to the result, or subtract 1 from the result.",
             "cp": 3,
             "phases": {
-            	"round": true
+                "round": true
             },
             "keywords": [
                 "Commander"
@@ -119,7 +119,7 @@
             "desc": "Use this Tactic when a Commander from your kill team is taken out of action. Do not remove that model from the battlefiedl. Your opponent should finish resolving any attacks that target other models. Then, the Commander can immediately shoot as if it were the Shooting phase, or fight as if it were the Fight phase. Then remove the Commander from the battlefield.",
             "cp": 2,
             "phases": {
-            	"event": true
+                "event": true
             },
             "keywords": [
                 "Commander"
@@ -131,16 +131,16 @@
             "desc": "Use this Tactic when you choose a model from your kill team to fight in the Fight phase. Until the end of the phase, add 1 to wound rolls for attacks made by that model using a guardian spear.",
             "cp": 1,
             "phases": {
-            	"fight": true
+                "fight": true
             }
         },
         {
             "title": "Sentinel Storm",
             "sub": "Adeptus Custodes Tactic",
-            "desc": "Use this Tactic at the start of the Shooting phase. Choose a model from your kill team armed with a sentinel blade that is within 1\" of an enmy model. Until the end of the phase, change that weapon's profile to Pistol 4.",
+            "desc": "Use this Tactic at the start of the Shooting phase. Choose a model from your kill team armed with a sentinel blade that is within 1\" of an enemy model. Until the end of the phase, change that weapon's profile to Pistol 4.",
             "cp": 2,
             "phases": {
-            	"shoot": true
+                "shoot": true
             }
         },
         {
@@ -149,7 +149,7 @@
             "desc": "Use this Tactic at the start of the Movement phase. Choose an enemy model within 12\" of a model (other than a shaken model) from your kill team, and roll a D6. Until the end of the phase, that model's controllnig player must reduce that model's Move characteristic and charge rolls by the result. Units with the Fly keyword are not affected.",
             "cp": 1,
             "phases": {
-            	"move": true
+                "move": true
             }
         },
         {
@@ -158,8 +158,20 @@
             "desc": "Use this Tactic when you choose a model from your kill team to fight in the Fight phase. Until the end of that phase, you can RR wound rolls for attacks made by that model that target an enemy Heretic Astartes model.",
             "cp": 1,
             "phases": {
-            	"fight": true
+                "fight": true
             }
+        },
+        {
+            "title": "Inspirational Fighter",
+            "sub": "Shield-Captain Aura Tactic",
+            "desc": "As long as this model is not shaken, you can RR hit rolls of 1 for friendly models within 6\" of this model",
+            "cp": 1,
+            "phases": {
+            	"event": true
+            },
+            "keywords": [
+                "Shield-Captain"
+            ]
         }
     ]
 }

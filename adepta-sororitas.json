@@ -58,6 +58,30 @@
             "keywords": [
                 "Arco-flagellant"
             ]
+        },
+        {
+            "title": "Lead the Righteous",
+            "sub": "Cannoness Aura Tactic",
+            "desc": "Use this tactic at the start of the Shooting phase. As long as this model is not shaken, you can RR hit rolls of 1 for friendly models within 6\" of this model.",
+            "cp": 1,
+            "phases": {
+            	"shoot": true
+            },
+            "keywords": [
+                "Cannoness"
+            ]
+        },
+        {
+            "title": "Fervent Whipping",
+            "sub": "Repential Superior Aura Tactic",
+            "desc": "Use this tactic at the start of the Shooting phase. As long as this model is not shaken, you can RR hit rolls of 1 for friendly models within 6\" of this model.",
+            "cp": 1,
+            "phases": {
+            	"shoot": true
+            },
+            "keywords": [
+                "Repentia Superior"
+            ]
         }
     ]
 }
