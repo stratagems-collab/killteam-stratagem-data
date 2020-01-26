@@ -141,18 +141,6 @@
             ]
         },
         {
-            "title": "Aura of Discipline",
-            "sub": "Commissar Aura Tactic",
-            "desc": "Use this Tactic at the start of the Movement phase. As long as this model is not shaken, friendly moels within 6\" of this model can use this model's Leadership characteristic instead of their own, and automatically pass Nerve tests.",
-            "cp": 1,
-            "phases": {
-            	"move": true
-            },
-            "keywords": [
-                "Commissar"
-            ]
-        },
-        {
             "title": "I Am Your Worst Fear",
             "sub": "Commissar Aura Tactic",
             "desc": "Use this Tactic at the start of the Movement phase. As long as this model is not shaken, all friendly models within 6\" of this model ignore the penalty to their hit rolls from one flesh wound they have suffered.",
@@ -161,31 +149,9 @@
             	"move": true
             },
             "keywords": [
-                "Commissar"
-            ]
-        },
-        {
-            "title": "Aura of Discipline",
-            "sub": "Lord Commissar Aura Tactic",
-            "desc": "Use this Tactic at the start of the Movement phase. As long as this model is not shaken, friendly moels within 6\" of this model can use this model's Leadership characteristic instead of their own, and automatically pass Nerve tests.",
-            "cp": 1,
-            "phases": {
-            	"move": true
-            },
-            "keywords": [
-                "Lord Commissar"
-            ]
-        },
-        {
-            "title": "I Am Your Worst Fear",
-            "sub": "Commissar Aura Tactic",
-            "desc": "Use this Tactic at the start of the Movement phase. As long as this model is not shaken, all friendly models within 6\" of this model ignore the penalty to their hit rolls from one flesh wound they have suffered.",
-            "cp": 1,
-            "phases": {
-            	"move": true
-            },
-            "keywords": [
-                "Lord Commissar"
+                "Commissar",
+                "Lord Commissar",
+                "Feodor Lasko"
             ]
         },
         {
@@ -197,18 +163,7 @@
             	"shoot": true
             },
             "keywords": [
-                "Platoon Commander"
-            ]
-        },
-        {
-            "title": "Inspirational Command",
-            "sub": "Company Commander Tactic",
-            "desc": "Use this Tactic at the start of the Shooting phase before issuing an order with a Company Commander from your kill team. When you issue that order, it affects all other friendly models within 6\" of that model that are not shaken and have not been issued another order in this battle round. A model may still only be affectied by one order per battle round.",
-            "cp": 2,
-            "phases": {
-            	"shoot": true
-            },
-            "keywords": [
+                "Platoon Commander",
                 "Company Commander"
             ]
         },
@@ -233,19 +188,8 @@
             	"move": true
             },
             "keywords": [
-                "Feodor Lasko"
-            ]
-        },
-        {
-            "title": "I Am Your Worst Fear",
-            "sub": "Commissar Aura Tactic",
-            "desc": "Use this Tactic at the start of the Movement phase. As long as this model is not shaken, all friendly models within 6\" of this model ignore the penalty to their hit rolls from one flesh wound they have suffered.",
-            "cp": 1,
-            "phases": {
-            	"move": true
-            },
-            "keywords": [
-                "Feodor Lasko"
+                "Feodor Lasko",
+                "Lord Commissar"
             ]
         },
         {

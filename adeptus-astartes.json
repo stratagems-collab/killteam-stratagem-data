@@ -145,15 +145,6 @@
             }
         },
         {
-            "title": "Death Denied",
-            "sub": "Adeptus Astartes Tactic",
-            "desc": "Use this Tactic when one of your models is taken out of action. That model suffers a flesh wound instead.",
-            "cp": 3,
-            "phases": {
-                "event": true
-            }
-        },
-        {
             "title": "Psychological Warfare",
             "sub": "Adeptus Astartes Tactic",
             "desc": "Use this Tactic at the start of the Morale phase. Choose a Reiver from your kill team that took an enemy model out of action in the preceding Fight phase and is not shaken. Add 1 to any Nerve tests made this phase for enemy models within 6\" of the model you chose.",
@@ -199,23 +190,10 @@
             }
         },
         {
-            "title": "Angel of Death",
-            "sub": "Adeptus Astartes Tactic",
-            "desc": "Use this Tactic after choosing a model that charged in this battle round to fight with. Add 1 to that model's Attacks characteristics for this phase.",
-            "cp": 1,
-            "phases": {
-                "fight": true
-            },
-            "source": {
-                "id": "kta19",
-                "page": "129"
-            }
-        },
-        {
             "title": "Death Denied",
             "sub": "Adeptus Astartes Tactic",
             "desc": "Use this Tactic when one of your models is taken out of action. That model suffers a flesh wound instead.",
-            "cp": 2,
+            "cp": 3,
             "phases": {
                 "event": true
             },
@@ -298,7 +276,9 @@
             	"shoot": true
             },
             "keywords": [
-                "Primaris Captain"
+                "Primaris Captain",
+                "Captain in Phobos Armour",
+                "Captain in Terminator Armour"
             ]
         },
         {
@@ -310,91 +290,34 @@
             	"shoot": true
             },
             "keywords": [
-                "Primaris Lieutenant"
-            ]
-        },
-        {
-            "title": "Litanies of Hate",
-            "sub": "Primaris Chaplain Aura Tactic",
-            "desc": "Use this Tactic at the start of the Fight phase. As long as this model is not shaken, you can RR failed hit rolls in the Fight phase for friendly models within 6\" of this model.",
-            "cp": 1,
-            "phases": {
-            	"fight": true
-            },
-            "keywords": [
-                "Primaris Chaplain"
-            ]
-        },
-        {
-            "title": "Spiritual Leader",
-            "sub": "Primaris Chaplain Aura Tactic",
-            "desc": "Use this Tactic at the start of the Movement phase. As long as this model is not shaken, friendly models within 6\" of this model can use this model's Leadership characteristic instead of their own.",
-            "cp": 1,
-            "phases": {
-            	"move": true
-            },
-            "keywords": [
-                "Primaris Chaplain"
-            ]
-        },
-        {
-            "title": "Rites of Battle",
-            "sub": "Captain in Phobos Armour Aura",
-            "desc": "Use this Tactic at the start of the Shooting phase. As long as this model is not shaken, you can RR hit rolls of 1 for friendly models within 6\" of this model.",
-            "cp": 1,
-            "phases": {
-            	"shoot": true
-            },
-            "keywords": [
-                "Captain in Phobos Armour"
-            ]
-        },
-        {
-            "title": "Tactical Precision",
-            "sub": "Lieutenant in Phobos Armour Aura",
-            "desc": "Use this Tactic at the start of the Shooting phase. As long as this model is not shaken, you can RR wound rolls of 1 for friendly models within 6\" of this model.",
-            "cp": 1,
-            "phases": {
-            	"shoot": true
-            },
-            "keywords": [
+                "Primaris Lieutenant",
                 "Lieutenant in Phobos Armour"
             ]
         },
         {
             "title": "Litanies of Hate",
-            "sub": "Chaplain in Terminator Armour Aura",
+            "sub": "Primaris Chaplain Aura Tactic",
             "desc": "Use this Tactic at the start of the Fight phase. As long as this model is not shaken, you can RR failed hit rolls in the Fight phase for friendly models within 6\" of this model.",
             "cp": 1,
             "phases": {
             	"fight": true
             },
             "keywords": [
+                "Primaris Chaplain",
                 "Chaplain in Terminator Armour"
             ]
         },
         {
             "title": "Spiritual Leader",
-            "sub": "Chaplain in Terminator Armour Aura",
+            "sub": "Primaris Chaplain Aura Tactic",
             "desc": "Use this Tactic at the start of the Movement phase. As long as this model is not shaken, friendly models within 6\" of this model can use this model's Leadership characteristic instead of their own.",
             "cp": 1,
             "phases": {
             	"move": true
             },
             "keywords": [
+                "Primaris Chaplain",
                 "Chaplain in Terminator Armour"
-            ]
-        },
-        {
-            "title": "Rites of Battle",
-            "sub": "Captain in Phobos Armour Aura",
-            "desc": "Use this Tactic at the start of the Shooting phase. As long as this model is not shaken, you can RR hit rolls of 1 for friendly models within 6\" of this model.",
-            "cp": 1,
-            "phases": {
-            	"shoot": true
-            },
-            "keywords": [
-                "Captain in Terminator Armour"
             ]
         }
     ]

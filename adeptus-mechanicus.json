@@ -243,42 +243,7 @@
             	"shoot": true
             },
             "keywords": [
-                "Tech-priest Dominus"
-            ]
-        },
-        {
-            "title": "Xenotech Divination",
-            "sub": "Tech-priest Dominus Tactic",
-            "desc": "Use this Tactic at the end of a mission in which any of your opponens used any models that did not have the Imperium or Chaos keyword, if your kill team includes a Tech-priest Dominus that is not out of action or shaken  If you do, roll a D6, on a 5+ you gain 1 Material. You can only use this Tactic once per mission.",
-            "cp": 2,
-            "phases": {
-            	"event": true
-            },
-            "keywords": [
-                "Tech-priest Dominus"
-            ]
-        },
-        {
-            "title": "Galvanic Pulse",
-            "sub": "Tech-priest Manipulus Aura Tactic",
-            "desc": "Use this Tactic at the start of the Movement phase. As long as this model is not shaken, you can add 1 to all Move characteristics for friendly models that begin your turn in the Movement phase within 6\" of this model.",
-            "cp": 1,
-            "phases": {
-            	"move": true
-            },
-            "keywords": [
-                "Tech-priest Manipulus"
-            ]
-        },
-        {
-            "title": "Lord of the Machine Cult",
-            "sub": "Tech-priest Dominus Aura Tactic",
-            "desc": "Use this Tactic at the start of the Shooting phase. As long as this model is not shaken, you can RR hit rolls of 1 in the Shooting phase for friendly models within 6\" of this model.",
-            "cp": 1,
-            "phases": {
-            	"shoot": true
-            },
-            "keywords": [
+                "Tech-priest Dominus",
                 "Magos Dalathrust"
             ]
         },
@@ -291,6 +256,7 @@
             	"event": true
             },
             "keywords": [
+                "Tech-priest Dominus",
                 "Magos Dalathrust"
             ]
         },
@@ -303,6 +269,7 @@
             	"move": true
             },
             "keywords": [
+                "Tech-priest Manipulus",
                 "Balphamus Vaulk"
             ]
         }

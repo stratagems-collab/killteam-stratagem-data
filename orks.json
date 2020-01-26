@@ -158,7 +158,8 @@
             	"round": true
             },
             "keywords": [
-                "Warboss"
+                "Warboss",
+                "Gitzog Wurldkilla"
             ]
         },
         {
@@ -170,7 +171,8 @@
             	"event": true
             },
             "keywords": [
-                "Warboss"
+                "Warboss",
+                "Gitzog Wurldkilla"
             ]
         },
         {
@@ -195,30 +197,6 @@
             },
             "keywords": [
                 "Painboy"
-            ]
-        },
-        {
-            "title": "Mega-Waaagh!",
-            "sub": "Warboss Aura Tactic",
-            "desc": "Use this Tactic at the start of the battle round. As long as this model is not shaken, you may roll 3D6 instead of 2D6 when making charge rolls for friendly models within 6\" of this model, and discard the lowest result.",
-            "cp": 1,
-            "phases": {
-            	"round": true
-            },
-            "keywords": [
-                "Gitzog Wurldkilla"
-            ]
-        },
-        {
-            "title": "Breakin' Heads",
-            "sub": "Warboss Tactic",
-            "desc": "Use this Tactic at the start of any phase. Pick another friendly model within 3\" of a Warboss from your kill team that is not shaken. That model suffers 1 mortal wound and friendly models within 6\" of the Warboss are no longer shaken; remove their shaken tokens.",
-            "cp": 1,
-            "phases": {
-            	"event": true
-            },
-            "keywords": [
-                "Gitzog Wurldkilla"
             ]
         },
         {

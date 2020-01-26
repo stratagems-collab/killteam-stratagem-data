@@ -147,115 +147,60 @@
             	"shoot": true
             },
             "keywords": [
-                "Primaris Captain"
-            ]
-        },
-        {
-            "title": "Litanies of Hate",
-            "sub": "Primaris Chaplain Aura Tactic",
-            "desc": "Use this Tactic at the start of the Fight phase. As long as this model is not shaken, you can RR failed hit rolls in the Fight phase for friendly models within 6\" of this model.",
-            "cp": 1,
-            "phases": {
-            	"fight": true
-            },
-            "keywords": [
-                "Primaris Chaplain"
-            ]
-        },
-        {
-            "title": "Spiritual Leader",
-            "sub": "Primaris Chaplain Aura Tactic",
-            "desc": "Use this Tactic at the start of the Movement phase. As long as this model is not shaken, friendly models within 6\" of this model can use this model's Leadership characteristic instead of their own.",
-            "cp": 1,
-            "phases": {
-            	"move": true
-            },
-            "keywords": [
-                "Primaris Chaplain"
-            ]
-        },
-        {
-            "title": "Master of Battle",
-            "sub": "Watch Master Aura Tactic",
-            "desc": "Use this Tactic at the start of the Shooting phase. As long as this model is not shaken, you can RR failed hit rolls for friendly models within 6\" of this model.",
-            "cp": 2,
-            "phases": {
-            	"shoot": true
-            },
-            "keywords": [
-                "Watch Master"
-            ]
-        },
-        {
-            "title": "Steel Your Minds",
-            "sub": "Watch Master Aura Tactic",
-            "desc": "Use this Tactic at the start of the Movement phase. As long as this model is not shaken, all friendly models within 6\" of this model ignore the penalty to their hit rolls from all flesh wounds they have suffered.",
-            "cp": 1,
-            "phases": {
-            	"move": true
-            },
-            "keywords": [
-                "Watch Master"
-            ]
-        },
-        {
-            "title": "Master of Battle",
-            "sub": "Watch Master Aura Tactic",
-            "desc": "Use this Tactic at the start of the Shooting phase. As long as this model is not shaken, you can RR failed hit rolls for friendly models within 6\" of this model.",
-            "cp": 2,
-            "phases": {
-            	"shoot": true
-            },
-            "keywords": [
-                "Gaius Acastian"
-            ]
-        },
-        {
-            "title": "Steel Your Minds",
-            "sub": "Watch Master Aura Tactic",
-            "desc": "Use this Tactic at the start of the Movement phase. As long as this model is not shaken, all friendly models within 6\" of this model ignore the penalty to their hit rolls from all flesh wounds they have suffered.",
-            "cp": 1,
-            "phases": {
-            	"move": true
-            },
-            "keywords": [
-                "Gaius Acastian"
-            ]
-        },
-        {
-            "title": "Litanies of Hate",
-            "sub": "Chaplain in Terminator Armour Aura",
-            "desc": "Use this Tactic at the start of the Fight phase. As long as this model is not shaken, you can RR failed hit rolls in the Fight phase for friendly models within 6\" of this model.",
-            "cp": 1,
-            "phases": {
-            	"fight": true
-            },
-            "keywords": [
-                "Chaplain in Terminator Armour"
-            ]
-        },
-        {
-            "title": "Spiritual Leader",
-            "sub": "Chaplain in Terminator Armour Aura",
-            "desc": "Use this Tactic at the start of the Movement phase. As long as this model is not shaken, friendly models within 6\" of this model can use this model's Leadership characteristic instead of their own.",
-            "cp": 1,
-            "phases": {
-            	"move": true
-            },
-            "keywords": [
-                "Chaplain in Terminator Armour"
-            ]
-        },
-        {
-            "title": "Rites of Battle",
-            "sub": "Captain in Phobos Armour Aura",
-            "desc": "Use this Tactic at the start of the Shooting phase. As long as this model is not shaken, you can RR hit rolls of 1 for friendly models within 6\" of this model.",
-            "cp": 1,
-            "phases": {
-            	"shoot": true
-            },
-            "keywords": [
+                "Primaris Captain",
                 "Captain in Terminator Armour"
+            ]
+        },
+        {
+            "title": "Litanies of Hate",
+            "sub": "Primaris Chaplain Aura Tactic",
+            "desc": "Use this Tactic at the start of the Fight phase. As long as this model is not shaken, you can RR failed hit rolls in the Fight phase for friendly models within 6\" of this model.",
+            "cp": 1,
+            "phases": {
+            	"fight": true
+            },
+            "keywords": [
+                "Primaris Chaplain",
+                "Chaplain in Terminator Armour"
+            ]
+        },
+        {
+            "title": "Spiritual Leader",
+            "sub": "Primaris Chaplain Aura Tactic",
+            "desc": "Use this Tactic at the start of the Movement phase. As long as this model is not shaken, friendly models within 6\" of this model can use this model's Leadership characteristic instead of their own.",
+            "cp": 1,
+            "phases": {
+            	"move": true
+            },
+            "keywords": [
+                "Primaris Chaplain",
+                "Chaplain in Terminator Armour"
+            ]
+        },
+        {
+            "title": "Master of Battle",
+            "sub": "Watch Master Aura Tactic",
+            "desc": "Use this Tactic at the start of the Shooting phase. As long as this model is not shaken, you can RR failed hit rolls for friendly models within 6\" of this model.",
+            "cp": 2,
+            "phases": {
+            	"shoot": true
+            },
+            "keywords": [
+                "Watch Master",
+                "Gaius Acastian"
+            ]
+        },
+        {
+            "title": "Steel Your Minds",
+            "sub": "Watch Master Aura Tactic",
+            "desc": "Use this Tactic at the start of the Movement phase. As long as this model is not shaken, all friendly models within 6\" of this model ignore the penalty to their hit rolls from all flesh wounds they have suffered.",
+            "cp": 1,
+            "phases": {
+            	"move": true
+            },
+            "keywords": [
+                "Watch Master",
+                "Gaius Acastian"
             ]
         }
     ]
