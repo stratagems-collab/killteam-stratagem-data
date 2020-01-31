@@ -81,8 +81,8 @@ func main() {
 	factions := make([]StratagemFaction, 0)
 	
 	for i:=0; i<len(catalog.Factions); i++ {
-		
-		factionFile, err := os.Open(catalog.Factions[i]+".json")
+		filename := catalog.Factions[i]+".json"
+		factionFile, err := os.Open(filename)
 		if err != nil {
 		    fmt.Println(err)
 		}
@@ -95,6 +95,16 @@ func main() {
 			fmt.Println("Error while parsing " + catalog.Factions[i]+".json" + " line: " + strconv.Itoa(line) + ", char: " + strconv.Itoa(char))
 			fmt.Println(err)
 		}
+		for j, t := range faction.Stratagems {
+			for k, ta := range faction.Stratagems {
+				if j != k {
+					if ta.Title == t.Title {
+						panic("error duplicate tactic in " + filename + ":" + ta.Title)
+					}
+				}
+			}
+		}
+
 		fmt.Println(faction.Code + " containing " + strconv.Itoa(len(faction.Stratagems)) + " tactics.")
 		factions = append(factions, faction)
 	}
