@@ -128,10 +128,14 @@
         {
             "title": "Avenge the Fallen",
             "sub": "Adeptus Custodes Tactic",
-            "desc": "Use this Tactic when you choose a model from your kill team to fight in the Fight phase. Until the end of the phase, add 1 to wound rolls for attacks made by that model using a guardian spear.",
+            "desc": "Use this Tactic when you choose a model from your kill team to fight in the Fight phase. Until the end of the phase, increase the Attacks characteristic of that model by D3 if at least one model from your kill team is out of action.",
             "cp": 1,
             "phases": {
                 "fight": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "149"
             }
         },
         {
