@@ -394,6 +394,19 @@
 			"phases": {
 				"event": true
 			}
+		},
+		{
+			"title": "Outflank",
+			"sub": "Tactic",
+			"desc": "Use this Tactic at the end of the Movement phase. Choose a model from your kill team that was set up in Reserve and set them up within 1\" of the edge of the battlefield, and more than 5\" away from any enemy models.",
+			"cp": 1,
+			"phases": {
+				"move": true
+			},
+			"source": {
+                "id": "kta19",
+                "page": "99"
+            }
 		}
 	]
 }
