@@ -29,7 +29,7 @@ jobs:
         fi
     
     - name: Build
-      run: go build -v . && ./killteam-stratagem-data catalog.json 
+      run: go build -v . && ./killteam-stratagem-data -filename catalog.json --gitversion
     
     - name: Create Release
       id: create_release
@@ -42,8 +42,8 @@ jobs:
         draft: false
         prerelease: true
       
-    - name: Upload Release Asset
-      id: upload-release-asset 
+    - name: Upload Release Asset (data.json)
+      id: upload-release-asset-1 
       uses: actions/upload-release-asset@v1.0.1
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -51,4 +51,15 @@ jobs:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
         asset_path: ./data.json
         asset_name: data.json
+        asset_content_type: application/json
+
+    - name: Upload Release Asset (header.json)
+      id: upload-release-asset-2
+      uses: actions/upload-release-asset@v1.0.1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: ./header.json
+        asset_name: header.json
         asset_content_type: application/json
