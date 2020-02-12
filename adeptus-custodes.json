@@ -15,7 +15,11 @@
             ],
             "equipment": [
                 "balistus grenade launcher"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "149"
+            }
         },
         {
             "title": "From Golden Light",
@@ -27,7 +31,11 @@
             },
             "keywords": [
                 "Terminator"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "149"
+            }
         },
         {
             "title": "Ever Vigilant",
@@ -36,6 +44,10 @@
             "cp": 2,
             "phases": {
                 "move": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "150"
             }
         },
         {
@@ -45,6 +57,10 @@
             "cp": 1,
             "phases": {
                 "morale": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "148"
             }
         },
         {
@@ -54,6 +70,10 @@
             "cp": 1,
             "phases": {
                 "psychic": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "149"
             }
         },
         {
@@ -63,6 +83,10 @@
             "cp": 1,
             "phases": {
                 "event": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "148"
             }
         },
         {
@@ -72,12 +96,16 @@
             "cp": 1,
             "phases": {
                 "fight": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "148"
             }
         },
         {
             "title": "Inescapable Vengeance",
             "sub": "Adeptus Custodes Tactic",
-            "desc": "Use this Tactic when you choose an Allarus Custodian from your kill team to shoot with a balistus grenade launcher in the Shooting phase. Until the end of the battle round, that weapon has an AP characteristic of 0, but models that suffer any hits from that weapon cannot attack in the Shooting phase and your opponent must subtract 1 from hit rolls made for those models in the Fight phase.",
+            "desc": "Use this Tactic when you choose an Allarus Custodian from your kill team to shoot in the Shooting phase. Until the end of that phase, you can re-roll wound rolls for attacks made by that model that target an enemy Commander.",
             "cp": 1,
             "phases": {
                 "shoot": true
@@ -85,9 +113,10 @@
             "keywords": [
                 "Allarus Custodian"
             ],
-            "equipment": [
-                "balistus grenade launcher"
-            ]
+            "source": {
+                "id": "kta19",
+                "page": "148"
+            }
         },
         {
             "title": "Swift In Thought and Action",
@@ -99,7 +128,11 @@
             },
             "keywords": [
                 "Commander"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "149"
+            }
         },
         {
             "title": "Aquila Commander",
@@ -111,7 +144,11 @@
             },
             "keywords": [
                 "Commander"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "149"
+            }
         },
         {
             "title": "Even in Death",
@@ -123,7 +160,11 @@
             },
             "keywords": [
                 "Commander"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "149"
+            }
         },
         {
             "title": "Avenge the Fallen",
@@ -145,6 +186,10 @@
             "cp": 2,
             "phases": {
                 "shoot": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "149"
             }
         },
         {
@@ -154,6 +199,10 @@
             "cp": 1,
             "phases": {
                 "move": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "150"
             }
         },
         {
@@ -163,6 +212,10 @@
             "cp": 1,
             "phases": {
                 "fight": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "150"
             }
         },
         {
@@ -175,7 +228,11 @@
             },
             "keywords": [
                 "Shield-Captain"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "150"
+            }
         }
     ]
 }

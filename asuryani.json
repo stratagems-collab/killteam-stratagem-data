@@ -12,7 +12,11 @@
             },
             "keywords": [
                 "Dire Avenger"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "166"
+            }
         },
         {
             "title": "Feigned Retreat",
@@ -21,6 +25,10 @@
             "cp": 1,
             "phases": {
                 "event": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "165"
             }
         },
         {
@@ -30,6 +38,10 @@
             "cp": 1,
             "phases": {
                 "shoot": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "165"
             }
         },
         {
@@ -39,6 +51,10 @@
             "cp": 1,
             "phases": {
                 "move": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "165"
             }
         },
         {
@@ -48,6 +64,10 @@
             "cp": 2,
             "phases": {
                 "round_one": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "165"
             }
         },
         {
@@ -57,6 +77,10 @@
             "cp": 2,
             "phases": {
                 "event": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "166"
             }
         },
         {
@@ -78,6 +102,10 @@
             "cp": 1,
             "phases": {
                 "shoot": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "164"
             }
         },
         {
@@ -90,7 +118,11 @@
             },
             "keywords": [
                 "Guardian Defender"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "164"
+            }
         },
         {
             "title": "Psychic Bond",
@@ -102,7 +134,11 @@
             },
             "keywords": [
                 "Commander"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "164"
+            }
         },
         {
             "title": "Warriors of the Webway",
@@ -111,15 +147,26 @@
             "cp": 2,
             "phases": {
                 "move": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "165"
             }
         },
         {
             "title": "Appear Unbidden",
             "sub": "Asuryani Tactic",
-            "desc": "Use this Tactic at the beginning of the first battle round. Pick a model from your kill team and set it up again, anywhere in your deployment zone.",
+            "desc": "Use this Tactic at the beginning of the first battle round. Choose up to three Ranger models from your kill team that were set up in Reserve, and set them up anywhere on the battlefield that is more than 9\" away from any enemy deployment zone.",
             "cp": 1,
             "phases": {
                 "round": true
+            },
+            "keywords": [
+                "Ranger"
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "165"
             }
         },
         {
@@ -129,6 +176,10 @@
             "cp": 1,
             "phases": {
                 "fight": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "165"
             }
         },
         {
@@ -138,6 +189,10 @@
             "cp": 1,
             "phases": {
                 "fight": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "165"
             }
         },
         {
@@ -150,7 +205,11 @@
             },
             "keywords": [
                 "Heavy Weapon Platform"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "165"
+            }
         },
         {
             "title": "The Path of Command",
@@ -162,7 +221,11 @@
             },
             "keywords": [
                 "Autarch"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "166"
+            }
         },
         {
             "title": "Spirit Mask",
@@ -174,7 +237,11 @@
             },
             "keywords": [
                 "Spiritseer"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "166"
+            }
         },
         {
             "title": "Wayforger",
@@ -186,7 +253,11 @@
             },
             "keywords": [
                 "Illic Nightspear"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "166"
+            }
         },
         {
             "title": "Divine the Future",
@@ -198,7 +269,11 @@
             },
             "keywords": [
                 "Farseer"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "166"
+            }
         },
         {
             "title": "Forewarned",
@@ -210,7 +285,11 @@
             },
             "keywords": [
                 "Farseer"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "166"
+            }
         }
     ]
 }
