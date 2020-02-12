@@ -9,6 +9,10 @@
             "cp": 2,
             "phases": {
                 "move": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "157"
             }
         },
         {
@@ -18,6 +22,10 @@
             "cp": 2,
             "phases": {
                 "round_one": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "157"
             }
         },
         {
@@ -27,6 +35,10 @@
             "cp": 1,
             "phases": {
                 "fight": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "158"
             }
         },
         {
@@ -36,6 +48,10 @@
             "cp": 2,
             "phases": {
                 "move": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "158"
             }
         },
         {
@@ -45,6 +61,10 @@
             "cp": 2,
             "phases": {
                 "event": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "156"
             }
         },
         {
@@ -57,7 +77,11 @@
             },
             "keywords": [
                 "Terminator"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "156"
+            }
         },
         {
             "title": "Teleport Strike",
@@ -69,7 +93,11 @@
             },
             "keywords": [
                 "Terminator"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "156"
+            }
         },
         {
             "title": "Death March",
@@ -78,6 +106,10 @@
             "cp": 1,
             "phases": {
                 "move": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "156"
             }
         },
         {
@@ -88,6 +120,10 @@
             "phases": {
                 "shoot": true,
                 "fight": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "157"
             }
         },
         {
@@ -97,6 +133,10 @@
             "cp": 1,
             "phases": {
                 "event": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "157"
             }
         },
         {
@@ -106,24 +146,36 @@
             "cp": 3,
             "phases": {
                 "round": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "157"
             }
         },
         {
             "title": "Grasping Tentacles",
             "sub": "Death Guard Tactic",
-            "desc": "Use this Tactic at the start of the Movement phase. Until the end of that phase, increase the Move characteristic of all models in your kill team by 2\". However, until the end of that phase, models from your kil team may not Fall Back, Advance or charge.",
+            "desc": "Use this Tactic at the start of the Movement phase. Choose a model (other than a shaken model) from your kill team that is within 1\" of one or more enemy models, and choose one of the those enemy models. Neither of the models chosen can make a Fall Back move in this phase.",
             "cp": 1,
             "phases": {
                 "move": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "158"
             }
         },
         {
             "title": "Inured to Pain",
             "sub": "Death Guard Tactic",
-            "desc": "Use this Tactic when a model from your kill team loses a wound in the Fight phase. Roll a D6 for each enemy model within 1\" of that model. On a 6 that enemy model suffers 1 mortal wound after all of its attacks have been resolved.",
+            "desc": "Use this Tactic when a model from your kill team suffers a flesh wound. Ignore any penalties to hit from flesh wounds for attacks made by that model for the rest of the battle.",
             "cp": 2,
             "phases": {
-                "fight": true
+                "event": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "158"
             }
         },
         {
@@ -136,7 +188,11 @@
             },
             "keywords": [
                 "Foul Blightspawn"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "159"
+            }
         },
         {
             "title": "Festering Zealot",
@@ -148,7 +204,11 @@
             },
             "keywords": [
                 "Tallyman"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "159"
+            }
         },
         {
             "title": "Blight Racks",
@@ -160,7 +220,11 @@
             },
             "keywords": [
                 "Biologus Putrifier"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "159"
+            }
         },
         {
             "title": "Tainted Narthecium",
@@ -172,7 +236,11 @@
             },
             "keywords": [
                 "Plague Surgeon"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "159"
+            }
         },
         {
             "title": "Vector of Contagion",
@@ -184,7 +252,11 @@
             },
             "keywords": [
                 "Lord of Contagion"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "159"
+            }
         }
     ]
 }

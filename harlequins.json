@@ -9,6 +9,10 @@
             "cp": 2,
             "phases": {
                 "event": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "172"
             }
         },
         {
@@ -18,6 +22,10 @@
             "cp": 1,
             "phases": {
                 "shoot": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "172"
             }
         },
         {
@@ -27,6 +35,10 @@
             "cp": 1,
             "phases": {
                 "fight": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "172"
             }
         },
         {
@@ -36,6 +48,10 @@
             "cp": 1,
             "phases": {
                 "move": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "172"
             }
         },
         {
@@ -45,6 +61,10 @@
             "cp": 2,
             "phases": {
                 "fight": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "172"
             }
         },
         {
@@ -54,6 +74,10 @@
             "cp": 1,
             "phases": {
                 "move": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "172"
             }
         },
         {
@@ -63,6 +87,10 @@
             "cp": 1,
             "phases": {
                 "move": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "172"
             }
         },
         {
@@ -72,6 +100,10 @@
             "cp": 1,
             "phases": {
                 "morale": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "172"
             }
         },
         {
@@ -84,15 +116,23 @@
             },
             "keywords": [
                 "Commander"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "173"
+            }
         },
         {
-            "title": "Ghosts of the Webwar",
+            "title": "Ghosts of the Webway",
             "sub": "Harlequins Tactic",
             "desc": "Use this Tactic at the end of the Movement phase. Choose up to three models from your kill team that were set up in Reserve. Set one of those models up anywhere on the battlefield that is more than 5\" away from any enemy models, then set up any remaining models within 2\" of that model, and more than 5\" away from any enemy models.",
             "cp": 2,
             "phases": {
                 "move": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "173"
             }
         },
         {
@@ -102,6 +142,10 @@
             "cp": 2,
             "phases": {
                 "move": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "173"
             }
         },
         {
@@ -114,7 +158,11 @@
             },
             "equipment": [
                 "Pistol"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "173"
+            }
         },
         {
             "title": "Staged Illusion",
@@ -126,15 +174,23 @@
             },
             "keywords": [
                 "Shadowseer"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "174"
+            }
         },
         {
             "title": "Trickery and Deception",
             "sub": "Harlequins Tactic",
-            "desc": "Use this Tactic at the end of the Movement phase. Choose up to three models from your kill team that were set up in Reserve. Set one of those models up anywhere on the battlefield that is more than 5\" away from any enemy models, then set up any remaining models within 2\" of that model, and more than 5\" away from any enemy models.",
+            "desc": "Use this Tactic at the end of the Movement phase. Choose two models from your kill team (other than shaken models) that are within 8\" of each other. Mark each model's position with a counter, then remove each model from the battlefield and place each model in the exact position the other previously occupied.\nIf either of those models are no longer within 1\" of any enemy models, they are considered to have Fallen Back (even if they did not start the phase within 1\" of an enemy model). If either of those models are within 1\" of any enemy models, they are considered to have charged all enemy models within 1\".",
             "cp": 1,
             "phases": {
                 "move": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "174"
             }
         },
         {
@@ -147,7 +203,11 @@
             },
             "keywords": [
                 "Troupe Master"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "174"
+            }
         },
         {
             "title": "The Art of the Kill",
@@ -159,7 +219,11 @@
             },
             "keywords": [
                 "Death Jester"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "174"
+            }
         }
     ]
 }

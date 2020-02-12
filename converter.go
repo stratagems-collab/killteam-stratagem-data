@@ -115,6 +115,9 @@ func main() {
 					if ta.Title == t.Title {
 						panic("error duplicate tactic in " + filename + ":" + ta.Title)
 					}
+					if ta.Description == t.Description {
+						panic("error duplicate tactic description in " + filename + ":" + ta.Title)
+					}
 				}
 			}
 		}

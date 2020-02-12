@@ -15,7 +15,11 @@
             ],
             "equipment": [
                 "storm bolter"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "106"
+            }
         },
         {
             "title": "Burn the Heretic!",
@@ -30,7 +34,11 @@
             ],
             "equipment": [
                 "flamer"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "106"
+            }
         },
         {
             "title": "Eviscerating Blow",
@@ -45,7 +53,11 @@
             ],
             "equipment": [
                 "penitent eviscerator"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "106"
+            }
         },
         {
             "title": "Frenzied Thrashing",
@@ -57,7 +69,11 @@
             },
             "keywords": [
                 "Arco-flagellant"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "106"
+            }
         },
         {
             "title": "Lead the Righteous",
@@ -69,19 +85,27 @@
             },
             "keywords": [
                 "Cannoness"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "106"
+            }
         },
         {
             "title": "Fervent Whipping",
             "sub": "Repential Superior Aura Tactic",
-            "desc": "Use this tactic at the start of the Shooting phase. As long as this model is not shaken, you can RR hit rolls of 1 for friendly models within 6\" of this model.",
+            "desc": "Use this tactic at the start of the Shooting phase. As long as this model is not shaken, you can RR wound rolls of 1 for attacks made with melee weapons by friendly Sister Repentia models that are within 6\" of this model.",
             "cp": 1,
             "phases": {
             	"shoot": true
             },
             "keywords": [
                 "Repentia Superior"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "106"
+            }
         }
     ]
 }
