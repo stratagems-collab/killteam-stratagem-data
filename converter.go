@@ -142,6 +142,8 @@ func main() {
 		catalog.Package.VersionCode = commits
 	}
 
+	fmt.Println("VersionName:", catalog.Package.VersionName, "VersionCode:", catalog.Package.VersionCode)
+
 	//serialize minimal header
 	strataGemJson, _ := json.MarshalIndent(catalog.Package, "", "\t")
 	err = ioutil.WriteFile("header.json", strataGemJson, 0644)
