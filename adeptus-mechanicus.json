@@ -12,7 +12,11 @@
             },
             "equipment": [
                 "enhanced data-tether"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "145"
+            }
         },
         {
             "title": "Dunestrider",
@@ -21,6 +25,10 @@
             "cp": 1,
             "phases": {
                 "move": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "145"
             }
         },
         {
@@ -30,6 +38,10 @@
             "cp": 1,
             "phases": {
                 "event": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "146"
             }
         },
         {
@@ -42,7 +54,11 @@
             },
             "equipment": [
                 "enhanced data-tether"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "145"
+            }
         },
         {
             "title": "Infiltrators",
@@ -55,7 +71,11 @@
             "keywords": [
                 "Infiltrator",
                 "Sicarian Infiltrator"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "146"
+            }
         },
         {
             "title": "Auto-tracking Software",
@@ -64,6 +84,10 @@
             "cp": 1,
             "phases": {
                 "move": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "145"
             }
         },
         {
@@ -76,7 +100,11 @@
             },
             "equipment": [
                 "transuranic arquebus"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "144"
+            }
         },
         {
             "title": "Optimal Conditions",
@@ -85,6 +113,10 @@
             "cp": 1,
             "phases": {
                 "move": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "146"
             }
         },
         {
@@ -94,6 +126,10 @@
             "cp": 1,
             "phases": {
                 "move": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "145"
             }
         },
         {
@@ -103,6 +139,10 @@
             "cp": 1,
             "phases": {
                 "event": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "146"
             }
         },
         {
@@ -117,7 +157,11 @@
                 "chordclaw",
                 "transonic blades",
                 "transonic razor"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "144"
+            }
         },
         {
             "title": "Auto-repair Protocols",
@@ -129,7 +173,11 @@
             },
             "keywords": [
                 "Commander"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "146"
+            }
         },
         {
             "title": "Alpha Target Proximity",
@@ -138,6 +186,10 @@
             "cp": 1,
             "phases": {
                 "fight": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "146"
             }
         },
         {
@@ -147,6 +199,10 @@
             "cp": 1,
             "phases": {
                 "morale": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "146"
             }
         },
         {
@@ -160,7 +216,11 @@
             "keywords": [
                 "Infiltrator",
                 "Sicarian Infiltrator"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "145"
+            }
         },
         {
             "title": "Reknit Circuitry",
@@ -169,6 +229,10 @@
             "cp": 2,
             "phases": {
                 "morale": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "146"
             }
         },
         {
@@ -178,6 +242,10 @@
             "cp": 1,
             "phases": {
                 "move": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "144"
             }
         },
         {
@@ -187,6 +255,10 @@
             "cp": 2,
             "phases": {
                 "round": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "146"
             }
         },
         {
@@ -196,6 +268,10 @@
             "cp": 1,
             "phases": {
                 "round": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "145"
             }
         },
         {
@@ -208,7 +284,11 @@
             },
             "equipment": [
                 "electrostatic gauntlets"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "144"
+            }
         },
         {
             "title": "Omnissiah's Tears",
@@ -220,7 +300,11 @@
             },
             "keywords": [
                 "Electro-priest"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "146"
+            }
         },
         {
             "title": "Repair Artisan",
@@ -232,7 +316,11 @@
             },
             "keywords": [
                 "Tech-priest Enginseer"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "147"
+            }
         },
         {
             "title": "Lord of the Machine Cult",
@@ -245,7 +333,11 @@
             "keywords": [
                 "Tech-priest Dominus",
                 "Magos Dalathrust"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "147"
+            }
         },
         {
             "title": "Xenotech Divination",
@@ -258,7 +350,11 @@
             "keywords": [
                 "Tech-priest Dominus",
                 "Magos Dalathrust"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "147"
+            }
         },
         {
             "title": "Galvanic Pulse",
@@ -271,7 +367,11 @@
             "keywords": [
                 "Tech-priest Manipulus",
                 "Balphamus Vaulk"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "147"
+            }
         }
     ]
 }

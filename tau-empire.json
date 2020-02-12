@@ -9,6 +9,10 @@
             "cp": 1,
             "phases": {
                 "shoot": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "184"
             }
         },
         {
@@ -18,6 +22,10 @@
             "cp": 1,
             "phases": {
                 "shoot": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "184"
             }
         },
         {
@@ -27,6 +35,10 @@
             "cp": 1,
             "phases": {
                 "event": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "185"
             }
         },
         {
@@ -36,6 +48,10 @@
             "cp": 2,
             "phases": {
                 "event": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "186"
             }
         },
         {
@@ -45,6 +61,10 @@
             "cp": 2,
             "phases": {
                 "move": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "186"
             }
         },
         {
@@ -54,6 +74,10 @@
             "cp": 1,
             "phases": {
                 "shoot": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "185"
             }
         },
         {
@@ -63,6 +87,10 @@
             "cp": 1,
             "phases": {
                 "shoot": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "186"
             }
         },
         {
@@ -72,6 +100,10 @@
             "cp": 1,
             "phases": {
                 "shoot": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "185"
             }
         },
         {
@@ -81,6 +113,10 @@
             "cp": 2,
             "phases": {
                 "move": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "185"
             }
         },
         {
@@ -90,6 +126,10 @@
             "cp": 2,
             "phases": {
                 "shoot": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "185"
             }
         },
         {
@@ -99,6 +139,10 @@
             "cp": 1,
             "phases": {
                 "morale": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "185"
             }
         },
         {
@@ -111,7 +155,11 @@
             },
             "keywords": [
                 "Commander"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "185"
+            }
         },
         {
             "title": "Manta Strike",
@@ -120,6 +168,10 @@
             "cp": 1,
             "phases": {
                 "move": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "185"
             }
         },
         {
@@ -132,7 +184,11 @@
             },
             "keywords": [
                 "XV25 Stealth Battlesuit"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "184"
+            }
         },
         {
             "title": "Stealthy Hunters",
@@ -144,7 +200,11 @@
             },
             "keywords": [
                 "Kroot Carnivore"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "184"
+            }
         },
         {
             "title": "Prudent Retreat",
@@ -153,6 +213,10 @@
             "cp": 1,
             "phases": {
                 "move": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "186"
             }
         },
         {
@@ -166,7 +230,11 @@
             "keywords": [
                 "Cadre Fireblade",
                 "Shas'nel Vior'la Atsumo Twinflame"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "188"
+            }
         },
         {
             "title": "Voice of the Greater Good",
@@ -179,7 +247,11 @@
             "keywords": [
                 "Cadre Fireblade",
                 "Shas'nel Vior'la Atsumo Twinflame"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "187"
+            }
         },
         {
             "title": "Fighting Retreat",
@@ -191,7 +263,11 @@
             },
             "keywords": [
                 "Darkstrider"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "188"
+            }
         },
         {
             "title": "Structural Analyser",
@@ -203,7 +279,11 @@
             },
             "keywords": [
                 "Darkstrider"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "188"
+            }
         },
         {
             "title": "Sense of Stone",
@@ -215,7 +295,11 @@
             },
             "keywords": [
                 "Ethereal"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "186"
+            }
         },
         {
             "title": "Zephyr's Grace",
@@ -227,7 +311,11 @@
             },
             "keywords": [
                 "Ethereal"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "187"
+            }
         },
         {
             "title": "Failure is Not an Option",
@@ -239,7 +327,11 @@
             },
             "keywords": [
                 "Ethereal"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "187"
+            }
         },
         {
             "title": "Storm of Fire",
@@ -251,7 +343,11 @@
             },
             "keywords": [
                 "Ethereal"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "187"
+            }
         },
         {
             "title": "Master of War (Mont'ka)",
@@ -264,7 +360,11 @@
             },
             "keywords": [
                 "Commander in XV85 Enforcer Battlesuit"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "188"
+            }
         },
         {
             "title": "Master of War (Kauyon)",
@@ -276,7 +376,11 @@
             },
             "keywords": [
                 "Commander in XV85 Enforcer Battlesuit"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "188"
+            }
         }
     ]
 }

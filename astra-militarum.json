@@ -9,6 +9,10 @@
             "cp": 2,
             "phases": {
                 "event": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "141"
             }
         },
         {
@@ -18,6 +22,10 @@
             "cp": 2,
             "phases": {
                 "event": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "141"
             }
         },
         {
@@ -27,6 +35,10 @@
             "cp": 1,
             "phases": {
                 "shoot": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "140"
             }
         },
         {
@@ -36,6 +48,10 @@
             "cp": 1,
             "phases": {
                 "morale": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "140"
             }
         },
         {
@@ -48,7 +64,11 @@
             },
             "keywords": [
                 "Militarum Tempestus"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "140"
+            }
         },
         {
             "title": "Adrenal Shot",
@@ -57,6 +77,10 @@
             "cp": 1,
             "phases": {
                 "event": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "140"
             }
         },
         {
@@ -66,6 +90,10 @@
             "cp": 1,
             "phases": {
                 "event": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "141"
             }
         },
         {
@@ -75,6 +103,10 @@
             "cp": 1,
             "phases": {
                 "shoot": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "142"
             }
         },
         {
@@ -87,7 +119,11 @@
             },
             "keywords": [
                 "Militarum Tempestus"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "142"
+            }
         },
         {
             "title": "Sir, Yes Sir!",
@@ -96,6 +132,10 @@
             "cp": 2,
             "phases": {
                 "event": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "141"
             }
         },
         {
@@ -105,6 +145,10 @@
             "cp": 1,
             "phases": {
                 "event": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "142"
             }
         },
         {
@@ -114,6 +158,10 @@
             "cp": 1,
             "phases": {
                 "round_one": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "141"
             }
         },
         {
@@ -126,7 +174,11 @@
             },
             "keywords": [
                 "Commander"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "141"
+            }
         },
         {
             "title": "Cooked Grenade",
@@ -138,7 +190,11 @@
             },
             "equipment": [
                 "frag grenade"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "142"
+            }
         },
         {
             "title": "I Am Your Worst Fear",
@@ -152,7 +208,11 @@
                 "Commissar",
                 "Lord Commissar",
                 "Feodor Lasko"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "143"
+            }
         },
         {
             "title": "Inspirational Command",
@@ -165,7 +225,11 @@
             "keywords": [
                 "Platoon Commander",
                 "Company Commander"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "143"
+            }
         },
         {
             "title": "Covering Fire!",
@@ -177,7 +241,11 @@
             },
             "keywords": [
                 "Tempestor Prime"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "143"
+            }
         },
         {
             "title": "Aura of Discipline",
@@ -190,7 +258,11 @@
             "keywords": [
                 "Feodor Lasko",
                 "Lord Commissar"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "143"
+            }
         },
         {
             "title": "Knife in the Dark",
@@ -202,7 +274,11 @@
             },
             "keywords": [
                 "Sly Marbo"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "143"
+            }
         }
     ]
 }

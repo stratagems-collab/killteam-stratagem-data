@@ -9,7 +9,11 @@
 			"cp": 1,
 			"phases": {
 				"fight": true
-			}
+			},
+            "source": {
+                "id": "kta19",
+                "page": "93"
+            }
 		},
 		{
 			"title": "Deadly Dance",
@@ -18,7 +22,11 @@
 			"cp": 1,
 			"phases": {
 				"move": true
-			}
+			},
+            "source": {
+                "id": "kta19",
+                "page": "93"
+            }
 		},
 		{
 			"title": "Mutated Fire",
@@ -27,7 +35,11 @@
 			"cp": 1,
 			"phases": {
 				"shoot": true
-			}
+			},
+            "source": {
+                "id": "kta19",
+                "page": "93"
+            }
 		},
 		{
 			"title": "Pestilential Aura",
@@ -39,7 +51,11 @@
 			},
 			"keywords": [
 				"Plaguebearer"
-			]
+			],
+            "source": {
+                "id": "kta19",
+                "page": "93"
+            }
 		},
 		{
 			"title": "Reality Blinks",
@@ -48,7 +64,11 @@
 			"cp": 3,
 			"phases": {
 				"event": true
-			}
+			},
+            "source": {
+                "id": "kta19",
+                "page": "93"
+            }
 		},
 		{
 			"title": "Warp-Spawned Terror",
@@ -57,7 +77,11 @@
 			"cp": 2,
 			"phases": {
 				"morale": true
-			}
+			},
+            "source": {
+                "id": "kta19",
+                "page": "93"
+            }
 		}
 	]
 }
