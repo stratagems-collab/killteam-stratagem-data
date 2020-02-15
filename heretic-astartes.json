@@ -9,6 +9,10 @@
             "cp": 2,
             "phases": {
                 "round_one": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "152"
             }
         },
         {
@@ -18,6 +22,10 @@
             "cp": 2,
             "phases": {
                 "move": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "151"
             }
         },
         {
@@ -27,6 +35,10 @@
             "cp": 2,
             "phases": {
                 "fight": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "151"
             }
         },
         {
@@ -39,7 +51,11 @@
             },
             "keywords": [
                 "Terminator"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "151"
+            }
         },
         {
             "title": "Teleport Strike",
@@ -51,7 +67,11 @@
             },
             "keywords": [
                 "Terminator"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "152"
+            }
         },
         {
             "title": "Temptations of Power",
@@ -60,6 +80,10 @@
             "cp": 1,
             "phases": {
                 "round": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "151"
             }
         },
         {
@@ -72,7 +96,11 @@
             },
             "keywords": [
                 "Nurgle"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "152"
+            }
         },
         {
             "title": "Grisly Trophy",
@@ -84,7 +112,11 @@
             },
             "keywords": [
                 "Commander"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "152"
+            }
         },
         {
             "title": "Desparate Pact",
@@ -96,7 +128,11 @@
             },
             "keywords": [
                 "Commander"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "152"
+            }
         },
         {
             "title": "The Price of Heresy",
@@ -109,7 +145,11 @@
             "keywords": [
                 "Chaos Cultist",
                 "Chaos Space Marine"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "152"
+            }
         },
         {
             "title": "Endless Cacophony",
@@ -118,6 +158,10 @@
             "cp": 2,
             "phases": {
                 "shoot": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "152"
             }
         },
         {
@@ -132,7 +176,11 @@
             },
             "keywords": [
                 "Commander"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "152"
+            }
         },
         {
             "title": "Daemonic Attack",
@@ -141,6 +189,10 @@
             "cp": 3,
             "phases": {
                 "psychic": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "153"
             }
         },
         {
@@ -150,6 +202,10 @@
             "cp": 2,
             "phases": {
                 "shoot": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "153"
             }
         },
         {
@@ -162,7 +218,11 @@
             },
             "keywords": [
                 "Tzeentch"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "153"
+            }
         },
         {
             "title": "Aspire to Glory",
@@ -174,7 +234,11 @@
             },
             "keywords": [
                 "Exalted Champion"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "154"
+            }
         },
         {
             "title": "Locus of Power",
@@ -186,7 +250,11 @@
             },
             "keywords": [
                 "Greater Possessed"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "153"
+            }
         },
         {
             "title": "Ritual Sacrifice",
@@ -198,7 +266,11 @@
             },
             "keywords": [
                 "Master of Executions"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "154"
+            }
         },
         {
             "title": "Dark Zealotry",
@@ -210,7 +282,11 @@
             },
             "keywords": [
                 "Dark Apostle"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "154"
+            }
         },
         {
             "title": "Lord of Chaos",
@@ -222,7 +298,11 @@
             },
             "keywords": [
                 "Chaos Lord in Terminator Armour"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "154"
+            }
         }
     ]
 }

@@ -9,6 +9,10 @@
             "cp": 1,
             "phases": {
                 "shoot": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "180"
             }
         },
         {
@@ -18,6 +22,10 @@
             "cp": 2,
             "phases": {
                 "fight": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "180"
             }
         },
         {
@@ -27,6 +35,10 @@
             "cp": 2,
             "phases": {
                 "shoot": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "181"
             }
         },
         {
@@ -36,6 +48,10 @@
             "cp": 2,
             "phases": {
                 "event": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "180"
             }
         },
         {
@@ -45,6 +61,10 @@
             "cp": 1,
             "phases": {
                 "fight": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "180"
             }
         },
         {
@@ -57,7 +77,11 @@
             },
             "equipment": [
                 "stikkbomb"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "181"
+            }
         },
         {
             "title": "Dead 'Ard",
@@ -66,6 +90,10 @@
             "cp": 1,
             "phases": {
                 "event": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "182"
             }
         },
         {
@@ -75,6 +103,10 @@
             "cp": 1,
             "phases": {
                 "move": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "182"
             }
         },
         {
@@ -84,6 +116,10 @@
             "cp": 1,
             "phases": {
                 "move": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "181"
             }
         },
         {
@@ -93,6 +129,10 @@
             "cp": 2,
             "phases": {
                 "fight": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "182"
             }
         },
         {
@@ -105,7 +145,11 @@
             },
             "equipment": [
                 "burna"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "181"
+            }
         },
         {
             "title": "Waaagh!",
@@ -114,6 +158,10 @@
             "cp": 2,
             "phases": {
                 "move": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "181"
             }
         },
         {
@@ -123,6 +171,10 @@
             "cp": 1,
             "phases": {
                 "move": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "182"
             }
         },
         {
@@ -135,7 +187,11 @@
             },
             "keywords": [
                 "Commander"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "182"
+            }
         },
         {
             "title": "Kunnin' Infiltrators",
@@ -147,7 +203,11 @@
             },
             "keywords": [
                 "Kommando"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "181"
+            }
         },
         {
             "title": "Mega-Waaagh!",
@@ -160,7 +220,11 @@
             "keywords": [
                 "Warboss",
                 "Gitzog Wurldkilla"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "182"
+            }
         },
         {
             "title": "Breakin' Heads",
@@ -173,7 +237,11 @@
             "keywords": [
                 "Warboss",
                 "Gitzog Wurldkilla"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "182"
+            }
         },
         {
             "title": "Kustom Force Field",
@@ -185,7 +253,11 @@
             },
             "keywords": [
                 "Big Mek"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "183"
+            }
         },
         {
             "title": "Dok's Tools",
@@ -197,7 +269,11 @@
             },
             "keywords": [
                 "Painboy"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "183"
+            }
         },
         {
             "title": "Red Skull Kommandos",
@@ -209,7 +285,11 @@
             },
             "keywords": [
                 "Boss Snikrot"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "183"
+            }
         }
     ]
 }

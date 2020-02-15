@@ -9,6 +9,10 @@
             "cp": 1,
             "phases": {
                 "fight": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "176"
             }
         },
         {
@@ -21,7 +25,11 @@
             },
             "keywords": [
                 "Flayed One"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "176"
+            }
         },
         {
             "title": "Mindshackle Scarabs",
@@ -30,6 +38,10 @@
             "cp": 2,
             "phases": {
                 "shoot": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "177"
             }
         },
         {
@@ -43,7 +55,11 @@
             "equipment": [
                 "gauss blaster",
                 "gauss flayer"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "176"
+            }
         },
         {
             "title": "Prime Reanimation Protocols",
@@ -52,6 +68,10 @@
             "cp": 2,
             "phases": {
                 "event": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "176"
             }
         },
         {
@@ -61,6 +81,10 @@
             "cp": 1,
             "phases": {
                 "shoot": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "176"
             }
         },
         {
@@ -73,7 +97,11 @@
             },
             "keywords": [
                 "Deathmark"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "179"
+            }
         },
         {
             "title": "Deathless Ire",
@@ -82,6 +110,10 @@
             "cp": 2,
             "phases": {
                 "event": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "176"
             }
         },
         {
@@ -91,6 +123,10 @@
             "cp": 1,
             "phases": {
                 "fight": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "176"
             }
         },
         {
@@ -100,6 +136,10 @@
             "cp": 2,
             "phases": {
                 "event": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "179"
             }
         },
         {
@@ -113,7 +153,11 @@
             "equipment": [
                 "gauss blaster",
                 "gauss flayer"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "178"
+            }
         },
         {
             "title": "Tireless Advance",
@@ -122,6 +166,10 @@
             "cp": 1,
             "phases": {
                 "shoot": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "177"
             }
         },
         {
@@ -131,6 +179,10 @@
             "cp": 2,
             "phases": {
                 "morale": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "177"
             }
         },
         {
@@ -143,7 +195,11 @@
             },
             "keywords": [
                 "Commander"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "177"
+            }
         },
         {
             "title": "Hunters from Hyperspace",
@@ -155,7 +211,11 @@
             },
             "keywords": [
                 "Deathmark"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "176"
+            }
         },
         {
             "title": "Haunting Horrors",
@@ -167,7 +227,11 @@
             },
             "keywords": [
                 "Flayed One"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "178"
+            }
         },
         {
             "title": "Resurrection Orb",
@@ -180,7 +244,11 @@
             "keywords": [
                 "Overlord",
                 "Ankra the Colossus"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "178"
+            }
         },
         {
             "title": "Chronometron",
@@ -192,7 +260,11 @@
             },
             "keywords": [
                 "Cryptek"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "178"
+            }
         },
         {
             "title": "Technomancer",
@@ -204,7 +276,11 @@
             },
             "keywords": [
                 "Cryptek"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "179"
+            }
         },
         {
             "title": "My Will be Done",
@@ -217,7 +293,11 @@
             "keywords": [
                 "Overlord",
                 "Ankra the Colossus"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "179"
+            }
         },
         {
             "title": "Vendetta",
@@ -230,7 +310,11 @@
             "keywords": [
                 "Overlord",
                 "Ankra the Colossus"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "179"
+            }
         }
     ]
 }

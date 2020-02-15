@@ -9,6 +9,10 @@
             "cp": 1,
             "phases": {
                 "event": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "189"
             }
         },
         {
@@ -18,6 +22,10 @@
             "cp": 1,
             "phases": {
                 "fight": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "189"
             }
         },
         {
@@ -27,6 +35,10 @@
             "cp": 2,
             "phases": {
                 "event": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "190"
             }
         },
         {
@@ -36,6 +48,10 @@
             "cp": 1,
             "phases": {
                 "move": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "190"
             }
         },
         {
@@ -45,6 +61,10 @@
             "cp": 2,
             "phases": {
                 "move": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "191"
             }
         },
         {
@@ -57,7 +77,11 @@
             },
             "equipment": [
                 "fleshborer"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "189"
+            }
         },
         {
             "title": "Adrenaline Surge",
@@ -66,6 +90,10 @@
             "cp": 2,
             "phases": {
                 "fight": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "190"
             }
         },
         {
@@ -75,6 +103,10 @@
             "cp": 2,
             "phases": {
                 "event": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "191"
             }
         },
         {
@@ -84,6 +116,10 @@
             "cp": 1,
             "phases": {
                 "fight": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "191"
             }
         },
         {
@@ -93,6 +129,10 @@
             "cp": 1,
             "phases": {
                 "move": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "190"
             }
         },
         {
@@ -102,6 +142,10 @@
             "cp": 2,
             "phases": {
                 "event": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "191"
             }
         },
         {
@@ -116,7 +160,11 @@
                 "Ravener",
                 "Tyranid Warrior",
                 "Hive Guard"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "189"
+            }
         },
         {
             "title": "Dragged Into the Darkness",
@@ -125,6 +173,10 @@
             "cp": 2,
             "phases": {
                 "shoot": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "191"
             }
         },
         {
@@ -137,7 +189,11 @@
             },
             "keywords": [
                 "Commander"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "191"
+            }
         },
         {
             "title": "Death from Below",
@@ -149,7 +205,11 @@
             },
             "keywords": [
                 "Ravener"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "190"
+            }
         },
         {
             "title": "Pheromone Trail",
@@ -161,7 +221,11 @@
             },
             "keywords": [
                 "Lictor"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "190"
+            }
         },
         {
             "title": "Alpha Warrior",
@@ -173,7 +237,11 @@
             },
             "keywords": [
                 "Tyranid Prime"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "192"
+            }
         },
         {
             "title": "Melt into the Shadows",
@@ -185,7 +253,11 @@
             },
             "keywords": [
                 "Deathleaper"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "192"
+            }
         },
         {
             "title": "Terrifying Reputation",
@@ -197,7 +269,11 @@
             },
             "keywords": [
                 "Broodlord"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "192"
+            }
         }
     ]
 }

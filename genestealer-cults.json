@@ -9,6 +9,10 @@
             "cp": 2,
             "phases": {
                 "shoot": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "197"
             }
         },
         {
@@ -21,7 +25,11 @@
             },
             "equipment": [
                 "power hammer"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "193"
+            }
         },
         {
             "title": "Industrial Brutality",
@@ -35,7 +43,11 @@
                 "heavy rock cutter",
                 "heavy rock drill",
                 "heavy rock saw"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "194"
+            }
         },
         {
             "title": "Inhuman Reflexes",
@@ -44,6 +56,10 @@
             "cp": 1,
             "phases": {
                 "event": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "193"
             }
         },
         {
@@ -53,6 +69,10 @@
             "cp": 1,
             "phases": {
                 "psychic": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "196"
             }
         },
         {
@@ -62,6 +82,10 @@
             "cp": 1,
             "phases": {
                 "event": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "193"
             }
         },
         {
@@ -71,6 +95,10 @@
             "cp": 1,
             "phases": {
                 "shoot": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "194"
             }
         },
         {
@@ -83,7 +111,11 @@
             },
             "equipment": [
                 "shotgun"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "195"
+            }
         },
         {
             "title": "Mesmerising Gaze",
@@ -92,6 +124,10 @@
             "cp": 1,
             "phases": {
                 "fight": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "194"
             }
         },
         {
@@ -104,7 +140,11 @@
             },
             "equipment": [
                 "cult icon"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "195"
+            }
         },
         {
             "title": "Seismic Blast",
@@ -113,6 +153,10 @@
             "cp": 2,
             "phases": {
                 "shoot": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "193"
             }
         },
         {
@@ -122,6 +166,10 @@
             "cp": 1,
             "phases": {
                 "fight": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "194"
             }
         },
         {
@@ -134,7 +182,11 @@
             },
             "keywords": [
                 "Commander"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "196"
+            }
         },
         {
             "title": "Blinding Acid Spit",
@@ -143,6 +195,10 @@
             "cp": 1,
             "phases": {
                 "event": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "195"
             }
         },
         {
@@ -155,7 +211,11 @@
             },
             "equipment": [
                 "hand flamer"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "195"
+            }
         },
         {
             "title": "The Cult Innumerable",
@@ -164,6 +224,10 @@
             "cp": 3,
             "phases": {
                 "event": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "196"
             }
         },
         {
@@ -177,7 +241,11 @@
             "equipment": [
                 "bonesword",
                 "lash whip"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "197"
+            }
         },
         {
             "title": "Messy Demise",
@@ -189,7 +257,11 @@
             },
             "equipment": [
                 "heavy rock saw"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "196"
+            }
         },
         {
             "title": "Plant the Flag",
@@ -201,7 +273,11 @@
             },
             "equipment": [
                 "cult icon"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "196"
+            }
         },
         {
             "title": "Secret Lair",
@@ -210,6 +286,10 @@
             "cp": 1,
             "phases": {
                 "move": true
+            },
+            "source": {
+                "id": "kta19",
+                "page": "197"
             }
         },
         {
@@ -222,7 +302,11 @@
             },
             "keywords": [
                 "Primus"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "198"
+            }
         },
         {
             "title": "Meticulous Planning",
@@ -234,7 +318,11 @@
             },
             "keywords": [
                 "Primus"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "198"
+            }
         },
         {
             "title": "Nexus of Devotion",
@@ -247,7 +335,11 @@
             "keywords": [
                 "Acolyte Iconward",
                 "Crasker Matterzhek"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "198"
+            }
         },
         {
             "title": "Rabble Rouser",
@@ -260,7 +352,11 @@
             "keywords": [
                 "Acolyte Iconward",
                 "Crasker Matterzhek"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "198"
+            }
         },
         {
             "title": "Blaze of Glory",
@@ -273,7 +369,11 @@
             "keywords": [
                 "Kelermorph",
                 "Ghyrson Starn"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "198"
+            }
         },
         {
             "title": "Cult Assassin",
@@ -285,7 +385,11 @@
             },
             "keywords": [
                 "Sanctus"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "196"
+            }
         },
         {
             "title": "Cult Nexos",
@@ -297,7 +401,11 @@
             },
             "keywords": [
                 "Nexos"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "197"
+            }
         },
         {
             "title": "Genomic Enhancement",
@@ -309,7 +417,11 @@
             },
             "keywords": [
                 "Biophagus"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "196"
+            }
         },
         {
             "title": "Sudden Strike",
@@ -321,7 +433,11 @@
             },
             "keywords": [
                 "Locus"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "196"
+            }
         },
         {
             "title": "Proclamator Hailer",
@@ -333,7 +449,11 @@
             },
             "keywords": [
                 "Clamavus"
-            ]
+            ],
+            "source": {
+                "id": "kta19",
+                "page": "198"
+            }
         }
     ]
 }

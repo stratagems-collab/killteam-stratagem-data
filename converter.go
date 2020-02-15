@@ -69,9 +69,48 @@ type StratagemPhase struct {
 	Event    bool `json:"event,omitempty"`
 }
 
+type Keywords struct {
+	Keywords []string `json:keywords`
+}
+
 type Options struct {
 	Filename     string
 	UseGitRev	 bool
+}
+
+func openCatalog(filename string) (*Catalog, error) {
+	catalogFile, err := os.Open(filename)
+	if err != nil {
+	    return nil, err
+	}
+	defer catalogFile.Close()
+	
+	byteValue, _ := ioutil.ReadAll(catalogFile)
+	var catalog Catalog
+	json.Unmarshal(byteValue, &catalog)
+	return &catalog, nil
+}
+
+func openKeywords(filename string) (*Keywords, error) {
+	file, err := os.Open(filename)
+	if err != nil {
+	    return nil, err
+	}
+	defer file.Close()
+	
+	byteValue, _ := ioutil.ReadAll(file)
+	var keywords Keywords
+	json.Unmarshal(byteValue, &keywords)
+	return &keywords, nil
+}
+
+func contains(s []string, e string) bool {
+    for _, a := range s {
+        if a == e {
+            return true
+        }
+    }
+    return false
 }
 
 func main() {
@@ -82,16 +121,21 @@ func main() {
 	flag.StringVar(&options.Filename, "catalog", "catalog.json", "the filename of the catalog to process")
 	flag.Parse()
 
-	catalogFile, err := os.Open(options.Filename)
+	catalog, err:= openCatalog(options.Filename)
 	if err != nil {
-	    fmt.Println(err)
+	    panic(err)
 	}
-	defer catalogFile.Close()
-	
-	byteValue, _ := ioutil.ReadAll(catalogFile)
-	var catalog Catalog
-	json.Unmarshal(byteValue, &catalog)
 
+	keywords, err := openKeywords("keywords-models.json")
+	if err != nil {
+	    panic(err)
+	}
+	keywordsCommanders, err := openKeywords("keywords-commanders.json")
+	if err != nil {
+	    panic(err)
+	}
+	keywords.Keywords = append(keywords.Keywords, keywordsCommanders.Keywords...)
+	
 	factions := make([]StratagemFaction, 0)
 	
 	for i:=0; i<len(catalog.Factions); i++ {
@@ -117,6 +161,16 @@ func main() {
 					}
 					if ta.Description == t.Description {
 						panic("error duplicate tactic description in " + filename + ":" + ta.Title)
+					}
+				}
+			}
+		}
+		for _, kw := range keywords.Keywords {
+			for i, ta := range faction.Stratagems {
+				if strings.Contains(ta.Description, kw) {
+					if contains(ta.Keywords, kw) == false {
+						fmt.Println("appended", kw, "to", ta.Title)
+						faction.Stratagems[i].Keywords = append(ta.Keywords, kw)
 					}
 				}
 			}
