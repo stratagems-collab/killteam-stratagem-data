@@ -1,7 +1,7 @@
 # killteam-stratagem-data
 
 Updates from KT Annual '19 included.
-Please contribute by *reporting issues* using github issues, or *creating pull-requests*.
+Please contribute by [reporting issues](https://github.com/stratagems-collab/killteam-stratagem-data/issues/new), or *creating pull-requests*.
 
 Format documentation
 ```
