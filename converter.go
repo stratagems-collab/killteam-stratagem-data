@@ -176,6 +176,15 @@ func main() {
 			}
 		}
 
+		//temporary add "Commander" keyword hack
+		for i, t := range faction.Stratagems {
+			if strings.Contains(t.Subtitle, "Aura") {
+				if contains(t.Keywords, "Commander") == false {
+					faction.Stratagems[i].Keywords = append(t.Keywords, "Commander")
+				}
+			}
+		}
+
 		fmt.Println(faction.Code + " containing " + strconv.Itoa(len(faction.Stratagems)) + " tactics.")
 		factions = append(factions, faction)
 	}
