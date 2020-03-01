@@ -8,7 +8,7 @@
             "desc": "Use this Tactic when a model from your kill team loses a wound in the Fight phase. Roll a D6 for each enemy model within 1\" of that model. On a 6 that enemy model suffers 1 mortal wound after all of its attacks have been resolved.",
             "cp": 1,
             "phases": {
-                "event": true
+                "fight": true
             },
             "source": {
                 "id": "kta19",
