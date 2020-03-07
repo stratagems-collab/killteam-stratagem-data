@@ -105,7 +105,7 @@
         {
             "title": "Grisly Trophy",
             "sub": "Heretic Astartes Tactic",
-            "desc": "Use this Tactic in the Fight phase, when an attack made by a Commander from your kill team takes an enemy model out of action. Until the end of that phase, you can RR wound rolls for attacks made by friendly models, whilst they are within 6\" of this model.",
+            "desc": "Use this Tactic in the Fight phase, when an attack made by a Commander from your kill team takes an enemy model out of action. Until the end of that phase, you can re-roll wound rolls for attacks made by friendly models, whilst they are within 6\" of this model.",
             "cp": 1,
             "phases": {
                 "fight": true
@@ -198,7 +198,7 @@
         {
             "title": "Let the Galaxy Burn!",
             "sub": "Heretic Astartes Tactic",
-            "desc": "Use this Tactic at the start of the Shooting phase. Choose an objective on the battlefield. Until the end of that phase, RR wound rolls of 1 for attacks made by models from your kill team that target enemy models within 3\" of that objective.",
+            "desc": "Use this Tactic at the start of the Shooting phase. Choose an objective on the battlefield. Until the end of that phase, re-roll wound rolls of 1 for attacks made by models from your kill team that target enemy models within 3\" of that objective.",
             "cp": 2,
             "phases": {
                 "shoot": true
@@ -227,7 +227,7 @@
         {
             "title": "Aspire to Glory",
             "sub": "Exalted Champion Aura Tactic",
-            "desc": "Use this Tactic at the start of the Shooting phase. As long as this model is not shaken, you can RR wound rolls of 1 for friendly models within 6\" of this model.",
+            "desc": "Use this Tactic at the start of the Shooting phase. As long as this model is not shaken, you can re-roll wound rolls of 1 for friendly models within 6\" of this model.",
             "cp": 1,
             "phases": {
             	"shoot": true
@@ -275,7 +275,7 @@
         {
             "title": "Dark Zealotry",
             "sub": "Dark Apostle Aura Tactic",
-            "desc": "Use this Tactic at the start of the Fight phase. As long as this model is not shaken, you can RR failed hit rolls in the Fight phase for friendly models within 6\" of this model.",
+            "desc": "Use this Tactic at the start of the Fight phase. As long as this model is not shaken, you can re-roll failed hit rolls in the Fight phase for friendly models within 6\" of this model.",
             "cp": 1,
             "phases": {
             	"fight": true
@@ -291,7 +291,7 @@
         {
             "title": "Lord of Chaos",
             "sub": "Chaos Lord in Terminator Armour Aura",
-            "desc": "Use this Tactic at the start of the Shooting phase. As long as this model is not shaken, you can RR hit rolls of 1 for friendly models within 6\" of this model.",
+            "desc": "Use this Tactic at the start of the Shooting phase. As long as this model is not shaken, you can re-roll hit rolls of 1 for friendly models within 6\" of this model.",
             "cp": 1,
             "phases": {
             	"shoot": true

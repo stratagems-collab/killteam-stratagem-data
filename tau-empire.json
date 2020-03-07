@@ -5,7 +5,7 @@
         {
             "title": "Breach and Clear",
             "sub": "T'au Empire Tactic",
-            "desc": "Use this Tactic in your turn in the Shooting phase, when a Fire Warrior Breacher from your kill team targets an enemy model that is obscured. RR failed wound rolls made for the Fire Warrior Breacher against that enemy model until the end of this phase.",
+            "desc": "Use this Tactic in your turn in the Shooting phase, when a Fire Warrior Breacher from your kill team targets an enemy model that is obscured. re-roll failed wound rolls made for the Fire Warrior Breacher against that enemy model until the end of this phase.",
             "cp": 1,
             "phases": {
                 "shoot": true

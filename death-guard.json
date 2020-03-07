@@ -115,7 +115,7 @@
         {
             "title": "Grandfather's Tally",
             "sub": "Death Guard Tactic",
-            "desc": "Use this Tactic at the start of a Shooting phase or Fight phase, if exactly 7 enemy models have been taken out of action during the course of the battle. Until the end of that phase, RR failed wound rolls for attacks made by models from your kill team.",
+            "desc": "Use this Tactic at the start of a Shooting phase or Fight phase, if exactly 7 enemy models have been taken out of action during the course of the battle. Until the end of that phase, re-roll failed wound rolls for attacks made by models from your kill team.",
             "cp": 1,
             "phases": {
                 "shoot": true,
@@ -197,7 +197,7 @@
         {
             "title": "Festering Zealot",
             "sub": "Tallyman Aura Tactic",
-            "desc": "Use this Tactic at the start of the Fight phase. As long as this model is not shaken, you can RR failed hit rolls in the Fight phase for friendly models within 7\" of this model.",
+            "desc": "Use this Tactic at the start of the Fight phase. As long as this model is not shaken, you can re-roll failed hit rolls in the Fight phase for friendly models within 7\" of this model.",
             "cp": 1,
             "phases": {
             	"fight": true
@@ -229,7 +229,7 @@
         {
             "title": "Tainted Narthecium",
             "sub": "Plague Surgeon Aura Tactic",
-            "desc": "Use this Tactic at the start of the Fight phase. As long as this model is not shaken, you may RR any Disgustingly Resilient rolls of 1 made for friendly models within 3\" of this model.",
+            "desc": "Use this Tactic at the start of the Fight phase. As long as this model is not shaken, you may re-roll any Disgustingly Resilient rolls of 1 made for friendly models within 3\" of this model.",
             "cp": 1,
             "phases": {
             	"fight": true

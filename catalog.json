@@ -35,7 +35,17 @@
 	            "id": "kta19",
 	            "title": "Kill Team Annual 2019",
 	            "url": "https://www.games-workshop.com/en-US/Kill-Team-Annual-EN-2019"
-	        }
+	        },
+            {
+                "id": "eli19",
+                "title": "Kill Team Elites 2019",
+                "url": "https://www.games-workshop.com/en-US/Kill-Team-Elites-EN-2019"
+            },
+            {
+                "id": "com18",
+                "title": "Kill Team Commanders 2018",
+                "url": "https://www.games-workshop.com/en-US/Kill-Team-Commanders-2018-eng"
+            }
     	]
 	}
 }

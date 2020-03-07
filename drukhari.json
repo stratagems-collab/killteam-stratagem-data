@@ -196,7 +196,7 @@
         {
             "title": "Overlord",
             "sub": "Archon Aura Tactic",
-            "desc": "Use this Tactic at the start of the Shooting phase. As long as this model is not shaken, you can RR hit rolls of 1 for friendly models within 6\" of this model.",
+            "desc": "Use this Tactic at the start of the Shooting phase. As long as this model is not shaken, you can re-roll hit rolls of 1 for friendly models within 6\" of this model.",
             "cp": 1,
             "phases": {
             	"shoot": true
@@ -212,7 +212,7 @@
         {
             "title": "Bride of Death",
             "sub": "Succubus Aura Tactic",
-            "desc": "Use this Tactic at the start of the Fight phase. As long as this model is not shaken, you can RR hit rolls of 1 for friendly models within 6\" of this model.",
+            "desc": "Use this Tactic at the start of the Fight phase. As long as this model is not shaken, you can re-roll hit rolls of 1 for friendly models within 6\" of this model.",
             "cp": 1,
             "phases": {
             	"fight": true

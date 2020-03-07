@@ -135,7 +135,7 @@
         {
             "title": "Stabilisation Actuators",
             "sub": "Adeptus Mechanicus Tactic",
-            "desc": "Use this Tactic before you take a Falling test for a model from your kill team. You can RR the dice when taking this test, and when taking any further Falling tests for that model in this battle round.",
+            "desc": "Use this Tactic before you take a Falling test for a model from your kill team. You can re-roll the dice when taking this test, and when taking any further Falling tests for that model in this battle round.",
             "cp": 1,
             "phases": {
                 "event": true
@@ -309,7 +309,7 @@
         {
             "title": "Repair Artisan",
             "sub": "Tech-priest Enginseer Aura Tactic",
-            "desc": "Use this Tactic at the start of the Movement phase. As long as this model is not shaken, roll a D6 each time a friendly model witin 3\" of this model loses a wound. On a 6 that wound is not lost. If a model already has an ability with a similar effect, you can choose which effect applies, and RR 1s when making these rolls.",
+            "desc": "Use this Tactic at the start of the Movement phase. As long as this model is not shaken, roll a D6 each time a friendly model witin 3\" of this model loses a wound. On a 6 that wound is not lost. If a model already has an ability with a similar effect, you can choose which effect applies, and re-roll 1s when making these rolls.",
             "cp": 1,
             "phases": {
             	"move": true
@@ -325,7 +325,7 @@
         {
             "title": "Lord of the Machine Cult",
             "sub": "Tech-priest Dominus Aura Tactic",
-            "desc": "Use this Tactic at the start of the Shooting phase. As long as this model is not shaken, you can RR hit rolls of 1 in the Shooting phase for friendly models within 6\" of this model.",
+            "desc": "Use this Tactic at the start of the Shooting phase. As long as this model is not shaken, you can re-roll hit rolls of 1 in the Shooting phase for friendly models within 6\" of this model.",
             "cp": 1,
             "phases": {
             	"shoot": true

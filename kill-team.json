@@ -1,413 +1,1064 @@
 {
-	"code": "kill_team",
-	"faction": "",
-	"tactics": [
-		{
-			"title": "Careful Aim",
-			"sub": "Sniper Level 1 Tactic",
-			"desc": "Use this Tactic when you choose a Sniper specialist from your kill team to shoot in the Shooting phase. You can add 1 to hit rolls for that model until the end of the phase.",
-			"cp": 1,
-			"phases": {
-				"shoot": true
-			},
-			"keywords": [
-				"Sniper specialist"
-			],
-			"specialist": "Sniper",
-			"level": 1
-		},
-		{
-			"title": "Headshot",
-			"sub": "Sniper Level 2 Tactic",
-			"desc": "Use this Tactic when you pick a Sniper specialist of Level 2 or higher from your kill team to shoot in the Shooting phase. Until the end of the phase, when that model shoots at obscured targets they are considered not to be obscured.",
-			"cp": 1,
-			"phases": {
-				"shoot": true
-			},
-			"keywords": [
-				"Sniper specialist"
-			],
-			"specialist": "Sniper",
-			"level": 2
-		},
-		{
-			"title": "Quick Shot",
-			"sub": "Sniper Level 3 Tactic",
-			"desc": "Use this Tactic when you pick a Sniper specialist of Level 3 or higher from your kill team to shoot in the Shooting phase. In this Shooting phase, double the number of shots fired by that model’s ranged weapons (e.g. an Assault 2 weapon would fire 4 shots), but subtract 1 from hit rolls for that model. You cannot use this Tactic in the same battle round as the Headshot Tactic.",
-			"cp": 1,
-			"phases": {
-				"shoot": true
-			},
-			"keywords": [
-				"Sniper specialist"
-			],
-			"specialist": "Sniper",
-			"level": 3
-		},
-		{
-			"title": "Lead by Example",
-			"sub": "Leader Level 1 Tactic",
-			"desc": "Use this Tactic when you pick a Leader from your kill team to fight in the Fight phase. Choose another friendly model within 3\" of them that is eligible to fight. You can fight with each of these models, in an order of your choice, before the next player’s turn.",
-			"cp": 1,
-			"phases": {
-				"fight": true
-			},
-			"specialist": "Leader",
-			"level": 1
-		},
-		{
-			"title": "Fire on my Target",
-			"sub": "Leader Level 2 Tactic",
-			"desc": "Use this Tactic when you pick a Leader of Level 2 or higher from your kill team to shoot in the Shooting phase. Choose another friendly model within 3\" of them that is eligible to shoot. You can make a shooting attack with each of these models, in an order of your choice, before the next player’s turn.",
-			"cp": 1,
-			"phases": {
-				"shoot": true
-			},
-			"specialist": "Leader",
-			"level": 2
-		},
-		{
-			"title": "Force Of Will",
-			"sub": "Leader Level 3 Tactic",
-			"desc": "Use this Tactic at the start of the battle round, if a Leader of Level 3 or higher from your kill team is on the battlefield and not shaken. In this battle round, your kill team does not suffer the penalty for being broken.",
-			"cp": 1,
-			"phases": {
-				"round": true
-			},
-			"specialist": "Leader",
-			"level": 3
-		},
-		{
-			"title": "Up And At ‘Em!",
-			"sub": "Combat Level 1 Tactic",
-			"desc": "Use this Tactic in the Fight phase, after attacking with a model from your kill team. Pick a Combat specialist from your kill team that has not yet attacked this phase: you can immediately fight with them.",
-			"cp": 1,
-			"phases": {
-				"fight": true
-			},
-			"specialist": "Combat",
-			"level": 1
-		},
-		{
-			"title": "Defensive Fighter",
-			"sub": "Combat Level 2 Tactic",
-			"desc": "Use this Tactic at the start of the Fight phase. Pick a Combat specialist of Level 2 or higher from your kill team. Until the end of the phase, you must subtract 2 from that model’s Attacks characteristic (to a minimum of 1), but your opponent(s) must re-roll successful hit rolls made against that model.",
-			"cp": 1,
-			"phases": {
-				"fight": true
-			},
-			"specialist": "Combat",
-			"level": 2
-		},
-		{
-			"title": "Deadly Charge",
-			"sub": "Combat Level 3 Tactic",
-			"desc": "Use this Tactic when a Combat specialist of Level 3 or higher from your kill team finishes a charge move within 1\" of an enemy model. Roll a D6; on a 5+ that enemy model suffers 1 mortal wound.",
-			"cp": 1,
-			"phases": {
-				"event": true
-			},
-			"specialist": "Combat",
-			"level": 3
-		},
-		{
-			"title": "Rousing Transmission",
-			"sub": "Comms Level 1 Tactic",
-			"desc": "Use this Tactic in the Morale phase before taking any Nerve tests. Until the end of the phase you can subtract 1 from Nerve tests for models from your kill team as though the Comms specialist was within 2\" of them.",
-			"cp": 1,
-			"phases": {
-				"morale": true
-			},
-			"specialist": "Comms",
-			"level": 1
-		},
-		{
-			"title": "Scanner Uplink",
-			"sub": "Comms Level 2 Tactic",
-			"desc": "Use this Tactic when you pick a model from your kill team that is within 6\" of a friendly Comms specialist of Level 2 or higher to shoot in the Shooting phase. That model can target an enemy model that is not visible to them. If they do so, a 6 is required for a successful hit roll irrespective of the model’s Ballistic Skill or any other modifiers, even if that weapon would normally hit automatically. The target is treated as obscured.",
-			"cp": 2,
-			"phases": {
-				"shoot": true
-			},
-			"specialist": "Comms",
-			"level": 2
-		},
-		{
-			"title": "New Intelligence",
-			"sub": "Comms Level 3 Tactic",
-			"desc": "Use this Tactic at the end of the Movement phase. Pick a model from your kill team within 12\" of a friendly Comms specialist of Level 3 or higher. Ready that model.",
-			"cp": 1,
-			"phases": {
-				"move": true
-			},
-			"specialist": "Comms",
-			"level": 3
-		},
-		{
-			"title": "Custom Ammo",
-			"sub": "Demolitions Level 1 Tactic",
-			"desc": "Use this Tactic when you pick a Demolitions specialist from your kill team to shoot in the Shooting phase. You can add 1 to wound rolls for that model’s ranged weapons in this phase.",
-			"cp": 1,
-			"phases": {
-				"shoot": true
-			},
-			"specialist": "Demolitions",
-			"level": 1
-		},
-		{
-			"title": "Lucky Escape",
-			"sub": "Demolitions Level 2 Tactic",
-			"desc": "Use this Tactic at the start of the Shooting phase. Pick a Demolitions specialist of Level 2 or higher from your kill team. Roll a D6 each time that model loses a wound in this phase; on a 5+ that wound is not lost.",
-			"cp": 1,
-			"phases": {
-				"shoot": true
-			},
-			"specialist": "Demolitions",
-			"level": 2
-		},
-		{
-			"title": "High Explosive",
-			"sub": "Demolitions Level 3 Tactic",
-			"desc": "Use this Tactic when you pick a Demolitions specialist of Level 3 or higher from your kill team to shoot in the Shooting phase. In this Shooting phase, they can only shoot a single weapon, and that weapon can only fire 1 shot (even if it would normally fire more). However, that weapon’s Damage characteristic is increased by 2. You cannot use this Tactic in the same battle round as the Custom Ammo Tactic.",
-			"cp": 1,
-			"phases": {
-				"shoot": true
-			},
-			"specialist": "Demolitions",
-			"level": 3
-		},
-		{
-			"title": "More Bullets",
-			"sub": "Heavy Level 1 Tactic",
-			"desc": "Use this Tactic when you pick a Heavy specialist from your kill team to shoot in the Shooting phase. You can add 1 to the number of shots fired by that model’s ranged weapons, with the exception of weapons that would otherwise fire 1 shot (e.g. an Assault 2 weapon would fire 3 shots, but a Rapid Fire 1 weapon at long range would fire 1 shot) in this Shooting phase.",
-			"cp": 1,
-			"phases": {
-				"shoot": true
-			},
-			"specialist": "Heavy",
-			"level": 1
-		},
-		{
-			"title": "Overwhelming Firepower",
-			"sub": "Heavy Level 2 Tactic",
-			"desc": "Use this Tactic when you pick a Heavy specialist of Level 2 or higher from your kill team to shoot in the Shooting phase. That model can shoot twice in this Shooting phase; after they have shot a first time, immediately shoot with them again. You cannot use this Tactic in the same battle round as the More Bullets Tactic.",
-			"cp": 2,
-			"phases": {
-				"shoot": true
-			},
-			"specialist": "Heavy",
-			"level": 2
-		},
-		{
-			"title": "Unkillable",
-			"sub": "Heavy Level 3 Tactic",
-			"desc": "Use this Tactic at the start of your turn in the Morale phase. Pick a Heavy specialist of Level 3 or higher from your kill team that has one or more flesh wounds. Remove one of that model’s flesh wounds.",
-			"cp": 1,
-			"phases": {
-				"morale": true
-			},
-			"specialist": "Heavy",
-			"level": 3
-		},
-		{
-			"title": "Stimm-Shot",
-			"sub": "Medic Level 1 Tactic",
-			"desc": "Use this Tactic at the start of the Movement phase. Pick a model from your kill team within 2\" of a friendly Medic specialist that is not shaken. You can add 1 to Advance rolls and charge rolls for that model, and add 1 to that model’s Attacks characteristic until the end of the battle round.",
-			"cp": 1,
-			"phases": {
-				"move": true
-			},
-			"specialist": "Medic",
-			"level": 1
-		},
-		{
-			"title": "Painkiller",
-			"sub": "Medic Level 2 Tactic",
-			"desc": "Use this Tactic at the end of the Movement phase. Pick a model from your kill team within 2\" of a friendly Medic specialist of Level 2 or higher that is not shaken. Add 2 to that model’s Toughness characteristic until the end of the battle round.",
-			"cp": 2,
-			"phases": {
-				"move": true
-			},
-			"specialist": "Medic",
-			"level": 2
-		},
-		{
-			"title": "Emergency Resuscitation",
-			"sub": "Medic Level 3 Tactic",
-			"desc": "Use this Tactic when a Medic specialist of Level 3 or higher from your kill team that is not shaken is within 2\" of another model from your kill team that suffers an Out of Action Injury roll result. That model suffers a Flesh Wound result instead.",
-			"cp": 2,
-			"phases": {
-				"event": true
-			},
-			"specialist": "Medic",
-			"level": 3
-		},
-		{
-			"title": "Quick March",
-			"sub": "Scout Level 1 Tactic",
-			"desc": "Use this Tactic when you pick a Scout specialist from your kill team to move in the Movement phase. Increase the model’s Move characteristic by 2\" this phase.",
-			"cp": 1,
-			"phases": {
-				"move": true
-			},
-			"specialist": "Scout",
-			"level": 1
-		},
-		{
-			"title": "Marked Positions",
-			"sub": "Scout Level 2 Tactic",
-			"desc": "Use this Tactic at the start of the Shooting phase. Pick an enemy model within 6\" of a Scout specialist of Level 2 or higher from your kill team that is not shaken. You can re-roll hit rolls of 1 for shooting attacks made by models in your kill team that target that enemy model until the end of the phase.",
-			"cp": 1,
-			"phases": {
-				"shoot": true
-			},
-			"specialist": "Scout",
-			"level": 2
-		},
-		{
-			"title": "Move Unseen",
-			"sub": "Scout Level 3 Tactic",
-			"desc": "Use this Tactic at the start of your turn in the Movement phase. Pick a Scout specialist of Level 3 or higher from your kill team that is not shaken. Remove that model from the battlefield and set it up again anywhere within 18\" of its previous position and more than 3\" from any enemy models. It is considered to have Advanced.",
-			"cp": 2,
-			"phases": {
-				"move": true
-			},
-			"specialist": "Scout",
-			"level": 3
-		},
-		{
-			"title": "Adaptive Tactics",
-			"sub": "Veteran Level 1 Tactic",
-			"desc": "Use this Tactic at the start of the first battle round, but before the Initiative phase. Pick a Veteran specialist from your kill team. They can make a normal move or Advance. You can only use this Tactic once per battle.",
-			"cp": 1,
-			"phases": {
-				"round": true
-			},
-			"specialist": "Veteran",
-			"level": 1
-		},
-		{
-			"title": "Well Drilled",
-			"sub": "Veteran Level 2 Tactic",
-			"desc": "Use this Tactic at the start of your turn in the Shooting phase. Pick a Veteran specialist of Level 2 or higher from your kill team. Ready them unless they are within 1\" of an enemy. They can shoot in that phase as if they had not moved in the Movement phase.",
-			"cp": 2,
-			"phases": {
-				"shoot": true
-			},
-			"specialist": "Veteran",
-			"level": 2
-		},
-		{
-			"title": "Roll With The Hits",
-			"sub": "Veteran Level 3 Tactic",
-			"desc": "Use this Tactic during your opponent’s turn in the Shooting phase. Pick a Veteran specialist of Level 3 or higher from your kill team that has been Injured, before your opponent makes the Injury roll. Your opponent can only roll a single dice for that Injury roll.",
-			"cp": 1,
-			"phases": {
-				"shoot": true
-			},
-			"specialist": "Veteran",
-			"level": 3
-		},
-		{
-			"title": "Killing Frenzy",
-			"sub": "Zealot Level 1 Tactic",
-			"desc": "Use this Tactic when you pick a Zealot specialist from your kill team to fight in the Fight phase. Until the end of the phase, each time you make a hit roll of 6+ for that model you can make an additional attack with the same weapon against the same target. These attacks cannot themselves generate any further attacks.",
-			"cp": 1,
-			"phases": {
-				"fight": true
-			},
-			"specialist": "Zealot",
-			"level": 1
-		},
-		{
-			"title": "Martyr",
-			"sub": "Zealot Level 2 Tactic",
-			"desc": "Use this Tactic when a Zealot specialist of Level 2 or higher from your kill team loses their last wound, before any player rolls on the Injury table. You may immediately shoot with one of its weapons as if it were the Shooting phase, or pile in and make one attack as if it were the Fight phase.",
-			"cp": 2,
-			"phases": {
-				"event": true
-			},
-			"specialist": "Zealot",
-			"level": 2
-		},
-		{
-			"title": "Terrifying Rampage",
-			"sub": "Zealot Level 3 Tactic",
-			"desc": "Use this Tactic at the start of the Morale phase. Pick a Zealot specialist of Level 3 or higher from your kill team that took an enemy model out of action in the preceding Fight phase. Each enemy model within 6\" of the Zealot must take a Nerve test. If the test is failed the model is shaken.",
-			"cp": 2,
-			"phases": {
-				"morale": true
-			},
-			"specialist": "Zealot",
-			"level": 3
-		},
-		{
-			"title": "Decisive Move",
-			"sub": "Tactic",
-			"desc": "Use this Tactic at the start of the Movement phase. Pick a model from your kill team and make a move with it before any other models (including an Advance move, Fall Back move or charge attempt if you wish). If another player uses this Tactic, roll off; the winner goes first.",
-			"cp": 1,
-			"phases": {
-				"move": true
-			}
-		},
-		{
-			"title": "Decisive Shot",
-			"sub": "Tactic",
-			"desc": "Use this Tactic at the start of the Shooting phase. Pick a model from your kill team that is eligible to shoot and shoot with it before any other models. If another player uses this Tactic, roll off; the winner goes first.",
-			"cp": 2,
-			"phases": {
-				"shoot": true
-			}
-		},
-		{
-			"title": "Decisive Strike",
-			"sub": "Tactic",
-			"desc": "Use this Tactic at the start of the Fight phase. Pick a model from your kill team that is eligible to fight and fight with it before any other models. If another player uses this Tactic, roll off; the winner goes first.",
-			"cp": 2,
-			"phases": {
-				"fight": true
-			}
-		},
-		{
-			"title": "Gritted Teeth",
-			"sub": "Tactic",
-			"desc": "Use this Tactic when you choose a model with one or more flesh wounds to shoot in the Shooting phase or fight in the Fight phase. Until the end of the phase, this model's attacks do not suffer any penalty to their hit rolls from this model's flesh wound(s).",
-			"cp": 1,
-			"phases": {
-				"fight": true,
-				"shoot": true
-			}
-		},
-		{
-			"title": "Insane Bravery",
-			"sub": "Tactic",
-			"desc": "Use this Tactic before taking any Nerve tests in the Morale phase. You can automatically pass a single Nerve test for a model from your kill team.",
-			"cp": 1,
-			"phases": {
-				"morale": true
-			}
-		},
-		{
-			"title": "Tactical Re-Roll",
-			"sub": "Tactic",
-			"desc": "RR a single Advance roll, charge roll, Psychic test, Deny the Witch test, hit roll, wound roll, saving throw, Injury roll or Nerve test.",
-			"cp": 1,
-			"phases": {
-				"event": true
-			}
-		},
-		{
-			"title": "Outflank",
-			"sub": "Tactic",
-			"desc": "Use this Tactic at the end of the Movement phase. Choose a model from your kill team that was set up in Reserve and set them up within 1\" of the edge of the battlefield, and more than 5\" away from any enemy models.",
-			"cp": 1,
-			"phases": {
-				"move": true
-			},
-			"source": {
+    "code": "kill_team",
+    "faction": "",
+    "tactics": [
+        {
+            "title": "Careful Aim",
+            "sub": "Sniper Level 1 Tactic",
+            "desc": "Use this Tactic when you choose a Sniper specialist from your kill team to shoot in the Shooting phase. You can add 1 to hit rolls for that model until the end of the phase.",
+            "cp": 1,
+            "phases": {
+                "shoot": true
+            },
+            "keywords": [
+                "Sniper specialist"
+            ],
+            "specialist": "Sniper",
+            "level": 1
+        },
+        {
+            "title": "Headshot",
+            "sub": "Sniper Level 2 Tactic",
+            "desc": "Use this Tactic when you pick a Sniper specialist of Level 2 or higher from your kill team to shoot in the Shooting phase. Until the end of the phase, when that model shoots at obscured targets they are considered not to be obscured.",
+            "cp": 1,
+            "phases": {
+                "shoot": true
+            },
+            "keywords": [
+                "Sniper specialist"
+            ],
+            "specialist": "Sniper",
+            "level": 2
+        },
+        {
+            "title": "Quick Shot",
+            "sub": "Sniper Level 3 Tactic",
+            "desc": "Use this Tactic when you pick a Sniper specialist of Level 3 or higher from your kill team to shoot in the Shooting phase. In this Shooting phase, double the number of shots fired by that model’s ranged weapons (e.g. an Assault 2 weapon would fire 4 shots), but subtract 1 from hit rolls for that model. You cannot use this Tactic in the same battle round as the Headshot Tactic.",
+            "cp": 1,
+            "phases": {
+                "shoot": true
+            },
+            "keywords": [
+                "Sniper specialist"
+            ],
+            "specialist": "Sniper",
+            "level": 3
+        },
+        {
+            "title": "Lead by Example",
+            "sub": "Leader Level 1 Tactic",
+            "desc": "Use this Tactic when you pick a Leader from your kill team to fight in the Fight phase. Choose another friendly model within 3\" of them that is eligible to fight. You can fight with each of these models, in an order of your choice, before the next player’s turn.",
+            "cp": 1,
+            "phases": {
+                "fight": true
+            },
+            "specialist": "Leader",
+            "level": 1
+        },
+        {
+            "title": "Fire on my Target",
+            "sub": "Leader Level 2 Tactic",
+            "desc": "Use this Tactic when you pick a Leader of Level 2 or higher from your kill team to shoot in the Shooting phase. Choose another friendly model within 3\" of them that is eligible to shoot. You can make a shooting attack with each of these models, in an order of your choice, before the next player’s turn.",
+            "cp": 1,
+            "phases": {
+                "shoot": true
+            },
+            "specialist": "Leader",
+            "level": 2
+        },
+        {
+            "title": "Force Of Will",
+            "sub": "Leader Level 3 Tactic",
+            "desc": "Use this Tactic at the start of the battle round, if a Leader of Level 3 or higher from your kill team is on the battlefield and not shaken. In this battle round, your kill team does not suffer the penalty for being broken.",
+            "cp": 1,
+            "phases": {
+                "round": true
+            },
+            "specialist": "Leader",
+            "level": 3
+        },
+        {
+            "title": "Up And At ‘Em!",
+            "sub": "Combat Level 1 Tactic",
+            "desc": "Use this Tactic in the Fight phase, after attacking with a model from your kill team. Pick a Combat specialist from your kill team that has not yet attacked this phase: you can immediately fight with them.",
+            "cp": 1,
+            "phases": {
+                "fight": true
+            },
+            "specialist": "Combat",
+            "level": 1
+        },
+        {
+            "title": "Defensive Fighter",
+            "sub": "Combat Level 2 Tactic",
+            "desc": "Use this Tactic at the start of the Fight phase. Pick a Combat specialist of Level 2 or higher from your kill team. Until the end of the phase, you must subtract 2 from that model’s Attacks characteristic (to a minimum of 1), but your opponent(s) must re-roll successful hit rolls made against that model.",
+            "cp": 1,
+            "phases": {
+                "fight": true
+            },
+            "specialist": "Combat",
+            "level": 2
+        },
+        {
+            "title": "Deadly Charge",
+            "sub": "Combat Level 3 Tactic",
+            "desc": "Use this Tactic when a Combat specialist of Level 3 or higher from your kill team finishes a charge move within 1\" of an enemy model. Roll a D6; on a 5+ that enemy model suffers 1 mortal wound.",
+            "cp": 1,
+            "phases": {
+                "event": true
+            },
+            "specialist": "Combat",
+            "level": 3
+        },
+        {
+            "title": "Rousing Transmission",
+            "sub": "Comms Level 1 Tactic",
+            "desc": "Use this Tactic in the Morale phase before taking any Nerve tests. Until the end of the phase you can subtract 1 from Nerve tests for models from your kill team as though the Comms specialist was within 2\" of them.",
+            "cp": 1,
+            "phases": {
+                "morale": true
+            },
+            "specialist": "Comms",
+            "level": 1
+        },
+        {
+            "title": "Scanner Uplink",
+            "sub": "Comms Level 2 Tactic",
+            "desc": "Use this Tactic when you pick a model from your kill team that is within 6\" of a friendly Comms specialist of Level 2 or higher to shoot in the Shooting phase. That model can target an enemy model that is not visible to them. If they do so, a 6 is required for a successful hit roll irrespective of the model’s Ballistic Skill or any other modifiers, even if that weapon would normally hit automatically. The target is treated as obscured.",
+            "cp": 2,
+            "phases": {
+                "shoot": true
+            },
+            "specialist": "Comms",
+            "level": 2
+        },
+        {
+            "title": "New Intelligence",
+            "sub": "Comms Level 3 Tactic",
+            "desc": "Use this Tactic at the end of the Movement phase. Pick a model from your kill team within 12\" of a friendly Comms specialist of Level 3 or higher. Ready that model.",
+            "cp": 1,
+            "phases": {
+                "move": true
+            },
+            "specialist": "Comms",
+            "level": 3
+        },
+        {
+            "title": "Custom Ammo",
+            "sub": "Demolitions Level 1 Tactic",
+            "desc": "Use this Tactic when you pick a Demolitions specialist from your kill team to shoot in the Shooting phase. You can add 1 to wound rolls for that model’s ranged weapons in this phase.",
+            "cp": 1,
+            "phases": {
+                "shoot": true
+            },
+            "specialist": "Demolitions",
+            "level": 1
+        },
+        {
+            "title": "Lucky Escape",
+            "sub": "Demolitions Level 2 Tactic",
+            "desc": "Use this Tactic at the start of the Shooting phase. Pick a Demolitions specialist of Level 2 or higher from your kill team. Roll a D6 each time that model loses a wound in this phase; on a 5+ that wound is not lost.",
+            "cp": 1,
+            "phases": {
+                "shoot": true
+            },
+            "specialist": "Demolitions",
+            "level": 2
+        },
+        {
+            "title": "High Explosive",
+            "sub": "Demolitions Level 3 Tactic",
+            "desc": "Use this Tactic when you pick a Demolitions specialist of Level 3 or higher from your kill team to shoot in the Shooting phase. In this Shooting phase, they can only shoot a single weapon, and that weapon can only fire 1 shot (even if it would normally fire more). However, that weapon’s Damage characteristic is increased by 2. You cannot use this Tactic in the same battle round as the Custom Ammo Tactic.",
+            "cp": 1,
+            "phases": {
+                "shoot": true
+            },
+            "specialist": "Demolitions",
+            "level": 3
+        },
+        {
+            "title": "More Bullets",
+            "sub": "Heavy Level 1 Tactic",
+            "desc": "Use this Tactic when you pick a Heavy specialist from your kill team to shoot in the Shooting phase. You can add 1 to the number of shots fired by that model’s ranged weapons, with the exception of weapons that would otherwise fire 1 shot (e.g. an Assault 2 weapon would fire 3 shots, but a Rapid Fire 1 weapon at long range would fire 1 shot) in this Shooting phase.",
+            "cp": 1,
+            "phases": {
+                "shoot": true
+            },
+            "specialist": "Heavy",
+            "level": 1
+        },
+        {
+            "title": "Overwhelming Firepower",
+            "sub": "Heavy Level 2 Tactic",
+            "desc": "Use this Tactic when you pick a Heavy specialist of Level 2 or higher from your kill team to shoot in the Shooting phase. That model can shoot twice in this Shooting phase; after they have shot a first time, immediately shoot with them again. You cannot use this Tactic in the same battle round as the More Bullets Tactic.",
+            "cp": 2,
+            "phases": {
+                "shoot": true
+            },
+            "specialist": "Heavy",
+            "level": 2
+        },
+        {
+            "title": "Unkillable",
+            "sub": "Heavy Level 3 Tactic",
+            "desc": "Use this Tactic at the start of your turn in the Morale phase. Pick a Heavy specialist of Level 3 or higher from your kill team that has one or more flesh wounds. Remove one of that model’s flesh wounds.",
+            "cp": 1,
+            "phases": {
+                "morale": true
+            },
+            "specialist": "Heavy",
+            "level": 3
+        },
+        {
+            "title": "Stimm-Shot",
+            "sub": "Medic Level 1 Tactic",
+            "desc": "Use this Tactic at the start of the Movement phase. Pick a model from your kill team within 2\" of a friendly Medic specialist that is not shaken. You can add 1 to Advance rolls and charge rolls for that model, and add 1 to that model’s Attacks characteristic until the end of the battle round.",
+            "cp": 1,
+            "phases": {
+                "move": true
+            },
+            "specialist": "Medic",
+            "level": 1
+        },
+        {
+            "title": "Painkiller",
+            "sub": "Medic Level 2 Tactic",
+            "desc": "Use this Tactic at the end of the Movement phase. Pick a model from your kill team within 2\" of a friendly Medic specialist of Level 2 or higher that is not shaken. Add 2 to that model’s Toughness characteristic until the end of the battle round.",
+            "cp": 2,
+            "phases": {
+                "move": true
+            },
+            "specialist": "Medic",
+            "level": 2
+        },
+        {
+            "title": "Emergency Resuscitation",
+            "sub": "Medic Level 3 Tactic",
+            "desc": "Use this Tactic when a Medic specialist of Level 3 or higher from your kill team that is not shaken is within 2\" of another model from your kill team that suffers an Out of Action Injury roll result. That model suffers a Flesh Wound result instead.",
+            "cp": 2,
+            "phases": {
+                "event": true
+            },
+            "specialist": "Medic",
+            "level": 3
+        },
+        {
+            "title": "Quick March",
+            "sub": "Scout Level 1 Tactic",
+            "desc": "Use this Tactic when you pick a Scout specialist from your kill team to move in the Movement phase. Increase the model’s Move characteristic by 2\" this phase.",
+            "cp": 1,
+            "phases": {
+                "move": true
+            },
+            "specialist": "Scout",
+            "level": 1
+        },
+        {
+            "title": "Marked Positions",
+            "sub": "Scout Level 2 Tactic",
+            "desc": "Use this Tactic at the start of the Shooting phase. Pick an enemy model within 6\" of a Scout specialist of Level 2 or higher from your kill team that is not shaken. You can re-roll hit rolls of 1 for shooting attacks made by models in your kill team that target that enemy model until the end of the phase.",
+            "cp": 1,
+            "phases": {
+                "shoot": true
+            },
+            "specialist": "Scout",
+            "level": 2
+        },
+        {
+            "title": "Move Unseen",
+            "sub": "Scout Level 3 Tactic",
+            "desc": "Use this Tactic at the start of your turn in the Movement phase. Pick a Scout specialist of Level 3 or higher from your kill team that is not shaken. Remove that model from the battlefield and set it up again anywhere within 18\" of its previous position and more than 3\" from any enemy models. It is considered to have Advanced.",
+            "cp": 2,
+            "phases": {
+                "move": true
+            },
+            "specialist": "Scout",
+            "level": 3
+        },
+        {
+            "title": "Adaptive Tactics",
+            "sub": "Veteran Level 1 Tactic",
+            "desc": "Use this Tactic at the start of the first battle round, but before the Initiative phase. Pick a Veteran specialist from your kill team. They can make a normal move or Advance. You can only use this Tactic once per battle.",
+            "cp": 1,
+            "phases": {
+                "round": true
+            },
+            "specialist": "Veteran",
+            "level": 1
+        },
+        {
+            "title": "Well Drilled",
+            "sub": "Veteran Level 2 Tactic",
+            "desc": "Use this Tactic at the start of your turn in the Shooting phase. Pick a Veteran specialist of Level 2 or higher from your kill team. Ready them unless they are within 1\" of an enemy. They can shoot in that phase as if they had not moved in the Movement phase.",
+            "cp": 2,
+            "phases": {
+                "shoot": true
+            },
+            "specialist": "Veteran",
+            "level": 2
+        },
+        {
+            "title": "Roll With The Hits",
+            "sub": "Veteran Level 3 Tactic",
+            "desc": "Use this Tactic during your opponent’s turn in the Shooting phase. Pick a Veteran specialist of Level 3 or higher from your kill team that has been Injured, before your opponent makes the Injury roll. Your opponent can only roll a single dice for that Injury roll.",
+            "cp": 1,
+            "phases": {
+                "shoot": true
+            },
+            "specialist": "Veteran",
+            "level": 3
+        },
+        {
+            "title": "Killing Frenzy",
+            "sub": "Zealot Level 1 Tactic",
+            "desc": "Use this Tactic when you pick a Zealot specialist from your kill team to fight in the Fight phase. Until the end of the phase, each time you make a hit roll of 6+ for that model you can make an additional attack with the same weapon against the same target. These attacks cannot themselves generate any further attacks.",
+            "cp": 1,
+            "phases": {
+                "fight": true
+            },
+            "specialist": "Zealot",
+            "level": 1
+        },
+        {
+            "title": "Martyr",
+            "sub": "Zealot Level 2 Tactic",
+            "desc": "Use this Tactic when a Zealot specialist of Level 2 or higher from your kill team loses their last wound, before any player rolls on the Injury table. You may immediately shoot with one of its weapons as if it were the Shooting phase, or pile in and make one attack as if it were the Fight phase.",
+            "cp": 2,
+            "phases": {
+                "event": true
+            },
+            "specialist": "Zealot",
+            "level": 2
+        },
+        {
+            "title": "Terrifying Rampage",
+            "sub": "Zealot Level 3 Tactic",
+            "desc": "Use this Tactic at the start of the Morale phase. Pick a Zealot specialist of Level 3 or higher from your kill team that took an enemy model out of action in the preceding Fight phase. Each enemy model within 6\" of the Zealot must take a Nerve test. If the test is failed the model is shaken.",
+            "cp": 2,
+            "phases": {
+                "morale": true
+            },
+            "specialist": "Zealot",
+            "level": 3
+        },
+        {
+            "title": "Decisive Move",
+            "sub": "Tactic",
+            "desc": "Use this Tactic at the start of the Movement phase. Pick a model from your kill team and make a move with it before any other models (including an Advance move, Fall Back move or charge attempt if you wish). If another player uses this Tactic, roll off; the winner goes first.",
+            "cp": 1,
+            "phases": {
+                "move": true
+            }
+        },
+        {
+            "title": "Decisive Shot",
+            "sub": "Tactic",
+            "desc": "Use this Tactic at the start of the Shooting phase. Pick a model from your kill team that is eligible to shoot and shoot with it before any other models. If another player uses this Tactic, roll off; the winner goes first.",
+            "cp": 2,
+            "phases": {
+                "shoot": true
+            }
+        },
+        {
+            "title": "Decisive Strike",
+            "sub": "Tactic",
+            "desc": "Use this Tactic at the start of the Fight phase. Pick a model from your kill team that is eligible to fight and fight with it before any other models. If another player uses this Tactic, roll off; the winner goes first.",
+            "cp": 2,
+            "phases": {
+                "fight": true
+            }
+        },
+        {
+            "title": "Gritted Teeth",
+            "sub": "Tactic",
+            "desc": "Use this Tactic when you choose a model with one or more flesh wounds to shoot in the Shooting phase or fight in the Fight phase. Until the end of the phase, this model's attacks do not suffer any penalty to their hit rolls from this model's flesh wound(s).",
+            "cp": 1,
+            "phases": {
+                "fight": true,
+                "shoot": true
+            }
+        },
+        {
+            "title": "Insane Bravery",
+            "sub": "Tactic",
+            "desc": "Use this Tactic before taking any Nerve tests in the Morale phase. You can automatically pass a single Nerve test for a model from your kill team.",
+            "cp": 1,
+            "phases": {
+                "morale": true
+            }
+        },
+        {
+            "title": "Tactical Re-Roll",
+            "sub": "Tactic",
+            "desc": "re-roll a single Advance roll, charge roll, Psychic test, Deny the Witch test, hit roll, wound roll, saving throw, Injury roll or Nerve test.",
+            "cp": 1,
+            "phases": {
+                "event": true
+            }
+        },
+        {
+            "title": "Outflank",
+            "sub": "Tactic",
+            "desc": "Use this Tactic at the end of the Movement phase. Choose a model from your kill team that was set up in Reserve and set them up within 1\" of the edge of the battlefield, and more than 5\" away from any enemy models.",
+            "cp": 1,
+            "phases": {
+                "move": true
+            },
+            "source": {
                 "id": "kta19",
                 "page": "99"
             }
-		}
-	]
+        },
+        {
+            "title": "Duel of Honour",
+            "sub": "Commander Tactic",
+            "desc": "Use this Tactic at the start of the Fight phase. Your Commander can only targe enemy Commanders this phase, but you can re-roll failed hit and wound rolls for your Commander's attacks until the end of the phase.",
+            "cp": 1,
+            "phases": {
+            	"fight": true
+            },
+            "keywords": [
+                "Commander"
+            ],
+            "source": {
+                "id": "com18",
+                "page": "16"
+            }
+        },
+        {
+            "title": "Look out, Sir!",
+            "sub": "Commander Tactic",
+            "desc": "Use this Tactic when you fail a saving throw for your Commander if there is another model from your kill team within 2\" of them (excluding shaken models.) Roll a D6; on a 2+ the damage is inflicted on that model instead of your Commander.",
+            "cp": 1,
+            "phases": {
+            	"fight": true,
+            	"shoot": true,
+            	"psychic": true
+            },
+            "keywords": [
+                "Commander"
+            ],
+            "source": {
+                "id": "com18",
+                "page": "16"
+            }
+        },
+        {
+            "title": "Heroic Intervention",
+            "sub": "Commander Tactic",
+            "desc": "Use this Tactic at the end of the Movement phase if there are any enemy models within 3\" of your Commander and your Commander did not Advance, Fall Back, Retreat or make a charge attempt this phase. Your Commander can immediately make a pile-in move as described in the Fight phase.",
+            "cp": 1,
+            "phases": {
+            	"move": true
+            },
+            "keywords": [
+                "Commander"
+            ],
+            "source": {
+                "id": "com18",
+                "page": "16"
+            }
+        },
+        {
+            "title": "Body Slam",
+            "sub": "Level 1 Strength Tactic",
+            "desc": "Use this Tactic when a Strength specialist from your kill team ends a charge move within 1\" of any enemy models. Roll a D6 for each enemy model within 1\" of that Strength specialist; on a 6, that enemy model suffers 1 mortal wound.",
+            "cp": 1,
+            "specialist": "Strength",
+            "level": 1,
+            "phases": {
+            	"move": true
+            },
+            "keywords": [
+                "Commander"
+            ],
+            "source": {
+                "id": "com18",
+                "page": "29"
+            }
+        },
+        {
+            "title": "Mighty Blow",
+            "sub": "Level 2 Strength Tactic",
+            "desc": "Use this Tactic when a Strength specialist of Level 2 or higher from your kill team makes an attack that targets an enemy model in the Fight phase  (use the Tactic before the hit roll is made). If the attack hits this specialist inflicts 1 mortal wound on the target - the attack sequence then ends.",
+            "cp": 1,
+            "specialist": "Strength",
+            "level": 2,
+            "phases": {
+            	"fight": true
+            },
+            "keywords": [
+                "Commander"
+            ],
+            "source": {
+                "id": "com18",
+                "page": "29"
+            }
+        },
+        {
+            "title": "Grab and Throw",
+            "sub": "Level 3 Strength Tactic",
+            "desc": "Use this Tactic when a model in an opposing kill team has to take a Falling test whilst within 1\" of a Strength specialist of Level 3 or higher from your kill team that is not shaken and does not have to take a Falling test. Instead of taking the Falling test in the normal fashion, the controlling player for each model rolls a D6 and adds their model's Strength characteristic to the result. If your score equals or beats your opponent's, the Falling test is failed, otherwise it is passed.",
+            "cp": 1,
+            "specialist": "Strength",
+            "level": 3,
+            "phases": {
+            	"event": true
+            },
+            "keywords": [
+                "Commander"
+            ],
+            "source": {
+                "id": "com18",
+                "page": "29"
+            }
+        },
+        {
+            "title": "Decoys",
+            "sub": "Level 1 Strategist Tactic",
+            "desc": "Use this Tactic at the start of the first battle round, before the Initiative phase. Roll a D3; you can remove up to that number of models from your kill team from the battlefield and set them up again, following any restrictions described in the mission (eg that they must be set up in your territory). You can only use this Tactic once per battle.",
+            "cp": 2,
+            "specialist": "Strategist",
+            "level": 1,
+            "phases": {
+            	"round": true
+            },
+            "keywords": [
+                "Commander"
+            ],
+            "source": {
+                "id": "com18",
+                "page": "28"
+            }
+        },
+        {
+            "title": "Inspiried Tactics",
+            "sub": "Level 2 Strategist Tactic",
+            "desc": "Use this Tactic after you have used a Tactic from the and Tactics section of the Kill Team Core Manual. You can use that Tactic again this phase.",
+            "cp": 1,
+            "specialist": "Strategist",
+            "level": 2,
+            "phases": {
+            	"event": true
+            },
+            "keywords": [
+                "Commander"
+            ],
+            "source": {
+                "id": "com18",
+                "page": "28"
+            }
+        },
+        {
+            "title": "Counter Tactics",
+            "sub": "Level 3 Strategist Tactic",
+            "desc": "Use this Tactic after your opponent has spent to use a Tactic. Your opponent must spend 1 additional to use that Tactic. If they choose not to (or they cannot), their are refunded but the Tactic they attempted to use is not resolved and cannot be attempted again this phase.",
+            "cp": 2,
+            "specialist": "Strategist",
+            "level": 3,
+            "phases": {
+            	"event": true
+            },
+            "keywords": [
+                "Commander"
+            ],
+            "source": {
+                "id": "com18",
+                "page": "28"
+            }
+        },
+        {
+            "title": "Murderlust",
+            "sub": "Level 1 Ferocity Tactic",
+            "desc": "Use this Tactic when it is your turn to move in the Movement phase. A Ferocity specialist from your kill team that is not shaken can make a charge attempt against an enemy model within 15\" of them and you can add D3 to their charge roll.",
+            "cp": 1,
+            "specialist": "Ferocity",
+            "level": 1,
+            "phases": {
+            	"move": true
+            },
+            "keywords": [
+                "Commander"
+            ],
+            "source": {
+                "id": "com18",
+                "page": "20"
+            }
+        },
+        {
+            "title": "Bellow of Wrath",
+            "sub": "Level 2 Ferocity Tactic",
+            "desc": "Use this Tactic at the start of he Morale phase. In this phase, your opponent(s) must re-roll successful Nerve tests taken for enemy models within 6\" of a Ferocity specialist of Level 2 or higher from your kill team that is not shaken.",
+            "cp": 2,
+            "specialist": "Ferocity",
+            "level": 2,
+            "phases": {
+            	"morale": true
+            },
+            "keywords": [
+                "Commander"
+            ],
+            "source": {
+                "id": "com18",
+                "page": "20"
+            }
+        },
+        {
+            "title": "Fury Unleashed",
+            "sub": "Level 3 Ferocity Tactic",
+            "desc": "Use this Tactic in the Fight phase, before attacking with a Ferocity specialist of Level 3 or higher from your kill team. Add 1 to Injury rolls you make when resolving attacks for this model in this phase.",
+            "cp": 2,
+            "specialist": "Ferocity",
+            "level": 3,
+            "phases": {
+            	"fight": true
+            },
+            "keywords": [
+                "Commander"
+            ],
+            "source": {
+                "id": "com18",
+                "page": "20"
+            }
+        },
+        {
+            "title": "Pain is for the Weak!",
+            "sub": "Level 1 Fortitude Tactic",
+            "desc": "Use this Tactic when an opponent makes an Injury roll for a model from your kill team that is within 3\" of a friendly Fortitude specialist (use this Tactic before the Injury roll is made). Subtract 1 from all dice rolled as part of that Injury roll.",
+            "cp": 1,
+            "specialist": "Fortitude",
+            "level": 1,
+            "phases": {
+            	"fight": true,
+            	"shoot": true,
+            	"psychic": true
+            },
+            "keywords": [
+                "Commander"
+            ],
+            "source": {
+                "id": "com18",
+                "page": "21"
+            }
+        },
+        {
+            "title": "It's Just a Scratch!",
+            "sub": "Level 2 Fortitude Tactic",
+            "desc": "Use this Tactic at the start of the Morale phase. Roll a D6 for each flesh wound that a Fortitude specialist of Level 2 or higher from your kill team has suffered. On a 5+, that flesh wound is removed.",
+            "cp": 1,
+            "specialist": "Fortitude",
+            "level": 2,
+            "phases": {
+            	"morale": true
+            },
+            "keywords": [
+                "Commander"
+            ],
+            "source": {
+                "id": "com18",
+                "page": "21"
+            }
+        },
+        {
+            "title": "Refusal to Fall",
+            "sub": "Level 3 Fortitude Tactic",
+            "desc": "Use this Tactic when your opponent makes an Injury roll for a Fortitude specialist of Level 3 or higher from your kill team (use the Tactic before the Injury roll is made). Apply a -2 modifer to that Injury roll.",
+            "cp": 2,
+            "specialist": "Fortitude",
+            "level": 3,
+            "phases": {
+            	"fight": true,
+            	"shoot": true,
+            	"psychic": true
+            },
+            "keywords": [
+                "Commander"
+            ],
+            "source": {
+                "id": "com18",
+                "page": "21"
+            }
+        },
+        {
+            "title": "Second in Command",
+            "sub": "Level 1 Leadership Tactic",
+            "desc": "Use this Tactic at the start of the battle round. Until the end of the battle round, your kill team's Leader can use any of your Commander's Aura Tactics. When they do so, they are the model that gains the aura ability, rather than your Commander.",
+            "cp": 1,
+            "specialist": "Leadership",
+            "level": 1,
+            "phases": {
+            	"round": true
+            },
+            "keywords": [
+                "Commander"
+            ],
+            "source": {
+                "id": "com18",
+                "page": "22"
+            }
+        },
+        {
+            "title": "Bring Them Down!",
+            "sub": "Level 2 Leadership Tactic",
+            "desc": "Use this Tactic at the start of the Shooting phase. Pick an enemy model that is visible to a Leadership specialist of Level 2 or higher from your kill team. You can re-roll hit rolls of 1 for friendly models' attacks made in this phase that target the model you picked.",
+            "cp": 1,
+            "specialist": "Leadership",
+            "level": 2,
+            "phases": {
+            	"shoot": true
+            },
+            "keywords": [
+                "Commander"
+            ],
+            "source": {
+                "id": "com18",
+                "page": "22"
+            }
+        },
+        {
+            "title": "Inspirational Oratory",
+            "sub": "Level 3 Leadership Tactic",
+            "desc": "Use this Tactic at the start of the Morale phase. As long as a Leadership specialist of Level 3 or higher from your kill team is on the battlefield and not shaken, all friendly models on the battlefield automatically pass Nerve tests made in this phase.",
+            "cp": 2,
+            "specialist": "Leadership",
+            "level": 3,
+            "phases": {
+            	"morale": true
+            },
+            "keywords": [
+                "Commander"
+            ],
+            "source": {
+                "id": "com18",
+                "page": "22"
+            }
+        },
+        {
+            "title": "Grav-chute",
+            "sub": "Level 1 Logistics Tactic",
+            "desc": "Use this Tactic at the start of the first battle round, before the Initiative phase. Pick a model from your kill team. For the duration of the battle, that model never suffers falling damage, and never falls on another model. If it would, instead place that model as close as possible to the point where it would have landed. This can bring it within 1\" of an enemy model.",
+            "cp": 1,
+            "specialist": "Logistics",
+            "level": 1,
+            "phases": {
+            	"round": true
+            },
+            "keywords": [
+                "Commander"
+            ],
+            "source": {
+                "id": "com18",
+                "page": "23"
+            }
+        },
+        {
+            "title": "Armour-piercing Ammunition",
+            "sub": "Level 2 Logistics Tactic",
+            "desc": "Use this Tactic in the Shooting phase when a Logistics specialist of Level 2 or higher from your kill team makes a shooting attack with an Assault, Rapid Fire, Heavy or Pistol weapon. When resolving the attacks, increase the weapon's Strength characteristic by 1, and improve its AP by 1 (eg AP0 becomes AP-1).",
+            "cp": 1,
+            "specialist": "Logistics",
+            "level": 2,
+            "phases": {
+            	"shoot": true
+            },
+            "keywords": [
+                "Commander"
+            ],
+            "source": {
+                "id": "com18",
+                "page": "23"
+            }
+        },
+        {
+            "title": "Refractor Field",
+            "sub": "Level 3 Logistics Tactic",
+            "desc": "Use this Tactic at the start of the first battle round, before the Initiative phase. Pick a model from your kill team; for the duration of the battle, that model has a 5+ invulnerable save.",
+            "cp": 1,
+            "specialist": "Logistics",
+            "level": 3,
+            "phases": {
+            	"round": true
+            },
+            "keywords": [
+                "Commander"
+            ],
+            "source": {
+                "id": "com18",
+                "page": "23"
+            }
+        },
+        {
+            "title": "Stunning Blow",
+            "sub": "Level 1 Melee Tactic",
+            "desc": "Use this Tactic when a Melee specialist from your kill team makes an attack that targets an enemy model in the Fight phase (use the Tactic before the hit roll is made). If that attack hits (whether or not the wound roll is successful), your opponent must subtract 1 from that model's hit rolls for the rest of the battle round.",
+            "cp": 1,
+            "specialist": "Melee",
+            "level": 1,
+            "phases": {
+            	"fight": true
+            },
+            "keywords": [
+                "Commander"
+            ],
+            "source": {
+                "id": "com18",
+                "page": "24"
+            }
+        },
+        {
+            "title": "Haymaker",
+            "sub": "Level 2 Melee Tactic",
+            "desc": "Use this Tactic when a Melee specialist of Level 2 or higher from your kill team makes an attack that targets an enemy model in the Fight phase (use the Tactic before the hit roll is made). If the attack is successful, any damage inflicted is doubled.",
+            "cp": 1,
+            "specialist": "Melee",
+            "level": 2,
+            "phases": {
+            	"fight": true
+            },
+            "keywords": [
+                "Commander"
+            ],
+            "source": {
+                "id": "com18",
+                "page": "24"
+            }
+        },
+        {
+            "title": "Fight Dirty",
+            "sub": "Level 3 Melee Tactic",
+            "desc": "Use this Tactic when an enemy model makes any attacks that target a Melee specialist of Level 3 or higher from your kill team in the Fight phase (use the Tactic before any hit rolls are made). For the rest of the battle round, the enemy model's controlling player must subtract 2 from hit rolls for that model's attacks.",
+            "cp": 2,
+            "specialist": "Melee",
+            "level": 3,
+            "phases": {
+            	"fight": true
+            },
+            "keywords": [
+                "Commander"
+            ],
+            "source": {
+                "id": "com18",
+                "page": "24"
+            }
+        },
+        {
+            "title": "Mental Focus",
+            "sub": "Level 1 Psyker Tactic",
+            "desc": "Use this Tactic after manifesting the Psybolt psychic power with a Psyker specialist from your kill team. You can attempt to manifest Psybolt a second time this phase. This Tactic costs 1 unless the specialist can normally attempt to manifest only one psychic power in each Psychic phase, in which case it costs 2 instead.",
+            "cp": 1,
+            "specialist": "Psyker",
+            "level": 1,
+            "phases": {
+            	"psychic": true
+            },
+            "keywords": [
+                "Commander"
+            ],
+            "source": {
+                "id": "com18",
+                "page": "25"
+            }
+        },
+        {
+            "title": "Loremaster",
+            "sub": "Level 2 Psyker Tactic",
+            "desc": "Use this Tactic at the start of the Psychic phase. You can exchange one psychic power that a Psyker specialist of Level 2 or higher from your kill team knows (other than Psybolt) for a new power generated from the Psychic Powers list (C 17).",
+            "cp": 2,
+            "specialist": "Psyker",
+            "level": 2,
+            "phases": {
+            	"psychic": true
+            },
+            "keywords": [
+                "Commander"
+            ],
+            "source": {
+                "id": "com18",
+                "page": "25"
+            }
+        },
+        {
+            "title": "Psychic Barrage",
+            "sub": "Level 3 Psyker Tactic",
+            "desc": "Use this Tactic when you chose a Psyker specialist of Level 3 or higher from your kill team to manifest a psychic power in the Psychic phase. That model can attempt to manifest one additional psychic power in this phase that it has not already attempted to manifest in this phase.",
+            "cp": 2,
+            "specialist": "Psyker",
+            "level": 3,
+            "phases": {
+            	"psychic": true
+            },
+            "keywords": [
+                "Commander"
+            ],
+            "source": {
+                "id": "com18",
+                "page": "25"
+            }
+        },
+        {
+            "title": "Itchy Trigger Finger",
+            "sub": "Level 1 Shooting Tactic",
+            "desc": "Use this Tactic at the start of the Shooting phase to immediately Ready a Shooting specialist from your kill team that is neither shaken nor within 1\" of an enemy model.",
+            "cp": 1,
+            "specialist": "Shooting",
+            "level": 1,
+            "phases": {
+            	"shoot": true
+            },
+            "keywords": [
+                "Commander"
+            ],
+            "source": {
+                "id": "com18",
+                "page": "26"
+            }
+        },
+        {
+            "title": "Lucky Hit",
+            "sub": "Level 2 Shooting Tactic",
+            "desc": "Use this Tactic when a Shooting specialist of Level 2 or higher from your kill team makes an attack that hits an enemy model in the Shooting phase (use the Tactic before the wound roll is made). Do not make a wound roll - it is automatically successful.",
+            "cp": 1,
+            "specialist": "Shooting",
+            "level": 2,
+            "phases": {
+            	"shoot": true
+            },
+            "keywords": [
+                "Commander"
+            ],
+            "source": {
+                "id": "com18",
+                "page": "26"
+            }
+        },
+        {
+            "title": "Impossible Shot",
+            "sub": "Level 3 Shooting Tactic",
+            "desc": "Use this Tactic when a Shooting specialist of Level 3 or higher from your kill team makes an attack that targets an enemy model in the Shooting phase (use the Tactic before the hit roll is made). Do not make a hit roll - it is automatically successful. You cannot use this Tactic in the same battle round as the Lucky Hit Tactic.",
+            "cp": 1,
+            "specialist": "Shooting",
+            "level": 3,
+            "phases": {
+            	"shoot": true
+            },
+            "keywords": [
+                "Commander"
+            ],
+            "source": {
+                "id": "com18",
+                "page": "26"
+            }
+        },
+        {
+            "title": "Hidden Deployment",
+            "sub": "Level 1 Stealth Tactic",
+            "desc": "Use this Tactic at the start of the first battle round, before the Initiative phase. A Stealth specialist from your kill team can immediately make a normal move as if it were the Movement phase. You can only use thie Tactic once per battle.",
+            "cp": 1,
+            "specialist": "Stealth",
+            "level": 1,
+            "phases": {
+            	"round": true
+            },
+            "keywords": [
+                "Commander"
+            ],
+            "source": {
+                "id": "com18",
+                "page": "27"
+            }
+        },
+        {
+            "title": "Diver for Cover",
+            "sub": "Level 2 Stealth Tactic",
+            "desc": "Use this Tactic at the start of the Shooting phase if a Stealth specialist of Level 2 or higher from your kill team is within 2\" of any terrain feature. The specialist is considered to be obscured from all enemy models until the end of the phase.",
+            "cp": 1,
+            "specialist": "Stealth",
+            "level": 2,
+            "phases": {
+            	"shoot": true
+            },
+            "keywords": [
+                "Commander"
+            ],
+            "source": {
+                "id": "com18",
+                "page": "27"
+            }
+        },
+        {
+            "title": "Backstab",
+            "sub": "Level 3 Stealth Tactic",
+            "desc": "Use this Tactic in the Fight phase when a Stealth specialist of Level 3 or higher from your kill team makes an attack against a target that is within 1\" of any other friendly model (before the hit roll). If the attack hits, the specialist inflicts a number of mortal wounds on the target equal to the weapon's Damage characteristic - the attack sequence then ends.",
+            "cp": 2,
+            "specialist": "Stealth",
+            "level": 3,
+            "phases": {
+            	"fight": true
+            },
+            "keywords": [
+                "Commander"
+            ],
+            "source": {
+                "id": "com18",
+                "page": "27"
+            }
+        },
+        {
+            "title": "Nine Lives",
+            "sub": "Level 1 Legendary Hunter Tactic",
+            "desc": "Use this Tactic when your opponent makes an Injury roll for a Legendary Hunter specialist from your kill team. They must subtract 1 from each of the dice rolled.",
+            "cp": 1,
+            "specialist": "Legendary Hunter",
+            "level": 1,
+            "phases": {
+            	"fight": true,
+            	"shoot": true,
+            	"psychic": true
+            },
+            "keywords": [
+                "Commander"
+            ],
+            "source": {
+                "id": "eli19",
+                "page": "13"
+            }
+        },
+        {
+            "title": "Fighting With the Legend",
+            "sub": "Level 2 Legendary Hunter Tactic",
+            "desc": "Use this Tactic at the beginning of the Morale phase if there is a Legendary Hunter of Level 2 or higher that is not shaken on the battlefield. That model and friendly models within 2\" of them automatically pass any Nerve tests in this phase.",
+            "cp": 1,
+            "specialist": "Legendary Hunter",
+            "level": 2,
+            "phases": {
+            	"morale": true
+            },
+            "keywords": [
+                "Commander"
+            ],
+            "source": {
+                "id": "eli19",
+                "page": "13"
+            }
+        },
+        {
+            "title": "Legendary Skill",
+            "sub": "Level 3 Legendary Hunter Tactic",
+            "desc": "Use this Tactic when you choose a Legendary Hunter of Level 3 or higher to attack in the Shooting phase or Fight phase. You can re-roll failed hit and wound rolls for that model until the end of the phase.",
+            "cp": 2,
+            "specialist": "Legendary Hunter",
+            "level": 3,
+            "phases": {
+            	"fight": true,
+            	"shoot": true
+            },
+            "keywords": [
+                "Commander"
+            ],
+            "source": {
+                "id": "eli19",
+                "page": "13"
+            }
+        }
+    ]
 }

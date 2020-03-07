@@ -90,7 +90,7 @@
         {
             "title": "Assured Disintegration",
             "sub": "Necrons Tactic",
-            "desc": "Use this Tactic when you choose a Deathmark from your kill team to shoot in the Shooting phase. Until the end of the phase you may RR hit rolls made for that model.",
+            "desc": "Use this Tactic when you choose a Deathmark from your kill team to shoot in the Shooting phase. Until the end of the phase you may re-roll hit rolls made for that model.",
             "cp": 1,
             "phases": {
                 "shoot": true

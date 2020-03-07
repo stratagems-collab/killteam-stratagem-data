@@ -5,7 +5,7 @@
         {
             "title": "Decapitation Doctrine",
             "sub": "Deathwatch Tactic",
-            "desc": "Use this Tactic when a model from your kill team is chosen to attack in the Shooting or Fight phase. Until the end of the phase, RR failed wound rolls for that model that targets an enemy Leader.",
+            "desc": "Use this Tactic when a model from your kill team is chosen to attack in the Shooting or Fight phase. Until the end of the phase, re-roll failed wound rolls for that model that targets an enemy Leader.",
             "cp": 1,
             "phases": {
                 "event": true
@@ -36,7 +36,7 @@
         {
             "title": "Rival Chapters",
             "sub": "Deathwatch Tactic",
-            "desc": "Use this Tactic when a model from your kill team is chosen to attack in the Shooting or Fight phase whilst there is another model from your kill team within 2\" of it. Until the end of the phase, RR hit rolls of 1 for both models.",
+            "desc": "Use this Tactic when a model from your kill team is chosen to attack in the Shooting or Fight phase whilst there is another model from your kill team within 2\" of it. Until the end of the phase, re-roll hit rolls of 1 for both models.",
             "cp": 1,
             "phases": {
                 "event": true
@@ -102,7 +102,7 @@
         {
             "title": "The Beheading",
             "sub": "Deathwatch Tactic",
-            "desc": "Use this Tactic at the start of the Fight phase. Until the end of the phase, you may RR hit rolls for any attacks that target an enemy Leader.",
+            "desc": "Use this Tactic at the start of the Fight phase. Until the end of the phase, you may re-roll hit rolls for any attacks that target an enemy Leader.",
             "cp": 2,
             "phases": {
                 "fight": true
@@ -141,7 +141,7 @@
         {
             "title": "Rites of Battle",
             "sub": "Primaris Captain Aura Tactic",
-            "desc": "Use this Tactic at the start of the Shooting phase. As long as this model is not shaken, you can RR hit rolls of 1 for friendly models within 6\" of this model.",
+            "desc": "Use this Tactic at the start of the Shooting phase. As long as this model is not shaken, you can re-roll hit rolls of 1 for friendly models within 6\" of this model.",
             "cp": 1,
             "phases": {
             	"shoot": true
@@ -154,7 +154,7 @@
         {
             "title": "Litanies of Hate",
             "sub": "Primaris Chaplain Aura Tactic",
-            "desc": "Use this Tactic at the start of the Fight phase. As long as this model is not shaken, you can RR failed hit rolls in the Fight phase for friendly models within 6\" of this model.",
+            "desc": "Use this Tactic at the start of the Fight phase. As long as this model is not shaken, you can re-roll failed hit rolls in the Fight phase for friendly models within 6\" of this model.",
             "cp": 1,
             "phases": {
             	"fight": true
@@ -180,7 +180,7 @@
         {
             "title": "Master of Battle",
             "sub": "Watch Master Aura Tactic",
-            "desc": "Use this Tactic at the start of the Shooting phase. As long as this model is not shaken, you can RR failed hit rolls for friendly models within 6\" of this model.",
+            "desc": "Use this Tactic at the start of the Shooting phase. As long as this model is not shaken, you can re-roll failed hit rolls for friendly models within 6\" of this model.",
             "cp": 2,
             "phases": {
             	"shoot": true

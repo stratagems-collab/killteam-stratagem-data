@@ -86,7 +86,7 @@
         {
             "title": "Lord of Resentment",
             "sub": "Vulgrar Thrice-cursed Aura Tactic",
-            "desc": "Use this Tactic at the start of the Movement phase if your kill team included Vulgrar Thrice-cursed. This model gains the following aura ability until the end of the battle round.As long as this model is not shaken, you can RR hit rolls of 1 made for friendly Gellerpox Infected models within 6\" of this model.",
+            "desc": "Use this Tactic at the start of the Movement phase if your kill team included Vulgrar Thrice-cursed. This model gains the following aura ability until the end of the battle round.As long as this model is not shaken, you can re-roll hit rolls of 1 made for friendly Gellerpox Infected models within 6\" of this model.",
             "cp": 1,
             "phases": {
             	"move": true

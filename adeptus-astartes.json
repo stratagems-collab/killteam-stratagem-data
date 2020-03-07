@@ -270,7 +270,7 @@
         {
             "title": "Rites of Battle",
             "sub": "Primaris Captain Aura Tactic",
-            "desc": "Use this Tactic at the start of the Shooting phase. As long as this model is not shaken, you can RR hit rolls of 1 for friendly models within 6\" of this model.",
+            "desc": "Use this Tactic at the start of the Shooting phase. As long as this model is not shaken, you can re-roll hit rolls of 1 for friendly models within 6\" of this model.",
             "cp": 1,
             "phases": {
             	"shoot": true
@@ -284,7 +284,7 @@
         {
             "title": "Tactical Precision",
             "sub": "Primaris Lieutenant Aura Tactic",
-            "desc": "Use this Tactic at the start of the Shooting phase. As long as this model is not shaken, you can RR wound rolls of 1 for friendly models within 6\" of this model.",
+            "desc": "Use this Tactic at the start of the Shooting phase. As long as this model is not shaken, you can re-roll wound rolls of 1 for friendly models within 6\" of this model.",
             "cp": 1,
             "phases": {
             	"shoot": true
@@ -297,7 +297,7 @@
         {
             "title": "Litanies of Hate",
             "sub": "Primaris Chaplain Aura Tactic",
-            "desc": "Use this Tactic at the start of the Fight phase. As long as this model is not shaken, you can RR failed hit rolls in the Fight phase for friendly models within 6\" of this model.",
+            "desc": "Use this Tactic at the start of the Fight phase. As long as this model is not shaken, you can re-roll failed hit rolls in the Fight phase for friendly models within 6\" of this model.",
             "cp": 1,
             "phases": {
             	"fight": true

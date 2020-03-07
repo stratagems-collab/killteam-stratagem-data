@@ -131,7 +131,7 @@
         {
             "title": "Guided by the Past",
             "sub": "Thousand Sons Tactic",
-            "desc": "Use this Tactic when you choose a model from your kill team to shoot in the Shooting phase, or fight in the Fight phase. Until the end of that phase, you can RR hit rolls for attacks made by this model that target enemy models that have already been chosen to shoot or fight this phase.",
+            "desc": "Use this Tactic when you choose a model from your kill team to shoot in the Shooting phase, or fight in the Fight phase. Until the end of that phase, you can re-roll hit rolls for attacks made by this model that target enemy models that have already been chosen to shoot or fight this phase.",
             "cp": 1,
             "phases": {
                 "shoot": true,
@@ -190,7 +190,7 @@
         {
             "title": "Ritual Slaughter",
             "sub": "Thousand Sons Tactic",
-            "desc": "Use this Tactic at the start of a Shooting phase or Fight phase, if exactly 9 enemy models have been taken out of action during the course of the battle. Until the end of that phase, RR failed wound rolls for attacks made by models from your kill team.",
+            "desc": "Use this Tactic at the start of a Shooting phase or Fight phase, if exactly 9 enemy models have been taken out of action during the course of the battle. Until the end of that phase, re-roll failed wound rolls for attacks made by models from your kill team.",
             "cp": 1,
             "phases": {
                 "shoot": true,
@@ -204,7 +204,7 @@
         {
             "title": "Guided by the Future",
             "sub": "Thousand Sons Tactic",
-            "desc": "Use this Tactic when you choose a model from your kill team to shoot in the Shooting phase, or fight in the Fight phase. Until the end of that phase, you can RR hit rolls for attacks made by this model that target enemy models that have already been chose to shoot or fight this phase.",
+            "desc": "Use this Tactic when you choose a model from your kill team to shoot in the Shooting phase, or fight in the Fight phase. Until the end of that phase, you can re-roll hit rolls for attacks made by this model that target enemy models that have already been chose to shoot or fight this phase.",
             "cp": 1,
             "phases": {
                 "shoot": true,
