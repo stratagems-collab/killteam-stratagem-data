@@ -5,7 +5,7 @@
         {
             "title": "Asurmen's Blessing",
             "sub": "Craftworlds Tactic",
-            "desc": "Use this Tactic when you choose a Dire Avenger from your kill team to shoot in the Shooting phase. You can RR failed hit rolls for that model until the end of the phase.",
+            "desc": "Use this Tactic when you choose a Dire Avenger from your kill team to shoot in the Shooting phase. You can re-roll failed hit rolls for that model until the end of the phase.",
             "cp": 1,
             "phases": {
                 "shoot": true
@@ -172,7 +172,7 @@
         {
             "title": "The Great Enemy",
             "sub": "Asuryani Tactic",
-            "desc": "You can use this Tactic when you choose a model from your kill team to fight in the Fight phase. Until the end of that phase, you can RR wound rolls for attacks made by that model that target an enemy model with the Slaanesh keyword.",
+            "desc": "You can use this Tactic when you choose a model from your kill team to fight in the Fight phase. Until the end of that phase, you can re-roll wound rolls for attacks made by that model that target an enemy model with the Slaanesh keyword.",
             "cp": 1,
             "phases": {
                 "fight": true
@@ -198,7 +198,7 @@
         {
             "title": "Our Time of Need",
             "sub": "Asuryani Tactic",
-            "desc": "Use this Tactic in the Shooting phase when you choose a Heavy Weapon Platform from your kill team to shoot. You can RR hit rolls for attacks made by that Heavy Weapon Platform until the end of the phase.",
+            "desc": "Use this Tactic in the Shooting phase when you choose a Heavy Weapon Platform from your kill team to shoot. You can re-roll hit rolls for attacks made by that Heavy Weapon Platform until the end of the phase.",
             "cp": 1,
             "phases": {
                 "shoot": true
@@ -214,7 +214,7 @@
         {
             "title": "The Path of Command",
             "sub": "Autarch Aura Tactic",
-            "desc": "Use this Tactic at the start of the battle round. As long as this model is not shaken, you can RR hit rolls of 1 for friendly models within 6\" of this model.",
+            "desc": "Use this Tactic at the start of the battle round. As long as this model is not shaken, you can re-roll hit rolls of 1 for friendly models within 6\" of this model.",
             "cp": 1,
             "phases": {
             	"round": true
@@ -230,7 +230,7 @@
         {
             "title": "Spirit Mask",
             "sub": "Spiritseer Aura Tactic",
-            "desc": "Use this Tactic at the start of the battle round. As long as this model is not shaken, you can RR hit rolls of 1 for friendly Spirit Host models that target enemy models within 6\" of this model.",
+            "desc": "Use this Tactic at the start of the battle round. As long as this model is not shaken, you can re-roll hit rolls of 1 for friendly Spirit Host models that target enemy models within 6\" of this model.",
             "cp": 1,
             "phases": {
             	"round": true

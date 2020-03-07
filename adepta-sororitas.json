@@ -24,7 +24,7 @@
         {
             "title": "Burn the Heretic!",
             "sub": "Adepta Sororitas Tactic",
-            "desc": "Use this tactic when you pick an Adepta Sororitas model from your kill team to shoot with a flamer. You can RR the dice to determins the number of attacks made by this model's flamer, until the end of the phase.",
+            "desc": "Use this tactic when you pick an Adepta Sororitas model from your kill team to shoot with a flamer. You can re-roll the dice to determins the number of attacks made by this model's flamer, until the end of the phase.",
             "cp": 1,
             "phases": {
                 "shoot": true
@@ -78,7 +78,7 @@
         {
             "title": "Lead the Righteous",
             "sub": "Cannoness Aura Tactic",
-            "desc": "Use this tactic at the start of the Shooting phase. As long as this model is not shaken, you can RR hit rolls of 1 for friendly models within 6\" of this model.",
+            "desc": "Use this tactic at the start of the Shooting phase. As long as this model is not shaken, you can re-roll hit rolls of 1 for friendly models within 6\" of this model.",
             "cp": 1,
             "phases": {
             	"shoot": true
@@ -94,7 +94,7 @@
         {
             "title": "Fervent Whipping",
             "sub": "Repential Superior Aura Tactic",
-            "desc": "Use this tactic at the start of the Shooting phase. As long as this model is not shaken, you can RR wound rolls of 1 for attacks made with melee weapons by friendly Sister Repentia models that are within 6\" of this model.",
+            "desc": "Use this tactic at the start of the Shooting phase. As long as this model is not shaken, you can re-roll wound rolls of 1 for attacks made with melee weapons by friendly Sister Repentia models that are within 6\" of this model.",
             "cp": 1,
             "phases": {
             	"shoot": true

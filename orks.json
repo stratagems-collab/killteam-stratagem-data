@@ -99,7 +99,7 @@
         {
             "title": "Ere We Go, 'Ere We Go",
             "sub": "Orks Tactic",
-            "desc": "Use this Tactic after making a charge roll for one of your models. RR one of the dice.",
+            "desc": "Use this Tactic after making a charge roll for one of your models. re-roll one of the dice.",
             "cp": 1,
             "phases": {
                 "move": true
@@ -262,7 +262,7 @@
         {
             "title": "Dok's Tools",
             "sub": "Painboy Aura Tactic",
-            "desc": "Use this Tactic at the start of the battle round. As long as this model is not shaken, roll a D6 each time a friendly model within 3\" of this model loses a wound. On a 6+ that wound is not lost (if a model already has an ability with a similar effect, you can choose which effect applies, and RR 1s when making these rolls). In addition, as long as this model is not shaken at the end of the Movement phase, you can remove one flesh wound from a friendly model within 3\" of this model.",
+            "desc": "Use this Tactic at the start of the battle round. As long as this model is not shaken, roll a D6 each time a friendly model within 3\" of this model loses a wound. On a 6+ that wound is not lost (if a model already has an ability with a similar effect, you can choose which effect applies, and re-roll 1s when making these rolls). In addition, as long as this model is not shaken at the end of the Movement phase, you can remove one flesh wound from a friendly model within 3\" of this model.",
             "cp": 1,
             "phases": {
             	"round": true
@@ -278,7 +278,7 @@
         {
             "title": "Red Skull Kommandos",
             "sub": "Boss Snikrot Aura Tactic",
-            "desc": "Use this Tactic at the start of the Fight phase. As long as this model is not shaken, you can RR hit rolls of 1 for friendly Kommandos within 6\" of this model.",
+            "desc": "Use this Tactic at the start of the Fight phase. As long as this model is not shaken, you can re-roll hit rolls of 1 for friendly Kommandos within 6\" of this model.",
             "cp": 1,
             "phases": {
             	"fight": true

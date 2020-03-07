@@ -141,7 +141,7 @@
         {
             "title": "Vengeance for Cadia!",
             "sub": "Astra Militarum Tactic",
-            "desc": "Use this Tactic when you choose a model from your kill team to shoot or fire Overwatch and the target is a Heretic Astartes model. You can RR failed hit and wound rolls for your model against that Heretic Astartes model.",
+            "desc": "Use this Tactic when you choose a model from your kill team to shoot or fire Overwatch and the target is a Heretic Astartes model. You can re-roll failed hit and wound rolls for your model against that Heretic Astartes model.",
             "cp": 1,
             "phases": {
                 "event": true

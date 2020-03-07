@@ -196,7 +196,7 @@
         {
             "title": "Choreographer of War",
             "sub": "Troupe Master Aura Tactic",
-            "desc": "Use this Tactic at the start of the Fight phase. As long as this model is not shaken, you can RR failed wound rolls for friendly models that are within 6\" of this model.",
+            "desc": "Use this Tactic at the start of the Fight phase. As long as this model is not shaken, you can re-roll failed wound rolls for friendly models that are within 6\" of this model.",
             "cp": 1,
             "phases": {
             	"fight": true

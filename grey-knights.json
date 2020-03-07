@@ -123,7 +123,7 @@
         {
             "title": "Leave No Witnesses",
             "sub": "Grey Knights Tactic",
-            "desc": "Use this Tactic when you choose a model from your kill team to fight in the Fight phase, if there is only one enemy model within 6\" of that model. Until the end of the phase, RR failed wound rolls for attacks made by the model you chose.",
+            "desc": "Use this Tactic when you choose a model from your kill team to fight in the Fight phase, if there is only one enemy model within 6\" of that model. Until the end of the phase, re-roll failed wound rolls for attacks made by the model you chose.",
             "cp": 1,
             "phases": {
                 "fight": true

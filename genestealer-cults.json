@@ -327,7 +327,7 @@
         {
             "title": "Nexus of Devotion",
             "sub": "Acolyte Iconward Aura Tactic",
-            "desc": "Use this Tactic at the start of the Movement phase. As long as this model is not shaken, you can roll a D6 each time a friendly model within 6\" of this model loses a wound; on a 6 the wound is not lost. If a model already has an ability with a similar effect, you can choose which effect applies, and RR 1s when making these rolls.",
+            "desc": "Use this Tactic at the start of the Movement phase. As long as this model is not shaken, you can roll a D6 each time a friendly model within 6\" of this model loses a wound; on a 6 the wound is not lost. If a model already has an ability with a similar effect, you can choose which effect applies, and re-roll 1s when making these rolls.",
             "cp": 1,
             "phases": {
             	"move": true
