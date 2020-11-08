@@ -236,7 +236,7 @@
         {
             "title": "Resurrection Orb",
             "sub": "Overlord Tactic",
-            "desc": "Use this Tactic at the end of the Morale phase if an Overlord from your kil team is on the battlefield and not shaken. Pick a friendly model that is out of action and roll a D6; on a 2+ set up that model with 1 wound remaining and no flesh wounds anywhere within 3\" of the Overlord that is more than 1\" from enemy models. This Tactic can only be used once per battle.",
+            "desc": "Use this Tactic at the end of the Morale phase if an Overlord from your kill team is on the battlefield and not shaken. Pick a friendly model that is out of action and roll a D6; on a 2+ set up that model with 1 wound remaining and no flesh wounds anywhere within 3\" of the Overlord that is more than 1\" from enemy models. This Tactic can only be used once per battle.",
             "cp": 3,
             "phases": {
                 "morale": true

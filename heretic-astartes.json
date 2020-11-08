@@ -76,7 +76,7 @@
         {
             "title": "Temptations of Power",
             "sub": "Heretic Astartes Tactic",
-            "desc": "Use this Tactic at the start of the battle round. Pick 1 of the following Chaos marks:  Khorne, Tzeentch, Nurlge, or Slaanesh. Until the end of the battle round, all models from your kill team with no mark of Chaos, instead have the chose Chaos mark.",
+            "desc": "Use this Tactic at the start of the battle round. Pick 1 of the following Chaos marks:  Khorne, Tzeentch, Nurlge, or Slaanesh. Until the end of the battle round, all models from your kill team with no mark of Chaos, instead have the chosen Chaos mark.",
             "cp": 1,
             "phases": {
                 "round": true
@@ -119,7 +119,7 @@
             }
         },
         {
-            "title": "Desparate Pact",
+            "title": "Desperate Pact",
             "sub": "Heretic Astartes Tactic",
             "desc": "Use this Tactic at the start of your Movement phase. Pick a Commander from your kill team to suffer 1 mortal wound. If that Commander is not taken out of action, you can choose to increase its Strength, Toughness or Attacks characteristic by 1 for the rest of the battle. You can only use this Tactic once per battle.",
             "cp": 1,
@@ -154,7 +154,7 @@
         {
             "title": "Endless Cacophony",
             "sub": "Heretic Astartes Tactic",
-            "desc": "Use this Tactic in the Fire at Will section of the Shooting phase, when it is your turn to choose a model to shoot. Choose one model with the Slaanesh keyword that has already been chose to shoot once in this phase. That model can shoot again.",
+            "desc": "Use this Tactic in the Fire at Will section of the Shooting phase, when it is your turn to choose a model to shoot. Choose one model with the Slaanesh keyword that has already been chosen to shoot once in this phase. That model can shoot again.",
             "cp": 2,
             "phases": {
                 "shoot": true
@@ -211,7 +211,7 @@
         {
             "title": "Guided by Fate",
             "sub": "Heretic Astartes Tactic",
-            "desc": "Use this Tactic at the start of the Movement phase. Pick a model from your kill team with the Tzeentch keyword. If that model has no invulnerable save, it instead has a 5+ invulnerale save until the end of the battle round.",
+            "desc": "Use this Tactic at the start of the Movement phase. Pick a model from your kill team with the Tzeentch keyword. If that model has no invulnerable save, it instead has a 5+ invulnerable save until the end of the battle round.",
             "cp": 1,
             "phases": {
                 "move": true

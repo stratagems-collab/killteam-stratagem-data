@@ -412,7 +412,7 @@
         {
             "title": "Duel of Honour",
             "sub": "Commander Tactic",
-            "desc": "Use this Tactic at the start of the Fight phase. Your Commander can only targe enemy Commanders this phase, but you can re-roll failed hit and wound rolls for your Commander's attacks until the end of the phase.",
+            "desc": "Use this Tactic at the start of the Fight phase. Your Commander can only target enemy Commanders this phase, but you can re-roll failed hit and wound rolls for your Commander's attacks until the end of the phase.",
             "cp": 1,
             "phases": {
             	"fight": true
@@ -532,7 +532,7 @@
             }
         },
         {
-            "title": "Inspiried Tactics",
+            "title": "Inspired Tactics",
             "sub": "Level 2 Strategist Tactic",
             "desc": "Use this Tactic after you have used a Tactic from the and Tactics section of the Kill Team Core Manual. You can use that Tactic again this phase.",
             "cp": 1,
@@ -588,7 +588,7 @@
         {
             "title": "Bellow of Wrath",
             "sub": "Level 2 Ferocity Tactic",
-            "desc": "Use this Tactic at the start of he Morale phase. In this phase, your opponent(s) must re-roll successful Nerve tests taken for enemy models within 6\" of a Ferocity specialist of Level 2 or higher from your kill team that is not shaken.",
+            "desc": "Use this Tactic at the start of the Morale phase. In this phase, your opponent(s) must re-roll successful Nerve tests taken for enemy models within 6\" of a Ferocity specialist of Level 2 or higher from your kill team that is not shaken.",
             "cp": 2,
             "specialist": "Ferocity",
             "level": 2,
@@ -662,7 +662,7 @@
         {
             "title": "Refusal to Fall",
             "sub": "Level 3 Fortitude Tactic",
-            "desc": "Use this Tactic when your opponent makes an Injury roll for a Fortitude specialist of Level 3 or higher from your kill team (use the Tactic before the Injury roll is made). Apply a -2 modifer to that Injury roll.",
+            "desc": "Use this Tactic when your opponent makes an Injury roll for a Fortitude specialist of Level 3 or higher from your kill team (use the Tactic before the Injury roll is made). Apply a -2 modifier to that Injury roll.",
             "cp": 2,
             "specialist": "Fortitude",
             "level": 3,
@@ -880,7 +880,7 @@
         {
             "title": "Psychic Barrage",
             "sub": "Level 3 Psyker Tactic",
-            "desc": "Use this Tactic when you chose a Psyker specialist of Level 3 or higher from your kill team to manifest a psychic power in the Psychic phase. That model can attempt to manifest one additional psychic power in this phase that it has not already attempted to manifest in this phase.",
+            "desc": "Use this Tactic when you choose a Psyker specialist of Level 3 or higher from your kill team to manifest a psychic power in the Psychic phase. That model can attempt to manifest one additional psychic power in this phase that it has not already attempted to manifest in this phase.",
             "cp": 2,
             "specialist": "Psyker",
             "level": 3,
@@ -952,7 +952,7 @@
         {
             "title": "Hidden Deployment",
             "sub": "Level 1 Stealth Tactic",
-            "desc": "Use this Tactic at the start of the first battle round, before the Initiative phase. A Stealth specialist from your kill team can immediately make a normal move as if it were the Movement phase. You can only use thie Tactic once per battle.",
+            "desc": "Use this Tactic at the start of the first battle round, before the Initiative phase. A Stealth specialist from your kill team can immediately make a normal move as if it were the Movement phase. You can only use this Tactic once per battle.",
             "cp": 1,
             "specialist": "Stealth",
             "level": 1,

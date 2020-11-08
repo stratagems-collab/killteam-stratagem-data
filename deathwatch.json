@@ -111,7 +111,7 @@
         {
             "title": "Unrelenting",
             "sub": "Deathwatch Tactic",
-            "desc": "Use this Tactic in the Shooting phase when you choose a model from your kill team to shoot. When rolling to hit for this model's shooting atacks, it is considered not to have moved in the previous Movement phase.",
+            "desc": "Use this Tactic in the Shooting phase when you choose a model from your kill team to shoot. When rolling to hit for this model's shooting attacks, it is considered not to have moved in the previous Movement phase.",
             "cp": 1,
             "phases": {
                 "shoot": true
@@ -127,7 +127,7 @@
             }
         },
         {
-            "title": "Vigiliance Incarnate",
+            "title": "Vigilance Incarnate",
             "sub": "Deathwatch Tactic",
             "desc": "Use this Tactic at the start of the battle round if your kill team includes a Commander. As long as this model is not shaken, roll a D6 whenever a model from your kill team within 3\" of this model loses a wound. On a 6 that wound is not lost. If a model already has an ability with a similar effect, you can choose which effect applies, and re-roll 1s when making these rolls.",
             "cp": 1,

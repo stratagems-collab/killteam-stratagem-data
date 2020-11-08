@@ -26,7 +26,7 @@
         {
             "title": "Killing Strikes",
             "sub": "Elucidian Starstriders Tactic",
-            "desc": "Use this Tactic before Knosso Prond is chose to fight with in the Fight phase. Until the end of the phase, the Damage characteristic of her power blade is increased to D3.",
+            "desc": "Use this Tactic before Knosso Prond is chosen to fight with in the Fight phase. Until the end of the phase, the Damage characteristic of her power blade is increased to D3.",
             "cp": 2,
             "phases": {
                 "fight": true
@@ -62,7 +62,7 @@
         {
             "title": "Multi-spectral Auspicator",
             "sub": "Elucia Vhane Aura Tactic",
-            "desc": "Use this Tactic at the start of the Movement phase. Elucia Vhane gains the followin aura ability until the end of the battle round:As long as this model is not shaken, re-roll hit rolls of 1 for attacks made by friendly Elucidian Starstriders models within 6\" of it.",
+            "desc": "Use this Tactic at the start of the Movement phase. Elucia Vhane gains the following aura ability until the end of the battle round:As long as this model is not shaken, re-roll hit rolls of 1 for attacks made by friendly Elucidian Starstriders models within 6\" of it.",
             "cp": 1,
             "phases": {
             	"move": true

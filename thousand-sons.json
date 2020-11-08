@@ -5,7 +5,7 @@
         {
             "title": "Cycle of Slaughter",
             "sub": "Thousand Sons Tactic",
-            "desc": "Use this Tactic at the end of the Fight phase. Pick a Tzaangor from your kil team - that model can immediately fight an additional time.",
+            "desc": "Use this Tactic at the end of the Fight phase. Pick a Tzaangor from your kill team - that model can immediately fight an additional time.",
             "cp": 2,
             "phases": {
                 "fight": true
@@ -109,7 +109,7 @@
         {
             "title": "Shield of Desecration",
             "sub": "Thousand Sons Tactic",
-            "desc": "Use this Tactic at the begining of the Shooting phase if a Psyker from your kill team other than a shaken model is within 1\" of a Fallen Statue. Until the end of the phase, add 1 to any saving throws you make for models from your kill team that are within 3\" of that Fallen Statue.",
+            "desc": "Use this Tactic at the beginning of the Shooting phase if a Psyker from your kill team other than a shaken model is within 1\" of a Fallen Statue. Until the end of the phase, add 1 to any saving throws you make for models from your kill team that are within 3\" of that Fallen Statue.",
             "cp": 2,
             "phases": {
                 "shoot": true
@@ -118,7 +118,7 @@
         {
             "title": "Vengeance for Prospero",
             "sub": "Thousand Sons Tactic",
-            "desc": "Use this Tactic at the start of the Fight phase. Until the end of the phase, the Death to the False Emporer ability generates additional attacks on hit rolls of 4+ intead of 6+ for attacks made by models fromyour kil team that target a Space Wolves model.",
+            "desc": "Use this Tactic at the start of the Fight phase. Until the end of the phase, the Death to the False Emperor ability generates additional attacks on hit rolls of 4+ instead of 6+ for attacks made by models from your kill team that target a Space Wolves model.",
             "cp": 1,
             "phases": {
                 "fight": true
@@ -161,7 +161,7 @@
         {
             "title": "Power of the Cabal",
             "sub": "Thousand Sons Tactic",
-            "desc": "Use this Tactic when a model from your kill team attempts to manifest a psychic power, before taking the Psychic test. Add 1 to the result of that Psychic test for each friendly model (other than shaken models) wihin 3\" of the model attempting to manifest the psychic power.",
+            "desc": "Use this Tactic when a model from your kill team attempts to manifest a psychic power, before taking the Psychic test. Add 1 to the result of that Psychic test for each friendly model (other than shaken models) within 3\" of the model attempting to manifest the psychic power.",
             "cp": 2,
             "phases": {
                 "psychic": true
@@ -234,7 +234,7 @@
         {
             "title": "Empyric Translocation",
             "sub": "Exalted Sorcerer Tactic",
-            "desc": "Use this Tactic at the start of the Movement phase, if an Exalted Sorcerer fromyour kill team (other than a shaken model) is on the battlefield. Pick one other model from your kill team, remove it from the battlefield, then set it up within 3\" of the Exalted Sorcerer and more than 5\" from enemy models. The model set up in this way is not considered to have been within 1\" of any enemy models at the start of the phase.",
+            "desc": "Use this Tactic at the start of the Movement phase, if an Exalted Sorcerer from your kill team (other than a shaken model) is on the battlefield. Pick one other model from your kill team, remove it from the battlefield, then set it up within 3\" of the Exalted Sorcerer and more than 5\" from enemy models. The model set up in this way is not considered to have been within 1\" of any enemy models at the start of the phase.",
             "cp": 1,
             "phases": {
             	"move": true

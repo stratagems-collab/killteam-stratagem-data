@@ -98,7 +98,7 @@
         {
             "title": "Bring Forth the Torch",
             "sub": "Asuryani Tactic",
-            "desc": "Use this Tactic at the start of the Shooting phase. Until the end of that phase, when rolling to determine the number of attacks made by a flamer carried by a model in your kil team, treat rolls of a 1 or 2 as 3 instead.",
+            "desc": "Use this Tactic at the start of the Shooting phase. Until the end of that phase, when rolling to determine the number of attacks made by a flamer carried by a model in your kill team, treat rolls of a 1 or 2 as 3 instead.",
             "cp": 1,
             "phases": {
                 "shoot": true
@@ -111,7 +111,7 @@
         {
             "title": "Celestial Shield",
             "sub": "Asuryani Tactic",
-            "desc": "Use this Tactic at in the Shooting phase, when a Guardian Defender from your kill team is chose as the target for an attack. Until the end of the phase, that model has a 4+ invulnerable save.",
+            "desc": "Use this Tactic in the Shooting phase, when a Guardian Defender from your kill team is chosen as the target for an attack. Until the end of the phase, that model has a 4+ invulnerable save.",
             "cp": 2,
             "phases": {
                 "shoot": true
@@ -262,7 +262,7 @@
         {
             "title": "Divine the Future",
             "sub": "Farseer Tactic",
-            "desc": "Use this Tactic at the start of the Fight phase. Pick a Farseer (other than a shaken model) from your kill team. Enemy models within 6\" of that Farseer cannot be chosen to fight in the Hammer of Wrath section of that phase (even if they have charged) - tehy can only be chosen to fight in the Fight for your LIves section of that phase.",
+            "desc": "Use this Tactic at the start of the Fight phase. Pick a Farseer (other than a shaken model) from your kill team. Enemy models within 6\" of that Farseer cannot be chosen to fight in the Hammer of Wrath section of that phase (even if they have charged) - they can only be chosen to fight in the Fight for your LIves section of that phase.",
             "cp": 3,
             "phases": {
             	"fight": true

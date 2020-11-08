@@ -62,7 +62,7 @@
         {
             "title": "Verminoid Infestation",
             "sub": "Gellerpox Infected Tactic",
-            "desc": "Use this Tactic at the end of the Movement phase. Set up a Mutoid Vermin model on the battlefield anywhere that is wholly within 6\" of a Gellerpox Infected model from your kill team and more than 6\" from any enemy models. This Mutoid Vermin model is added to your kill team until the end of the mssion, but is ignored for the purposes of determineing wheteher your kill team is broken. At the end of the battle, remove all models added to your kill team through this Tactic before determining who has won the mission.",
+            "desc": "Use this Tactic at the end of the Movement phase. Set up a Mutoid Vermin model on the battlefield anywhere that is wholly within 6\" of a Gellerpox Infected model from your kill team and more than 6\" from any enemy models. This Mutoid Vermin model is added to your kill team until the end of the mission, but is ignored for the purposes of determining whether your kill team is broken. At the end of the battle, remove all models added to your kill team through this Tactic before determining who has won the mission.",
             "cp": 3,
             "phases": {
                 "move": true
