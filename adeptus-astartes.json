@@ -18,7 +18,7 @@
         {
             "title": "Death to the Traitors!",
             "sub": "Adeptus Astartes Tactic",
-            "desc": "Use this Tactic when you choose a model from your kill team to fight in the Fight phase. Until the end of that phase, each time you make a hit roll of 6+ for that model and the target is a Heretic Astartes model, you can immediately make an extra attack against the same model using the same weapon. These attacks cannot themselves generate any furthur attacks.",
+            "desc": "Use this Tactic when you choose a model from your kill team to fight in the Fight phase. Until the end of that phase, each time you make a hit roll of 6+ for that model and the target is a Heretic Astartes model, you can immediately make an extra attack against the same model using the same weapon. These attacks cannot themselves generate any further attacks.",
             "cp": 1,
             "phases": {
                 "fight": true
@@ -60,7 +60,7 @@
         {
             "title": "Masterful Marksmanship",
             "sub": "Adeptus Astartes Tactic",
-            "desc": "Use this Tactic in the Shooting phase when you choose an Intercessor from your kil team to shoot with a stalker bolt rifle. Until the end of that phase, you can add 1 to hit and wound rolls for that model.",
+            "desc": "Use this Tactic in the Shooting phase when you choose an Intercessor from your kill team to shoot with a stalker bolt rifle. Until the end of that phase, you can add 1 to hit and wound rolls for that model.",
             "cp": 1,
             "phases": {
                 "shoot": true
@@ -176,7 +176,7 @@
         {
             "title": "Champion of Humanity",
             "sub": "Adeptus Astartes Tactic",
-            "desc": "Use this Tactic when you choose a Commander to fight in the Fight phase. Choose hit or wound rolls. You cacn re-roll all failed rolls of the type you chose for that model's attacks that target enemy Commanders until the end of the phase.",
+            "desc": "Use this Tactic when you choose a Commander to fight in the Fight phase. Choose hit or wound rolls. You can re-roll all failed rolls of the type you chose for that model's attacks that target enemy Commanders until the end of the phase.",
             "cp": 2,
             "phases": {
                 "fight": true

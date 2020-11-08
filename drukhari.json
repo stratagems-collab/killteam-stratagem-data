@@ -31,7 +31,7 @@
         {
             "title": "Pray They Don't Take You Alive",
             "sub": "Drukhari Tactic",
-            "desc": "Use this Tactic if a model from your kill team takes an enemy Leader out of action in the Fight phase. For the remainder of the battle, models in that enemy Leader's kill team must subract 1 from their Leadership characteristic.",
+            "desc": "Use this Tactic if a model from your kill team takes an enemy Leader out of action in the Fight phase. For the remainder of the battle, models in that enemy Leader's kill team must subtract 1 from their Leadership characteristic.",
             "cp": 2,
             "phases": {
                 "fight": true

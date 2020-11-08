@@ -121,7 +121,7 @@
         {
             "title": "Swift In Thought and Action",
             "sub": "Adeptus Custodes Tactic",
-            "desc": "Use this Tactic after a Commander from your kill team make a normal move. That model is Readied.",
+            "desc": "Use this Tactic after a Commander from your kill team makes a normal move. That model is Readied.",
             "cp": 1,
             "phases": {
                 "move": true
@@ -153,7 +153,7 @@
         {
             "title": "Even in Death",
             "sub": "Adeptus Custodes Tactic",
-            "desc": "Use this Tactic when a Commander from your kill team is taken out of action. Do not remove that model from the battlefiedl. Your opponent should finish resolving any attacks that target other models. Then, the Commander can immediately shoot as if it were the Shooting phase, or fight as if it were the Fight phase. Then remove the Commander from the battlefield.",
+            "desc": "Use this Tactic when a Commander from your kill team is taken out of action. Do not remove that model from the battlefield. Your opponent should finish resolving any attacks that target other models. Then, the Commander can immediately shoot as if it were the Shooting phase, or fight as if it were the Fight phase. Then remove the Commander from the battlefield.",
             "cp": 2,
             "phases": {
                 "event": true
@@ -195,7 +195,7 @@
         {
             "title": "Tanglefoot Grenade",
             "sub": "Adeptus Custodes Tactic",
-            "desc": "Use this Tactic at the start of the Movement phase. Choose an enemy model within 12\" of a model (other than a shaken model) from your kill team, and roll a D6. Until the end of the phase, that model's controllnig player must reduce that model's Move characteristic and charge rolls by the result. Units with the Fly keyword are not affected.",
+            "desc": "Use this Tactic at the start of the Movement phase. Choose an enemy model within 12\" of a model (other than a shaken model) from your kill team, and roll a D6. Until the end of the phase, that model's controlling player must reduce that model's Move characteristic and charge rolls by the result. Units with the Fly keyword are not affected.",
             "cp": 1,
             "phases": {
                 "move": true
