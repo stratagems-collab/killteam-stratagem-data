@@ -23,7 +23,8 @@
         "thousand-sons",
         "death-guard",
         "heretic-astartes",
-        "tyranids"
+        "tyranids",
+		"sisters-of-silence"
     ],
     "package": {
 		"packageName": "KillTeam Stratagems",
