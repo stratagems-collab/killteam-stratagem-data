@@ -217,7 +217,7 @@
         {
             "title": "Inspirational Command",
             "sub": "Platoon Commander Tactic",
-            "desc": "Use this Tactic at the start of the Shooting phase before issuing an order with a Platoon Commander from your kill team. When you issue that order, it affects all other friendly models within 6\" of that model that are not shaken and have not been issued another order in this battle round. A model may still only be affectied by one order per battle round.",
+            "desc": "Use this Tactic at the start of the Shooting phase before issuing an order with a Platoon Commander from your kill team. When you issue that order, it affects all other friendly models within 6\" of that model that are not shaken and have not been issued another order in this battle round. A model may still only be affected by one order per battle round.",
             "cp": 2,
             "phases": {
             	"shoot": true
@@ -250,7 +250,7 @@
         {
             "title": "Aura of Discipline",
             "sub": "Commissar Aura Tactic",
-            "desc": "Use this Tactic at the start of the Movement phase. As long as this model is not shaken, friendly moels within 6\" of this model can use this model's Leadership characteristic instead of their own, and automatically pass Nerve tests.",
+            "desc": "Use this Tactic at the start of the Movement phase. As long as this model is not shaken, friendly models within 6\" of this model can use this model's Leadership characteristic instead of their own, and automatically pass Nerve tests.",
             "cp": 1,
             "phases": {
             	"move": true

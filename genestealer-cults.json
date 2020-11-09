@@ -52,7 +52,7 @@
         {
             "title": "Inhuman Reflexes",
             "sub": "Genestealer Cults Tactic",
-            "desc": "Use this Tactic when a model from your kill team fails a Falling test. It deosn't suffer falling damage, and won't fall on another model. If it wound, instead place this model as close as possible to the point where it wound have landed. This can bring it within 1\" of an enemy model.",
+            "desc": "Use this Tactic when a model from your kill team fails a Falling test. It doesn't suffer falling damage, and won't fall on another model. If it would, instead place this model as close as possible to the point where it would have landed. This can bring it within 1\" of an enemy model.",
             "cp": 1,
             "phases": {
                 "event": true
@@ -394,7 +394,7 @@
         {
             "title": "Cult Nexos",
             "sub": "Genestealer Cults Tactic",
-            "desc": "Use this Tactic at the end of the Movement phase if a Nexos from your kill team is on the battlefied and not shaken and you have any models in Reserve. Choose up to three models from your kill team that were set up in Reserve and set them up within 1\" of the edge of the battlefield and more than 5\" away from any enemy models.",
+            "desc": "Use this Tactic at the end of the Movement phase if a Nexos from your kill team is on the battlefield and not shaken and you have any models in Reserve. Choose up to three models from your kill team that were set up in Reserve and set them up within 1\" of the edge of the battlefield and more than 5\" away from any enemy models.",
             "cp": 1,
             "phases": {
             	"move": true
@@ -410,7 +410,7 @@
         {
             "title": "Genomic Enhancement",
             "sub": "Genestealer Cults Tactic",
-            "desc": "Use this Tactic at the end of the Movement phase if a Biophagus from your kill team is on the battlefied and not shaken. Choose a friendly Aberrant model within 2\" of the Biophagus and increase its Strength, Toughness, or Attacks characteristic by 1 until the end of the mission. You cannot choose the same Aberrant twice with this Tactic.",
+            "desc": "Use this Tactic at the end of the Movement phase if a Biophagus from your kill team is on the battlefield and not shaken. Choose a friendly Aberrant model within 2\" of the Biophagus and increase its Strength, Toughness, or Attacks characteristic by 1 until the end of the mission. You cannot choose the same Aberrant twice with this Tactic.",
             "cp": 1,
             "phases": {
             	"move": true
@@ -442,7 +442,7 @@
         {
             "title": "Proclamator Hailer",
             "sub": "Clamavus Aura Tactic",
-            "desc": "Use this Tactic at the start of the battle round. As long as this model is not shaken, add 1 to all Advance and charge rolls made for models from your kill team that are within 6\" of any friendly models with this ability, and subract 1 from all Nerve tests made for models from your kill team that are within 6\" of any friendly models with this ability.",
+            "desc": "Use this Tactic at the start of the battle round. As long as this model is not shaken, add 1 to all Advance and charge rolls made for models from your kill team that are within 6\" of any friendly models with this ability, and subtract 1 from all Nerve tests made for models from your kill team that are within 6\" of any friendly models with this ability.",
             "cp": 1,
             "phases": {
             	"round": true

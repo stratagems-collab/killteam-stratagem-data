@@ -35,7 +35,7 @@
         {
             "title": "Psychic Channelling",
             "sub": "Grey Knights Tactic",
-            "desc": "Use this Tactic when taking a Psychic test for a model from your kill team. Roll three dice raher than two and use the two highest rolls.",
+            "desc": "Use this Tactic when taking a Psychic test for a model from your kill team. Roll three dice rather than two and use the two highest rolls.",
             "cp": 2,
             "phases": {
                 "psychic": true
@@ -74,7 +74,7 @@
         {
             "title": "Canticles of Warding",
             "sub": "Grey Knights Tactic",
-            "desc": "Use this Tactic when a model from your kill team suffers a mortal wound. Roll a D6 for that mortal wound, and each other mortal wound inflicted on that model for the rest of the phase. On a 5+ that mortal ound is ignored.",
+            "desc": "Use this Tactic when a model from your kill team suffers a mortal wound. Roll a D6 for that mortal wound, and each other mortal wound inflicted on that model for the rest of the phase. On a 5+ that mortal wound is ignored.",
             "cp": 1,
             "phases": {
                 "event": true
@@ -83,7 +83,7 @@
         {
             "title": "Stillness of Spirit",
             "sub": "Grey Knights Tactic",
-            "desc": "Use thie Tactic at the start of the battle round. Choose a Commander from your kill team. Add 1 to that Commander's invulnerable saving throws until the start of the next battle round.",
+            "desc": "Use this Tactic at the start of the battle round. Choose a Commander from your kill team. Add 1 to that Commander's invulnerable saving throws until the start of the next battle round.",
             "cp": 2,
             "phases": {
                 "round": true
@@ -168,7 +168,7 @@
         {
             "title": "Vengeful Strike",
             "sub": "Brotherhood Champion Tactic",
-            "desc": "Ue this Tactic when a Brotherhood Champion from your kill team is taken out of action in the Fight phase. Do not remove that model from the battlefield. Your opponent should finish resolving any attacks that target other models. Then the Brotherhood Champion can immediately fight, even if it has already been picked to fight in that phase. Then remove the Brotherhood Champion from the battlefield.",
+            "desc": "Use this Tactic when a Brotherhood Champion from your kill team is taken out of action in the Fight phase. Do not remove that model from the battlefield. Your opponent should finish resolving any attacks that target other models. Then the Brotherhood Champion can immediately fight, even if it has already been picked to fight in that phase. Then remove the Brotherhood Champion from the battlefield.",
             "cp": 2,
             "phases": {
             	"fight": true

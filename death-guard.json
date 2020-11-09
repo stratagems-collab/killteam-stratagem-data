@@ -5,7 +5,7 @@
         {
             "title": "Cloud of Flies",
             "sub": "Death Guard Tactic",
-            "desc": "Use this Tactic at the end of the Movement phase. Pick a model from your kill team. Until the end of the battle round, enemy models can only shoot that model if it is the closes target visible to them.",
+            "desc": "Use this Tactic at the end of the Movement phase. Pick a model from your kill team. Until the end of the battle round, enemy models can only shoot that model if it is the closest target visible to them.",
             "cp": 2,
             "phases": {
                 "move": true
@@ -102,7 +102,7 @@
         {
             "title": "Death March",
             "sub": "Death Guard Tactic",
-            "desc": "Use this Tactic at the start of the Movement phase. Until the end of that phase, increase the Move characteristic of all models in your kill team by 2\". However, until the end of that phase, models from your kil team may not Fall Back, Advance or charge.",
+            "desc": "Use this Tactic at the start of the Movement phase. Until the end of that phase, increase the Move characteristic of all models in your kill team by 2\". However, until the end of that phase, models from your kill team may not Fall Back, Advance or charge.",
             "cp": 1,
             "phases": {
                 "move": true

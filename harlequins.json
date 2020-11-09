@@ -83,7 +83,7 @@
         {
             "title": "Blades of Cegorach",
             "sub": "Harlequins Tactic",
-            "desc": "Use this Tactic in the Movement phase, immediately after make a charge roll of 10+ for a model from your kill team. Until the end of the battle round, add 2 to the Attacks characteristc of that model.",
+            "desc": "Use this Tactic in the Movement phase, immediately after making a charge roll of 10+ for a model from your kill team. Until the end of the battle round, add 2 to the Attacks characteristic of that model.",
             "cp": 1,
             "phases": {
                 "move": true

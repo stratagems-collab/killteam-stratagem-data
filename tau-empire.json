@@ -81,7 +81,7 @@
             }
         },
         {
-            "title": "Mult-spectrum Sensor Suite",
+            "title": "Multi-spectrum Sensor Suite",
             "sub": "T'au Empire Tactic",
             "desc": "Use this Tactic when you choose a model from your kill team to shoot in the Shooting phase. Enemy models gain no benefit for being obscured against shots made by that model this phase.",
             "cp": 1,
@@ -135,7 +135,7 @@
         {
             "title": "Inheritors of the Galaxy",
             "sub": "T'au Empire Tactic",
-            "desc": "Use this Tactic at the beginning of the Morale phase, if models from your kill team are the only models on an Imperial Defence Line model. You can subract 1 from any Nerve tests you take for those models in this phase.",
+            "desc": "Use this Tactic at the beginning of the Morale phase, if models from your kill team are the only models on an Imperial Defence Line model. You can subtract 1 from any Nerve tests you take for those models in this phase.",
             "cp": 1,
             "phases": {
                 "morale": true
@@ -239,7 +239,7 @@
         {
             "title": "Voice of the Greater Good",
             "sub": "Cadre Fireblade Aura Tactic",
-            "desc": "Use this Tactic at the start of the Movement phase. As long as this model is not shaken, all firendly models within 6\" of this model can use this model's Leadership characteristic instead of their own.",
+            "desc": "Use this Tactic at the start of the Movement phase. As long as this model is not shaken, all friendly models within 6\" of this model can use this model's Leadership characteristic instead of their own.",
             "cp": 1,
             "phases": {
             	"move": true
@@ -352,7 +352,7 @@
         {
             "title": "Master of War (Mont'ka)",
             "sub": "Commander in XV85 Enforcer Battlesuit Aura Tactic",
-            "desc": "Use this Tactic at the start of the battle round if your kill team includes an Commander in XV85 Enforcer Battlesuit. As long as this model is not shaken, friendly models can shoot in the Shooting phase as if they had not moved in the preceeding Movement phase whilst within 3\" of this model, and you cann ad 1 to hit rolls for their shooting attacks that target enemy models that are not at long range. You can only use this Tactic once per battle.",
+            "desc": "Use this Tactic at the start of the battle round if your kill team includes a Commander in XV85 Enforcer Battlesuit. As long as this model is not shaken, friendly models can shoot in the Shooting phase as if they had not moved in the preceding Movement phase whilst within 3\" of this model, and you can add 1 to hit rolls for their shooting attacks that target enemy models that are not at long range. You can only use this Tactic once per battle.",
             "cp": 2,
             "phases": {
             	"round": true,

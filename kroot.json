@@ -5,7 +5,7 @@
 		{
 			"title": "Agile Hunter",
 			"sub": "Kroot Tactic",
-			"desc": "Use this Tactic when a model from your kill team moves in the Movement phase. This model can leap over gaps less han 4\" across instead of less than 2\" across until the end of this phase.",
+			"desc": "Use this Tactic when a model from your kill team moves in the Movement phase. This model can leap over gaps less than 4\" across instead of less than 2\" across until the end of this phase.",
 			"cp": 1,
 			"phases": {
 				"move": true
@@ -53,7 +53,7 @@
 		{
 			"title": "Unfettered Aggression",
 			"sub": "Kroot Tactic",
-			"desc": "Use this Tactic when you choose a model from your kill team to fight in the Fight phase. Until the end of the phase, add 1 to that model's Attacks charcteristic.",
+			"desc": "Use this Tactic when you choose a model from your kill team to fight in the Fight phase. Until the end of the phase, add 1 to that model's Attacks characteristic.",
 			"cp": 1,
 			"phases": {
 				"fight": true
