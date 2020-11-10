@@ -1,10 +1,10 @@
 {
 	"code": "sisters_of_silence",
-	"faction": "Sisters Of Silence",
+	"faction": "Sisters of Silence",
 	"tactics": [
 		{
 			"title": "Unsettling Presence",
-			"sub": "Sisters Of Silence Tactic",
+			"sub": "Sisters of Silence Tactic",
 			"desc": "Use this Tactic at the start of the Morale phase.  Add 1 to the result of Nerve tests taken for enemy models within 3\" of any Sisters of Silence models form your kill team.",
 			"cp": 1,
 			"phases": {
@@ -13,7 +13,7 @@
 		},
 		{
 			"title": "Decapitating Strikes",
-			"sub": "Sisters Of Silence Tactic",
+			"sub": "Sisters of Silence Tactic",
 			"desc": "Use this Tactic when you choose a Vigilator model from your kill team to attack in the Fight phase.  Until the end of the phase, when resolving an attack made with an executioner greatblade that model is equipped with, add 1 to the wound roll.",
 			"cp": 1,
 			"phases": {
@@ -25,7 +25,7 @@
 		},
 		{
 			"title": "Purgation Sweep",
-			"sub": "Sisters Of Silence Tactic",
+			"sub": "Sisters of Silence Tactic",
 			"desc": "Use this Tactic when you choose a Witchseeker model from your kill team to attack in the Shooting phase.  Until the end of the phase, change the Type characteristic of the flamer that model is equipped with to Assault 6.",
 			"cp": 1,
 			"phases": {
@@ -37,7 +37,7 @@
 		},
 		{
 			"title": "Punishment Fire",
-			"sub": "Sisters Of Silence Tactic",
+			"sub": "Sisters of Silence Tactic",
 			"desc": "Use this Tactic when you choose a Prosecutor model from your kill team to attack in the Shooting phase.  Until the end of the phase, change the Type and Range characteristic of the boltgun that model is equipped with to Assault 3 and 18\" respectively, and when making an attack with that model, it does not suffer any penalties to its hit rolls.",
 			"cp": 1,
 			"phases": {
